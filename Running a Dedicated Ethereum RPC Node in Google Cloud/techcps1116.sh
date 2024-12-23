@@ -51,7 +51,7 @@ sleep 10
 
 gcloud compute instances --project=$DEVSHELL_PROJECT_ID create eth-mainnet-rpc-node --zone=$ZONE --machine-type=e2-medium --network-interface=address=$ETH_IP,network-tier=PREMIUM,nic-type=GVNIC,stack-type=IPV4_ONLY,subnet=default --metadata=enable-oslogin=true --maintenance-policy=MIGRATE --provisioning-model=STANDARD --service-account=eth-rpc-node-sa@$DEVSHELL_PROJECT_ID.iam.gserviceaccount.com --scopes=https://www.googleapis.com/auth/cloud-platform --tags=eth-rpc-node --create-disk=auto-delete=yes,boot=yes,device-name=eth-mainnet-rpc-node,disk-resource-policy=projects/$DEVSHELL_PROJECT_ID/regions/$REGION/resourcePolicies/eth-mainnet-rpc-node-disk-snapshot,image=projects/ubuntu-os-cloud/global/images/ubuntu-2004-focal-v20241115,mode=rw,size=50,type=pd-ssd --create-disk=device-name=eth-mainnet-rpc-node-disk,disk-resource-policy=projects/$DEVSHELL_PROJECT_ID/regions/$REGION/resourcePolicies/eth-mainnet-rpc-node-disk-snapshot,mode=rw,name=eth-mainnet-rpc-node-disk,size=200,type=pd-ssd --no-shielded-secure-boot --shielded-vtpm --shielded-integrity-monitoring --labels=goog-ec-src=vm_add-gcloud --reservation-affinity=any
 
-sleep 20
+sleep 60
 
 
 cat > cp_disk.sh <<'EOF_CP'
