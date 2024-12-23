@@ -2,7 +2,7 @@
 
 ## 💡 Lab Link: [Automating the Deployment of Infrastructure Using Terraform](https://www.cloudskillsboost.google/focuses/19098?parent=catalog)
 
-## 🚀 Lab Solution [Watch Here](https://youtu.be/3ty7prpsnMk)
+## 🚀 Lab Solution [Watch Here](https://youtu.be/lk94MwWkIp8)
 
 ---
 
@@ -15,6 +15,10 @@
 ---
 
 ### 🚨Copy and run the below commands in Cloud Shell:
+
+```
+export ZONE=
+```
 
 ```
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/techcps.sh
