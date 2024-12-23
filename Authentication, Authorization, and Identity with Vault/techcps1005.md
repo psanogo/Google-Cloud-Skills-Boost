@@ -2,7 +2,7 @@
 
 ## 💡 Lab Link: [Authentication, Authorization, and Identity with Vault GSP1005](https://www.cloudskillsboost.google/focuses/32203?parent=catalog)
 
-## 🚀 Lab Solution [Watch Here](https://youtu.be/9czM63ZFgV8)
+## 🚀 Lab Solution [Watch Here](https://youtu.be/3ty7prpsnMk)
 
 ---
 
