@@ -17,7 +17,7 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Artifact%20Registry%3A%20Qwik%20Start/techcps1131.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Artifact%20Registry%3A%20Qwik%20Start/techcps1131.sh
 sudo chmod +x techcps1131.sh
 ./techcps1131.sh
 ```
