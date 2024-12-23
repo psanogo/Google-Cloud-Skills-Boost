@@ -17,6 +17,10 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
+export REGION=
+```
+
+```
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Assessing%20Data%20Quality%20with%20Dataplex/techcps1158.sh
 sudo chmod +x techcps1158.sh
 ./techcps1158.sh
