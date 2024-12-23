@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Accessing the Google Cloud Console and Cloud Shell](https://www.cloudskillsboost.google/course_templates/2/labs/464487)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/jPGd6jGuri8)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/9MvX6NZ-Wv4)
 
 ---
 
