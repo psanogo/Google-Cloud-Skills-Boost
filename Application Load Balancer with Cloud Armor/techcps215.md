@@ -17,8 +17,8 @@
 
 ```
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Application%20Load%20Balancer%20with%20Cloud%20Armor/techcps215.sh
-sudo chmod +x techcps.sh
-./techcps.sh
+sudo chmod +x techcps215.sh
+./techcps215.sh
 ```
 
 ### Congratulations, you're all done with the lab 😄
