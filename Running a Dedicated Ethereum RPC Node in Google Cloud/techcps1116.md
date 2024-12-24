@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Running a Dedicated Ethereum RPC Node in Google Cloud - GSP1116](https://www.cloudskillsboost.google/focuses/61475?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/fJ9RiEI664k)
 
 ---
 
