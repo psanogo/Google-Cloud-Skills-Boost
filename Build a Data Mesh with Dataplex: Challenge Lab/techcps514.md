@@ -16,7 +16,7 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Build%20a%20Data%20Mesh%20with%20Dataplex:%20Challenge%20Lab/techcps514.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Build%20a%20Data%20Mesh%20with%20Dataplex%3A%20Challenge%20Lab/techcps514.sh
 sudo chmod +x techcps514.sh
 ./techcps514.sh
 ```
