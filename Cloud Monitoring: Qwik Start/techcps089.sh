@@ -81,4 +81,3 @@ gcloud alpha monitoring policies create --policy-from-file="techcps-alert-policy
 gcloud compute ssh lamp-1-vm --zone=$ZONE --project=$DEVSHELL_PROJECT_ID --quiet --command="sudo apt-get update && sudo apt-get install apache2 php7.0 -y && sudo service apache2 restart && curl -sSO https://dl.google.com/cloudagents/add-google-cloud-ops-agent-repo.sh && sudo bash add-google-cloud-ops-agent-repo.sh --also-install -y && sudo systemctl status google-cloud-ops-agent"*" && sudo apt-get update"
 
 
-
