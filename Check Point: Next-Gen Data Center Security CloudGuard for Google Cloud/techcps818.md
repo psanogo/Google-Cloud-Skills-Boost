@@ -13,7 +13,7 @@ export ZONE=
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Check%20Point%3A%20Next-Gen%20Data%20Center%20Security%20CloudGuard%20for%20Google%20Cloud/techcps818.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Check%20Point%3A%20Next-Gen%20Data%20Center%20Security%20CloudGuard%20for%20Google%20Cloud/techcps818.sh
 sudo chmod +x techcps818.sh
 ./techcps818.sh
 ```
