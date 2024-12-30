@@ -1,6 +1,6 @@
 
 
-### 💡 Lab Link: [Configure Secure RDP using a Windows Bastion Host: Challenge Lab - GSP074](https://www.cloudskillsboost.google/focuses/1737?parent=catalog)
+### 💡 Lab Link: [Configure Secure RDP using a Windows Bastion Host: Challenge Lab - GSP303](https://www.cloudskillsboost.google/focuses/1737?parent=catalog)
 
 ### 🚀 Lab Solution [Watch Here](https://youtu.be/H30zitKeuNY)
 
