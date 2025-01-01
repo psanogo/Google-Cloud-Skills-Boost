@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Use Vertex AI Studio for Healthcare - GSP1252](https://www.cloudskillsboost.google/focuses/93220?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/5ZheBMjPqng)
 
 ---
 
@@ -14,9 +14,9 @@
 ---
 
 ### 💡 Download the below files:
-- Medical Image Analysis.json file [Click Here](https://github.com/Techcps/Google-Cloud-Skills-Boost/blob/main/Use%20Vertex%20AI%20Studio%20for%20Healthcare/Medical%20Image%20Analysis.json)
-- Medical Video Analysis.json file [Click Here](https://github.com/Techcps/Google-Cloud-Skills-Boost/blob/main/Use%20Vertex%20AI%20Studio%20for%20Healthcare/Medical%20Video%20Analysis.json)
-- Text Classification.json file [Click Here](https://github.com/Techcps/Google-Cloud-Skills-Boost/blob/main/Use%20Vertex%20AI%20Studio%20for%20Healthcare/Text%20Classification.json)
+- **Medical Image Analysis.json file** [Click Here](https://github.com/Techcps/Google-Cloud-Skills-Boost/blob/main/Use%20Vertex%20AI%20Studio%20for%20Healthcare/Medical%20Image%20Analysis.json)
+- **Medical Video Analysis.json file** [Click Here](https://github.com/Techcps/Google-Cloud-Skills-Boost/blob/main/Use%20Vertex%20AI%20Studio%20for%20Healthcare/Medical%20Video%20Analysis.json)
+- **Text Classification.json file** [Click Here](https://github.com/Techcps/Google-Cloud-Skills-Boost/blob/main/Use%20Vertex%20AI%20Studio%20for%20Healthcare/Text%20Classification.json)
 
 ---
 
