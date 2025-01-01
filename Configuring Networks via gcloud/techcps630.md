@@ -17,6 +17,10 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
+export ZONE=
+```
+
+```
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Configuring%20Networks%20via%20gcloud/techcps630.sh
 sudo chmod +x techcps630.sh
 ./techcps630.sh
