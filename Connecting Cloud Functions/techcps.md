@@ -14,7 +14,7 @@
 
 ---
 
-## 🚨Copy and run the below commands in Cloud Shell:
+### 🚨Copy and run the below commands in Cloud Shell:
 - **Export the ZONE name correctly**
 ```
 export ZONE=
