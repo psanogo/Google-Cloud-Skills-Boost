@@ -19,7 +19,7 @@ curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Crea
 sudo chmod +x techcps.sh
 ./techcps.sh
 ```
-# 🚨 If above commands not working then try 2nd trick
+### 🚨 If above commands not working then try 2nd trick
 
 ```
 curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Create%20ML%20Models%20with%20BigQuery%20ML%3A%20Challenge%20Lab/techcps341.sh
