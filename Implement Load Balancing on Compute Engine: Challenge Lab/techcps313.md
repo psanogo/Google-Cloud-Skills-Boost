@@ -20,7 +20,7 @@ export INSTANCE_NAME=
 
 export ZONE=
 
-export PORT=
+export PORT=8082
 
 export FIREWALL_RULE_NAME=
 ```
