@@ -2,6 +2,18 @@
 export REGION=$(gcloud compute project-info describe \
 --format="value(commonInstanceMetadata.items[google-compute-default-region])")
 
+
+git clone https://github.com/GoogleCloudPlatform/generative-ai.git
+
+cd generative-ai/gemini/sample-apps/gemini-streamlit-cloudrun
+
+gsutil cp gs://spls/gsp517/chef.py .
+
+
+# Set environment variables for project id
+export PROJECT=$DEVSHELL_PROJECT_ID
+
+
 AR_REPO='chef-repo'
 SERVICE_NAME='chef-streamlit-app'
 
