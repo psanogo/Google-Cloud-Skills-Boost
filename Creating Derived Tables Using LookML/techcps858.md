@@ -14,8 +14,8 @@
 ---
 
 ### 🚨 First, click the toggle button to turn on the Development mode.
+![Techcps](https://github.com/user-attachments/assets/1a2d8b5f-1a0d-4659-b846-5b56e679a1a9)
 
-![Techcps](https://github.com/Techcps/Google-Cloud-Skills-Boost/assets/104138529/ef540cc4-e6ce-4e81-bf76-75c9ab00a42b)
 ---
 
 ### 🚨 Go to Develop > qwiklabs-ecommerce LookML project.
