@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Develop GenAI Apps with Gemini and Streamlit: Challenge Lab - GSP517](https://www.cloudskillsboost.google/focuses/87315?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/CpDsUBzhFVA)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/UM4WYG3Nsio)
 
 ---
 
