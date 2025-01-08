@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Utilize the Streamlit Framework with Cloud Run and the Gemini API in Vertex AI - GSP1229](https://www.cloudskillsboost.google/focuses/85991?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/1BhEtxHhy34)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/g0_C5mn3Bks)
 
 ---
 
