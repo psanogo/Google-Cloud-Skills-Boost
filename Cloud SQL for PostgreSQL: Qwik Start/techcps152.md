@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Cloud SQL for PostgreSQL: Qwik Start - GSP152](https://www.cloudskillsboost.google/focuses/937?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/70VYkuSa6oI)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/ONkUYY1bKDo)
 
 ---
 
