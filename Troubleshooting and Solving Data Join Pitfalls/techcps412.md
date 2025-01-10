@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Troubleshooting and Solving Data Join Pitfalls - GSP412](https://www.cloudskillsboost.google/focuses/3638?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/c4jpdgRlBck)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/ERHyss8wu_8)
 
 ---
 
