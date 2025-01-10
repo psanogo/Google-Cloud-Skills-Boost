@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Cost Optimization and Data Tiering with BigLake and Cloud Storage - GSP267](https://www.cloudskillsboost.google/focuses/80700?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/SsKFCay_hMI)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/eh885elyk6I)
 
 ---
 
