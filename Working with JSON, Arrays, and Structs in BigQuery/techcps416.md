@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Working with JSON, Arrays, and Structs in BigQuery - GSP416](https://www.cloudskillsboost.google/focuses/3696?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/CZyI3X9H5pM)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/ahL_rO0R7DQ)
 
 ---
 
