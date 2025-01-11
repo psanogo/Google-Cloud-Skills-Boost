@@ -20,13 +20,7 @@ curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Frau
 sudo chmod +x techcps1.sh
 ./techcps1.sh
 ```
----
 
-```
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Fraud%20Detection%20on%20Financial%20Transactions%20with%20Machine%20Learning%20on%20Google%20Cloud/techcps2.sh
-sudo chmod +x techcps2.sh
-./techcps2.sh
-```
 ---
 
 ### Congratulations, you're all done with the lab 😄
