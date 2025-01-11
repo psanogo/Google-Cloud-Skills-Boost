@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Analyze BigQuery Usage with Log Analytics - GSP1250](https://www.cloudskillsboost.google/focuses/89264?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/SsKFCay_hMI)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/LbRtfqfoaQc)
 
 ---
 
