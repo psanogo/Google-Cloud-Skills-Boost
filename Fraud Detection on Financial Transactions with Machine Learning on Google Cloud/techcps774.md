@@ -13,7 +13,7 @@
 
 ---
 
-### 🚨Copy and run the below commands in [Cloud Shell](https://console.cloud.google.com/home/dashboard?project=&pli=1&cloudshell=true)):
+### 🚨Copy and run the below commands in [Cloud Shell](https://console.cloud.google.com/home/dashboard?project=&pli=1&cloudshell=true):
 
 ```
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Fraud%20Detection%20on%20Financial%20Transactions%20with%20Machine%20Learning%20on%20Google%20Cloud/techcps1.sh
