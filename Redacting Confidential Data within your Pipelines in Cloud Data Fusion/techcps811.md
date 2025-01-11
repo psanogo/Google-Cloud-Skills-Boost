@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Redacting Confidential Data within your Pipelines in Cloud Data Fusion - GSP811](https://www.cloudskillsboost.google/focuses/59628?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/SsKFCay_hMI)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/KrnS5z4l6KI)
 
 ---
 
