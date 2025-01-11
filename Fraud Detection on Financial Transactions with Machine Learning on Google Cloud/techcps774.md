@@ -13,14 +13,20 @@
 
 ---
 
-### 🚨Copy and run the below commands in Cloud Shell:
+### 🚨Copy and run the below commands in [Cloud Shell](https://console.cloud.google.com/home/dashboard?project=&pli=1&cloudshell=true)):
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Fraud%20Detection%20on%20Financial%20Transactions%20with%20Machine%20Learning%20on%20Google%20Cloud/techcps774.sh
-sudo chmod +x techcps774.sh
-./techcps774.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Fraud%20Detection%20on%20Financial%20Transactions%20with%20Machine%20Learning%20on%20Google%20Cloud/techcps1.sh
+sudo chmod +x techcps1.sh
+./techcps1.sh
 ```
+---
 
+```
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Fraud%20Detection%20on%20Financial%20Transactions%20with%20Machine%20Learning%20on%20Google%20Cloud/techcps2.sh
+sudo chmod +x techcps2.sh
+./techcps2.sh
+```
 ---
 
 ### Congratulations, you're all done with the lab 😄
