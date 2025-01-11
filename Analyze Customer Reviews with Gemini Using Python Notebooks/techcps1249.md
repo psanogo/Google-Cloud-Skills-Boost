@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Analyze Customer Reviews with Gemini Using Python Notebooks - GSP1249](https://www.cloudskillsboost.google/focuses/98857?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/SsKFCay_hMI)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/fI_KuC5eKz0)
 
 ---
 
