@@ -44,13 +44,18 @@ WHERE salary_range = '110,000+'
 ORDER BY name"
 
 
-export CONNECTION_URL=my-demo:dXMtY2VudHJhbDEuZ2NwLmNsb3VkLmVzLmlvOjQ0MyRlYWFjNTc3ZGI3M2Q0NzdkOGNiM2I3YmIxN2IxNzQwYSRiYzcwN2RiMGU2Y2Q0NmMzYmVlZWM5Y2I3MjNkZGY4Mw==
-export API_KEY=NWd6Q2hZa0JYR0ZtRFo4eS0tTmQ6U2F0cm9MRnpUR3FlaF9BY3lsZ0xrQQ==
+bq query --use_legacy_sql=false \
+"
+SELECT * FROM \`mainframe_import.accounts\` WHERE salary_range = '110,000+' ORDER BY name
+"
 
-export REGION=$(gcloud compute project-info describe \
---format="value(commonInstanceMetadata.items[google-compute-default-region])")
+export CONNECTION_URL=46063b660da74fbfb60754d5aaa53699:dXMtZWFzdDQuZ2NwLmVsYXN0aWMtY2xvdWQuY29tOjQ0MyRmOTRkNzk5NmY0ZmQ0MTBiOTdmNDE0ZmVjZTgwMmQwMyQ4M2Q0YTE5OWI1MjM0NTM5YTIyNzBiYjhmNzZlMGMxMg==
+
+export API_KEY=NlRJVldaUUJOOUU3bTBTZktMaWw6LUJEMWZnbldUUXlNcGRTM1R0UEUyUQ==
+
+export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
+
+echo $REGION
 
 gcloud dataflow flex-template run bqtoelastic-`date +%s` --worker-machine-type=e2-standard-2 --template-file-gcs-location gs://dataflow-templates-$REGION/latest/flex/BigQuery_to_Elasticsearch --region $REGION --num-workers 1 --parameters index=transactions,maxNumWorkers=1,query="select * from \`$GOOGLE_CLOUD_PROJECT\`.mainframe_import.account_transactions",connectionUrl=$CONNECTION_URL,apiKey=$API_KEY
-
-
 
