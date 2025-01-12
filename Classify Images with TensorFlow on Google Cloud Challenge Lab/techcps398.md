@@ -1,8 +1,8 @@
 
 
-## 💡 Lab Link: [Classify Images with TensorFlow on Google Cloud: Challenge Lab - GSP398](https://www.cloudskillsboost.google/focuses/53698?parent=catalog)
+### 💡 Lab Link: [Classify Images with TensorFlow on Google Cloud: Challenge Lab - GSP398](https://www.cloudskillsboost.google/focuses/53698?parent=catalog)
 
-## 🚀 Lab Solution [Watch Here](https://youtu.be/nhVl30iKn2U)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/nhVl30iKn2U)
 
 ---
 
@@ -15,6 +15,11 @@
 ---
 
 ## 💡 Open this link and download the file [Click Here](https://github.com/Techcps/Google-Cloud-Skills-Boost/blob/main/Classify%20Images%20with%20TensorFlow%20on%20Google%20Cloud%20Challenge%20Lab/cnn_challenge_lab-v1.0.0.ipynb)
+
+---
+
+### 💡Make sure to replace your REGION NAME as per the lab instructions
+![techcps](https://github.com/user-attachments/assets/62d0e686-9e3f-452d-a476-7f6261e0b61a)
 
 ---
 
