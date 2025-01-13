@@ -14,12 +14,6 @@
 
 ---
 
-- Grant **`Vertex AI User`** role to the **connection's service account**
-
-- Grant IAM **`Storage Object Admin`** role to the **connection's service account**
-
----
-
 ## 🚨Copy and run the below commands in Cloud Shell:
 
 ```
