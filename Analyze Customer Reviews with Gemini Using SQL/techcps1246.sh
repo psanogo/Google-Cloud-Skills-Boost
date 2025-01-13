@@ -1,24 +1,25 @@
 
 
-
 gcloud auth list
 
 
 bq mk \
   --connection \
   --location=US \
-  --project_id={$DEVSHELL_PROJECT_ID} \
+  --project_id=${DEVSHELL_PROJECT_ID} \
   --connection_type=CLOUD_RESOURCE \
   gemini_conn
 
+
 SERVICE_ACCOUNT=$(bq show --location=US --connection gemini_conn | grep "serviceAccountId" | awk -F'"' '{print $4}')
 
+
 gcloud projects add-iam-policy-binding $DEVSHELL_PROJECT_ID \
-  --member="serviceAccount:$SERVICE_ACCOUNT" \
+  --member="serviceAccount:${SERVICE_ACCOUNT}" \
   --role="roles/aiplatform.user"
 
 gcloud storage buckets add-iam-policy-binding gs://$DEVSHELL_PROJECT_ID-bucket \
-  --member="serviceAccount:$SERVICE_ACCOUNT" \
+  --member="serviceAccount:${SERVICE_ACCOUNT}" \
   --role="roles/storage.objectAdmin"
 
 
@@ -50,6 +51,13 @@ OPTIONS (
 "
 
 
+###
+
+echo "please subscribe to techcps[https://www.youtube.com/@techcps]"
+
+###
+
+
 bq query --use_legacy_sql=false \
 "
 CREATE OR REPLACE MODEL \`gemini_demo.gemini_pro\`
@@ -58,13 +66,73 @@ OPTIONS (endpoint = 'gemini-pro')
 "
 
 
-
 bq query --use_legacy_sql=false \
 "
 CREATE OR REPLACE MODEL \`gemini_demo.gemini_pro_vision\`
-REMOTE WITH CONNECTION \`us.gemini_con\`
+REMOTE WITH CONNECTION \`us.gemini_conn\`
 OPTIONS (endpoint = 'gemini-pro-vision')
 "
+
+
+###4
+
+echo "please subscribe to techcps[https://www.youtube.com/@techcps]"
+
+###7
+
+
+
+bq query --use_legacy_sql=false '
+CREATE OR REPLACE TABLE
+`gemini_demo.review_images_results` AS (
+SELECT
+    uri,
+    ml_generate_text_llm_result
+FROM
+    ML.GENERATE_TEXT( MODEL `gemini_demo.gemini_pro_vision`,
+    TABLE `gemini_demo.review_images`,
+    STRUCT( 0.2 AS temperature,
+        "For each image, provide a summary of what is happening in the image and keywords from the summary. Answer in JSON format with two keys: summary, keywords. Summary should be a string, keywords should be a list." AS PROMPT,
+        TRUE AS FLATTEN_JSON_OUTPUT)));'
+
+
+
+
+bq query --use_legacy_sql=false \
+"
+SELECT * FROM \`gemini_demo.review_images_results\`
+"
+
+
+
+bq query --use_legacy_sql=false \
+'
+CREATE OR REPLACE TABLE
+  `gemini_demo.review_images_results_formatted` AS (
+  SELECT
+    uri,
+    JSON_QUERY(RTRIM(LTRIM(results.ml_generate_text_llm_result, " ```json"), "```"), "$.summary") AS summary,
+    JSON_QUERY(RTRIM(LTRIM(results.ml_generate_text_llm_result, " ```json"), "```"), "$.keywords") AS keywords
+  FROM
+    `gemini_demo.review_images_results` results )
+'
+
+
+
+bq query --use_legacy_sql=false \
+"
+SELECT * FROM \`gemini_demo.review_images_results_formatted\`
+"
+
+
+
+
+###7
+
+echo "please subscribe to techcps[https://www.youtube.com/@techcps]"
+
+###5
+
 
 
 
@@ -90,13 +158,12 @@ STRUCT(
 
 bq query --use_legacy_sql=false \
 "
-SELECT * FROM \`gemini_demo.review_images_results\`
+SELECT * FROM \`gemini_demo.customer_reviews_keywords\`
 "
 
 
 
-bq query --use_legacy_sql=false \
-"
+bq query --use_legacy_sql=false "
 CREATE OR REPLACE TABLE \`gemini_demo.customer_reviews_analysis\` AS (
   SELECT 
     ml_generate_text_llm_result, 
@@ -163,6 +230,9 @@ ORDER BY review_datetime
 "
 
 
+
+
+
 bq query --use_legacy_sql=false \
 "
 SELECT sentiment, COUNT(*) AS count
@@ -170,6 +240,8 @@ FROM \`gemini_demo.cleaned_data_view\`
 WHERE sentiment IN ('positive', 'negative')
 GROUP BY sentiment; 
 "
+
+
 
 
 bq query --use_legacy_sql=false \
@@ -182,6 +254,12 @@ ORDER BY sentiment, count;
 "
 
 
+
+###5
+
+echo "please subscribe to techcps[https://www.youtube.com/@techcps]"
+
+###6
 
 
 bq query --use_legacy_sql=false \
@@ -203,10 +281,13 @@ STRUCT(
 "
 
 
+
 bq query --use_legacy_sql=false \
 "
 SELECT * FROM \`gemini_demo.customer_reviews_marketing\`
 "
+
+
 
 
 
@@ -219,14 +300,18 @@ SELECT
    JSON_QUERY(RTRIM(LTRIM(results.ml_generate_text_llm_result, " ```json"), "```"), "$.marketing") AS marketing,
    social_media_source, customer_id, location_id, review_datetime
 FROM
-   `gemini_demo.customer_reviews_marketing` results )   
+   `gemini_demo.customer_reviews_marketing` results )
 '
+
+
 
 
 bq query --use_legacy_sql=false \
 "
 SELECT * FROM \`gemini_demo.customer_reviews_marketing_formatted\`
 "
+
+
 
 
 bq query --use_legacy_sql=false \
@@ -258,7 +343,6 @@ SELECT * FROM \`gemini_demo.customer_reviews_cs_response\`
 
 
 
-
 bq query --use_legacy_sql=false \
 '
 CREATE OR REPLACE TABLE
@@ -281,9 +365,11 @@ SELECT * FROM \`gemini_demo.customer_reviews_cs_response_formatted\`
 "
 
 
+###6
 
+echo "please subscribe to techcps[https://www.youtube.com/@techcps]"
 
-
+###7
 
 
 bq query --use_legacy_sql=false '
@@ -301,10 +387,12 @@ FROM
 
 
 
+
 bq query --use_legacy_sql=false \
 "
 SELECT * FROM \`gemini_demo.review_images_results\`
 "
+
 
 
 bq query --use_legacy_sql=false \
@@ -318,6 +406,7 @@ CREATE OR REPLACE TABLE
   FROM
     `gemini_demo.review_images_results` results )
 '
+
 
 
 bq query --use_legacy_sql=false \
