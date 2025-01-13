@@ -23,9 +23,12 @@ gcloud storage buckets add-iam-policy-binding gs://$DEVSHELL_PROJECT_ID-bucket \
   --role="roles/storage.objectAdmin"
 
 
+sleep 10
 
 bq --location=US mk gemini_demo
 
+
+sleep 10
 
 
 bq query --use_legacy_sql=false \
