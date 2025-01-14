@@ -18,7 +18,7 @@
 
 ---
 
-### 🚨 Go to LookML > File Browser > flights > maps
+### 🚨 Go to Develop > qwiklabs-flights-maps > general > flights
 ### 🚀 Open qwiklabs-flights-maps.model file
 > Replace the below commands on here!!
 ```
