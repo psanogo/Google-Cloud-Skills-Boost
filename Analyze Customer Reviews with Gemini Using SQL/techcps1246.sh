@@ -23,12 +23,12 @@ gcloud storage buckets add-iam-policy-binding gs://$DEVSHELL_PROJECT_ID-bucket \
   --role="roles/storage.objectAdmin"
 
 
-sleep 10
+
 
 bq --location=US mk gemini_demo
 
 
-sleep 10
+
 
 
 bq query --use_legacy_sql=false \
@@ -83,7 +83,7 @@ echo "please subscribe to techcps[https://www.youtube.com/@techcps]"
 
 ###7
 
-sleep 10
+
 
 
 
@@ -109,7 +109,7 @@ bq query --use_legacy_sql=false \
 SELECT * FROM \`gemini_demo.review_images_results\`
 "
 
-sleep 10
+
 
 
 bq query --use_legacy_sql=false \
@@ -140,7 +140,7 @@ echo "please subscribe to techcps[https://www.youtube.com/@techcps]"
 
 ###5
 
-sleep 10
+
 
 
 
@@ -169,7 +169,7 @@ bq query --use_legacy_sql=false \
 SELECT * FROM \`gemini_demo.customer_reviews_keywords\`
 "
 
-sleep 10
+
 
 
 bq query --use_legacy_sql=false "
@@ -214,7 +214,7 @@ SELECT * FROM \`gemini_demo.customer_reviews_analysis\`
 ORDER BY review_datetime
 "
 
-sleep 10
+
 
 
 bq query --use_legacy_sql=false \
@@ -272,7 +272,7 @@ echo "please subscribe to techcps[https://www.youtube.com/@techcps]"
 ###6
 
 
-sleep 10
+
 
 
 
@@ -302,7 +302,6 @@ SELECT * FROM \`gemini_demo.customer_reviews_marketing\`
 "
 
 
-sleep 10
 
 
 
@@ -326,8 +325,6 @@ bq query --use_legacy_sql=false \
 SELECT * FROM \`gemini_demo.customer_reviews_marketing_formatted\`
 "
 
-
-sleep 10
 
 
 bq query --use_legacy_sql=false \
@@ -357,7 +354,6 @@ SELECT * FROM \`gemini_demo.customer_reviews_cs_response\`
 "
 
 
-sleep 10
 
 
 bq query --use_legacy_sql=false \
@@ -389,7 +385,6 @@ echo "please subscribe to techcps[https://www.youtube.com/@techcps]"
 ###7
 
 
-sleep 10
 
 
 
