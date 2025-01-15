@@ -1,7 +1,7 @@
 
 ### 💡 Lab Name: Embedding Maps in Looker BI
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/5aEcULznGpU)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/g6E0yg2WxEs)
 
 ---
 
