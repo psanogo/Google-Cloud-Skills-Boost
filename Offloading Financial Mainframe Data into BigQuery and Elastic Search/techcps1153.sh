@@ -50,18 +50,26 @@ SELECT * FROM \`mainframe_import.accounts\` WHERE salary_range = '110,000+' ORDE
 "
 
 
+gcloud services enable dataflow.googleapis.com
+
+gcloud services enable bigquery.googleapis.com
+
+
 export CONNECTION_URL=46063b660da74fbfb60754d5aaa53699:dXMtZWFzdDQuZ2NwLmVsYXN0aWMtY2xvdWQuY29tJGY5NGQ3OTk2ZjRmZDQxMGI5N2Y0MTRmZWNlODAyZDAzJDgzZDRhMTk5YjUyMzQ1MzlhMjI3MGJiOGY3NmUwYzEy
-
 export API_KEY=c2tDYWFaUUJnbDlKMm82S001YzA6Mnhpb3JROHBSWmV1dUlhTW10aTRrZw==
-
-
-
-sleep 45
-
 export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
 
+sleep 30
+
+echo $CONNECTION_URL
+echo $API_KEY
 echo $REGION
+echo $GOOGLE_CLOUD_PROJECT
 
 gcloud dataflow flex-template run bqtoelastic-`date +%s` --worker-machine-type=e2-standard-2 --template-file-gcs-location gs://dataflow-templates-$REGION/latest/flex/BigQuery_to_Elasticsearch --region $REGION --num-workers 1 --parameters index=transactions,maxNumWorkers=1,query="select * from \`$GOOGLE_CLOUD_PROJECT\`.mainframe_import.account_transactions",connectionUrl=$CONNECTION_URL,apiKey=$API_KEY
 
+echo ""
 
+echo "https://console.cloud.google.com/dataflow/jobs?project=$DEVSHELL_PROJECT_ID"
+
+echo ""
