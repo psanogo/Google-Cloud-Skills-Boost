@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Training at Scale with Vertex AI Training Service](https://www.cloudskillsboost.google/focuses/33352?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/6JtjYDpYWcU)
 
 ---
 
