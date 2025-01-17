@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Create a Virtual Machine - GSP001](https://www.cloudskillsboost.google/focuses/3563?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/O-RvI9bokjk)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/SnuSyGiUJDg)
 
 ---
 
