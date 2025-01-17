@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Getting Started with Cloud Shell and gcloud - GSP002](https://www.cloudskillsboost.google/focuses/563?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/SsKFCay_hMI)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/5UQslBBYEpA)
 
 ---
 
