@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Creating a De-identified Copy of Data in Cloud Storage - GSP1073](https://www.cloudskillsboost.google/focuses/47127?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/AU5IgnGRGY0)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/IcKhG9GH7s0)
 
 ---
 
