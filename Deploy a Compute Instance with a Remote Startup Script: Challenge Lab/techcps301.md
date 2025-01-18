@@ -1,7 +1,7 @@
 
-## 💡 Lab Link: [Deploy a Compute Instance with a Remote Startup Script: Challenge Lab GSP301](https://www.cloudskillsboost.google/focuses/1735?parent=catalog)
+### 💡 Lab Link: [Deploy a Compute Instance with a Remote Startup Script: Challenge Lab GSP301](https://www.cloudskillsboost.google/focuses/1735?parent=catalog)
 
-## 🚀 Lab Solution [Watch Here](https://youtu.be/qvZpI3hw2g8)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/qvZpI3hw2g8)
 
 ---
 
