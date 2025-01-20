@@ -15,10 +15,7 @@
 ---
 
 ### 🚨Copy and run the below commands in Cloud Shell:
-
-```
-export ZONE=
-```
+- **Set the Zone Names:**
 
 ```
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/techcps.sh
