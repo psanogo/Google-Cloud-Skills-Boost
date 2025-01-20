@@ -17,11 +17,9 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-export ZONE=
-```
-
-```
-gcloud compute instances create techcps --project=$DEVSHELL_PROJECT_ID --zone $ZONE --machine-type=e2-medium --create-disk=auto-delete=yes,boot=yes,device-name=techcps,image=projects/windows-cloud/global/images/windows-server-2022-dc-v20230913,mode=rw,size=50,type=projects/$DEVSHELL_PROJECT_ID/zones/$ZONE/diskTypes/pd-balanced 
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Compute%20Engine%3A%20Qwik%20Start%20-%20Windows/techcps093.sh
+sudo chmod +x techcps093.sh
+./techcps093.sh
 ```
 
 ---
