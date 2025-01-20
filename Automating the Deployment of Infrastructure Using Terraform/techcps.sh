@@ -1,19 +1,28 @@
 
+
 mkdir tfinfra
 cd tfinfra
 wget https://raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/provider.tf
 wget https://raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/mynetwork.tf
-wget https://raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/variables.tf
+
+echo $ZONE1
+echo $ZONE2
+
+sed -i "s/\$ZONE1/${ZONE1}/g" mynetwork.tf
+sed -i "s/\$ZONE2/${ZONE2}/g" mynetwork.tf
 
 mkdir instance
 cd instance
 
 wget https://raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/instance/main.tf
+wget https://raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/instance/variables.tf
+
 
 cd ..
-terraform init
 terraform fmt
 terraform init
+terraform plan
 
-echo -e "mynet-us-vm\nmynetwork\n$ZONE" | terraform plan -var="instance_name=$(</dev/stdin)" -var="instance_network=$(</dev/stdin)" -var="instance_zone=$(</dev/stdin)"
-echo -e "mynet-us-vm\nmynetwork\n$ZONE" | terraform apply -var="instance_name=$(</dev/stdin)" -var="instance_network=$(</dev/stdin)" -var="instance_zone=$(</dev/stdin)" --auto-approve
+
+echo "yes" | terraform apply
+
