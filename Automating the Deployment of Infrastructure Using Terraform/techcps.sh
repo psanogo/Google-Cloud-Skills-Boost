@@ -1,5 +1,19 @@
 
 
+# Set text styles
+YELLOW=$(tput setaf 3)
+BOLD=$(tput bold)
+RESET=$(tput sgr0)
+
+echo "Please set the below values correctly"
+read -p "${YELLOW}${BOLD}Enter the ZONE1: ${RESET}" ZONE1
+read -p "${YELLOW}${BOLD}Enter the ZONE2: ${RESET}" ZONE2
+
+# Export variables after collecting input
+export ZONE1 ZONE2
+
+gcloud auth list
+
 mkdir tfinfra
 cd tfinfra
 wget https://raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/provider.tf
