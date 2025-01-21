@@ -2,7 +2,7 @@
 
 ## 💡 Lab Link: [Automating the Deployment of Infrastructure Using Terraform](https://www.cloudskillsboost.google/focuses/19098?parent=catalog)
 
-## 🚀 Lab Solution [Watch Here](https://youtu.be/e2uUppkAiug)
+## 🚀 Lab Solution [Watch Here](https://youtu.be/kpNk1f5ICeA)
 
 ---
 
