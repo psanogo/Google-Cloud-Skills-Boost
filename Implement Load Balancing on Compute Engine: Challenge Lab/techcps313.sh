@@ -45,15 +45,13 @@ gcloud compute instances create $INSTANCE_NAME \
 
 # kubectl expose deployment hello-server --type=LoadBalancer --port $PORT
 
-
-cat << 'EOF' > startup.sh
+cat << EOF > startup.sh
 #! /bin/bash
 apt-get update
 apt-get install -y nginx
 service nginx start
 sed -i -- 's/nginx/Google Cloud Platform - '"\$HOSTNAME"'/' /var/www/html/index.nginx-debian.html
 EOF
-
 
 gcloud compute instance-templates create web-server-template --region=$ZONE --machine-type g1-small --metadata-from-file startup-script=startup.sh --network nucleus-vpc
 
