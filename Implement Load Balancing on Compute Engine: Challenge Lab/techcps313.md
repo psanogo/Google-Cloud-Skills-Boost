@@ -15,15 +15,7 @@
 
 ### 🚨Copy and run the below commands in Cloud Shell:
 - **Export the variable name correctly**
-```
-export INSTANCE_NAME=
 
-export ZONE=
-
-export PORT=8082
-
-export FIREWALL_RULE_NAME=
-```
 ```
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Implement%20Load%20Balancing%20on%20Compute%20Engine:%20Challenge%20Lab/techcps313.sh
 sudo chmod +x techcps313.sh
