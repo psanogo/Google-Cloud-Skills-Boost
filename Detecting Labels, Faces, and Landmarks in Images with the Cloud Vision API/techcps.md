@@ -1,7 +1,7 @@
 
 ## 💡 Lab Link: [Detecting Labels, Faces, and Landmarks in Images with the Cloud Vision API](https://www.cloudskillsboost.google/focuses/42742?parent=catalog)
 
-## 🚀 Lab Solution [Watch Here](https://youtu.be/MIvlwg7c7cc)
+## 🚀 Lab Solution [Watch Here](https://youtu.be/_TzRH86s4gc)
 
 ---
 
