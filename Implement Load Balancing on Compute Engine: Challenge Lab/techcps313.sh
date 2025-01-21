@@ -1,9 +1,5 @@
 
-
-
-
 # GSP313
-
 
 
 # Set text styles
@@ -50,7 +46,7 @@ gcloud compute instances create $INSTANCE_NAME \
 # kubectl expose deployment hello-server --type=LoadBalancer --port $PORT
 
 
-cat << EOF > startup.sh
+cat << 'EOF' > startup.sh
 #! /bin/bash
 apt-get update
 apt-get install -y nginx
