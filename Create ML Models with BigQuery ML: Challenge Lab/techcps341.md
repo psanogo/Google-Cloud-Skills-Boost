@@ -22,7 +22,7 @@ sudo chmod +x techcps.sh
 ### 🚨 If above commands not working then try 2nd trick
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Create%20ML%20Models%20with%20BigQuery%20ML%3A%20Challenge%20Lab/techcps341.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Create%20ML%20Models%20with%20BigQuery%20ML%3A%20Challenge%20Lab/techcps341.sh
 sudo chmod +x techcps341.sh
 ./techcps341.sh
 ```
@@ -33,7 +33,7 @@ sudo chmod +x techcps341.sh
 ### 🚨 If form number 1 is not working then try form number 2
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Create%20ML%20Models%20with%20BigQuery%20ML%3A%20Challenge%20Lab/techcps341.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Create%20ML%20Models%20with%20BigQuery%20ML%3A%20Challenge%20Lab/techcps341.sh
 sudo chmod +x techcps341.sh
 ./techcps341.sh
 ```
@@ -46,7 +46,7 @@ sudo chmod +x techcps341.sh
 ### 🚨 If form number 2 is not working then try form number 3
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Create%20ML%20Models%20with%20BigQuery%20ML%3A%20Challenge%20Lab/techcps341.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Create%20ML%20Models%20with%20BigQuery%20ML%3A%20Challenge%20Lab/techcps341.sh
 sudo chmod +x techcps341.sh
 ./techcps341.sh
 ```
