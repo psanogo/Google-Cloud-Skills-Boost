@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Extracting Text from the Images using the Google Cloud Vision API](https://www.cloudskillsboost.google/focuses/42744?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/qvZpI3hw2g8)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/kUHAgALOgU0)
 
 ---
 
