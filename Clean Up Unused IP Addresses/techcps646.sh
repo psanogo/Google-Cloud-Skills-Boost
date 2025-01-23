@@ -2,6 +2,8 @@
 
 gcloud auth list
 
+export ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
+
 gcloud config set compute/zone $ZONE
 
 export REGION=${ZONE%-*}
@@ -82,8 +84,8 @@ while true; do
   fi
 done
 
+export FUNCTION_URL=$(gcloud functions describe unused_ip_function --region=$REGION --format=json | jq -r '.url')
 
-export FUNCTION_URL=$(gcloud functions describe unused_ip_function --region=$REGION --format=json | jq -r '.httpsTrigger.url')
 
 if [ "$REGION" == "us-central1" ]; then
   gcloud app create --region us-central
@@ -92,17 +94,35 @@ else
 fi
 
 
-gcloud app create --region $REGION
-
 gcloud scheduler jobs create http unused-ip-job \
 --schedule="* 2 * * *" \
 --uri=$FUNCTION_URL \
 --location=$REGION
 
-sleep 45 
 
-gcloud scheduler jobs run unused-ip-job \
---location=$REGION
+
+#!/bin/bash
+
+# Function to run the job
+running_function() {
+  gcloud scheduler jobs run unused-ip-job \
+    --location="$REGION"
+}
+
+# Initialize the running success flag
+running_success=false
+
+# Retry loop
+while [ "$running_success" = false ]; do
+  if running_function; then
+    echo "Function start running successfully [https://www.youtube.com/@techcps]"
+    running_success=true
+  else
+    echo "running failed. Retrying in 10 seconds..."
+    echo "Please subscribe to techcps [https://www.youtube.com/@techcps]."
+    sleep 10
+  fi
+done
 
 
 gcloud compute addresses list --filter="region:($REGION)"
