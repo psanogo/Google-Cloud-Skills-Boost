@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Implement Load Balancing on Compute Engine: Challenge Lab - GSP313](https://www.cloudskillsboost.google/focuses/10258?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/mqKdlJLvdxo)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/jgraLGokKFo)
 
 ---
 
