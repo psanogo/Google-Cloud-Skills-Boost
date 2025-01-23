@@ -1,7 +1,7 @@
 
-## 💡 Lab Link: [Clean Up Unused IP Addresses - GSP646](https://www.cloudskillsboost.google/focuses/7841?parent=catalog)
+### 💡 Lab Link: [Clean Up Unused IP Addresses - GSP646](https://www.cloudskillsboost.google/focuses/7841?parent=catalog)
 
-## 🚀 Lab Solution [Watch Here](https://youtu.be/j7KkpIkMWio)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/j7KkpIkMWio)
 
 ---
 
@@ -12,11 +12,6 @@
 - **DM for credit or removal request (no copyright intended) ©All rights and credits for the original content belong to Google Cloud [Google Cloud Skill Boost website](https://www.cloudskillsboost.google/)** 🙏
 
 ---
-
-### 🚨Export the ZONE Name correctly
-```
-export ZONE=
-```
 
 ### 🚨Copy and run the below commands in Cloud Shell:
 
