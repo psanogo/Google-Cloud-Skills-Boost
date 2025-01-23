@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Clean Up Unused and Orphaned Persistent Disks GSP648](https://www.cloudskillsboost.google/focuses/7797?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/qvZpI3hw2g8)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/n9HhkX3UncI)
 
 ---
 
