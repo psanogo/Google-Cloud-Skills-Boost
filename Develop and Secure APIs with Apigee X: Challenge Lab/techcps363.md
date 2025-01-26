@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Develop and Secure APIs with Apigee X: Challenge Lab GSP363](https://www.cloudskillsboost.google/focuses/32171?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/qvZpI3hw2g8)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/7Q2kHo6GYnQ)
 
 ---
 
