@@ -22,8 +22,7 @@ sudo chmod +x techcps130.sh
 ```
 ---
 ```
-gsutil rm -rf gs://${BUCKET}/* && gsutil rb gs://${BUCKET}
-
+PROJECT_ID=`gcloud config get-value project` && BUCKET=${PROJECT_ID}-bucket && gsutil rm -rf gs://${BUCKET}/* && gsutil rb gs://${BUCKET}
 ```
 ---
 
