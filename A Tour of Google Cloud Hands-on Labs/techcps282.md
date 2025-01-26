@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [A Tour of Google Cloud Hands-on Labs - GSP282](https://www.cloudskillsboost.google/focuses/2794?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/SsKFCay_hMI)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/tpkAAO-m1Gw)
 
 ---
 
