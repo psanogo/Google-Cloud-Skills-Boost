@@ -1,7 +1,7 @@
 
-### 💡 Lab Link: [Explore false positives through incident detection | GSP1024 |](https://www.cloudskillsboost.google/focuses/31103?parent=catalog)
+### 💡 Lab Link: [Using Prometheus for Monitoring on Google Cloud: Qwik Start | GSP1024 |](https://www.cloudskillsboost.google/focuses/31103?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/NGHlqka9PaA)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/MOT-1ndvsBM)
 
 ---
 
