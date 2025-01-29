@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Using gsutil to Perform Operations on Buckets and Objects GSP130](https://www.cloudskillsboost.google/focuses/7530?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/qvZpI3hw2g8)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/CFv9O350FBs)
 
 ---
 
