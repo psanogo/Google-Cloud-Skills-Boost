@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Create a VPC using Cloud Shell](https://www.cloudskillsboost.google/focuses/88284?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/qvZpI3hw2g8)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/T3ZjYGo5vf4)
 
 ---
 
