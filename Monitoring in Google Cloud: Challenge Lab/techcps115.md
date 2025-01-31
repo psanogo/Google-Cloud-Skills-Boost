@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Monitoring in Google Cloud: Challenge Lab | ARC115 |](https://www.cloudskillsboost.google/focuses/63855?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/nVWWZQmvgDA)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/LHayrzymflA)
 
 ---
 
