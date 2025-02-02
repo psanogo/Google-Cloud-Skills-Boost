@@ -35,5 +35,5 @@ gcloud dataproc jobs submit spark \
     -- 1000
 
 
-echo "Click this link to open" "${YELLOW}${BOLD}https://console.cloud.google.com/dataproc/jobs?cloudshell=true&project=$DEVSHELL_PROJECT_ID${RESET}"
+echo "Click this link to open" "${YELLOW}${BOLD}https://console.cloud.google.com/dataproc/jobs?project=$DEVSHELL_PROJECT_ID${RESET}"
 
