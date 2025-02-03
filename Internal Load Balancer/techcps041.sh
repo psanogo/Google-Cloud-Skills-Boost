@@ -1,16 +1,4 @@
 
-
-# Set text styles
-YELLOW=$(tput setaf 3)
-BOLD=$(tput bold)
-RESET=$(tput sgr0)
-
-echo "Please set the below values correctly"
-read -p "${YELLOW}${BOLD}Enter the IP: ${RESET}" IP
-
-# Export variables after collecting input
-export IP
-
 gcloud auth list
 
 export ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
@@ -48,8 +36,7 @@ gcloud compute instance-templates create primecalc \
 --no-address --tags backend --machine-type=e2-medium
 
 gcloud compute firewall-rules create http --network default --allow=tcp:80 \
---source-ranges 10.138.0.0/20 --target-tags backend
-
+--source-ranges 10.150.0.0/20 --target-tags backend
 
 gcloud compute instance-groups managed create backend \
 --size 3 \
