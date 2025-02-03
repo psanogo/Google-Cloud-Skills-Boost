@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Loading Data into Cloud SQL | GSP196 |](https://www.cloudskillsboost.google/focuses/1157?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/Uh-bWCnXMS4)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/LjTVbIP3Itg)
 
 ---
 
