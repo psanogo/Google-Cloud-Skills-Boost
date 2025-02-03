@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Introduction to Cloud Dataproc: Hadoop and Spark on Google Cloud | GSP123 |](https://www.cloudskillsboost.google/focuses/672?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/qvZpI3hw2g8)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/JZ63ZHBuTms)
 
 ---
 
@@ -14,7 +14,6 @@
 ---
 
 ### 🚨Copy and run the below commands in Cloud Shell:
-
 
 ```
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Introduction%20to%20Cloud%20Dataproc%3A%20Hadoop%20and%20Spark%20on%20Google%20Cloud/techcps123.sh
