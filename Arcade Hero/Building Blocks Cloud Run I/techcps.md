@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Arcade Hero: Building Blocks Cloud Run I | ARC1205 |](https://www.cloudskillsboost.google/focuses/115688?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/qvZpI3hw2g8)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/nYbJkLST6jg)
 
 ---
 
