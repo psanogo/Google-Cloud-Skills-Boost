@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Arcade Hero: Building Blocks PubSub I | ARC1204 |](https://www.cloudskillsboost.google/focuses/115692?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/qvZpI3hw2g8)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/k2FduYaN7Ws)
 
 ---
 
