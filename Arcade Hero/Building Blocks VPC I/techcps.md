@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Arcade Hero: Building Blocks VPC I | ARC1202 |](https://www.cloudskillsboost.google/focuses/115693?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/qvZpI3hw2g8)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/G2wtYSUzpF0)
 
 ---
 
