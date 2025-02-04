@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Arcade Hero: Building Blocks GCS I | ARC1200 |](https://www.cloudskillsboost.google/focuses/115690?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/qvZpI3hw2g8)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/c_zHHLBu7fs)
 
 ---
 
