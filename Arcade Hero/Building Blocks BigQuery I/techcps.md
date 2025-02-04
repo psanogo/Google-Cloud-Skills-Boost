@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Arcade Hero: Building Blocks BigQuery I | ARC1201 |](https://www.cloudskillsboost.google/focuses/115687?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/qvZpI3hw2g8)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/OYmWc6ZmMvM)
 
 ---
 
