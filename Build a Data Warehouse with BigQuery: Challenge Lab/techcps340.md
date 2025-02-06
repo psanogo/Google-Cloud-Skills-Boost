@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Build a Data Warehouse with BigQuery: Challenge Lab - GSP340](https://www.cloudskillsboost.google/focuses/14341?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/iDDNrnPkuO0)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/srwyjTl6j8Y)
 
 ---
 
