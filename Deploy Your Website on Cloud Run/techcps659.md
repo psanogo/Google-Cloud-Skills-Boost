@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Deploy Your Website on Cloud Run | GSP659 |](https://www.cloudskillsboost.google/focuses/10445?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/ho5FTNN6uck)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/d1YntnOv2OI)
 
 ---
 
