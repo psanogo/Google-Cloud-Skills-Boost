@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Dialogflow Logging and Monitoring in Operations Suite | GSP794 |](https://www.cloudskillsboost.google/focuses/12366?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/jQR3puiKCDM)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/iEk1sN-UNEA)
 
 ---
 
