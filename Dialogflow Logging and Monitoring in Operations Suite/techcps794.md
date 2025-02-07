@@ -24,11 +24,11 @@
 | Size Category      | Abbreviations & Alternative Names          |
 |-------------------|------------------------------------------|
 | **Extra Extra Large** | XXL, extra extra large, double XL, two X, double X |
-| **Extra Large**     | XL, extra large                         |
+| **Small**          | S, small                                |
 | **Large**          | L, large                                |
 | **Medium**         | M, medium                               |
-| **Small**          | S, small                                |
 | **Extra Small**    | XS, extra small                         |
+| **Extra Large**     | XL, extra large                         |
 
 ---
 
