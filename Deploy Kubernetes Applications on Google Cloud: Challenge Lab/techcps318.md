@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Deploy Kubernetes Applications on Google Cloud: Challenge Lab | GSP318 |](https://www.cloudskillsboost.google/focuses/10457?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/SwCOSWEEje4)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/YabRPi8IJik)
 
 ---
 
