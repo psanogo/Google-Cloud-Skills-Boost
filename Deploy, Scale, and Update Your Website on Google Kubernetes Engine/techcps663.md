@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Deploy, Scale, and Update Your Website on Google Kubernetes Engine | GSP663 |](https://www.cloudskillsboost.google/focuses/10470?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/9nu2OL5czYU)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/gnKDDRS8aKc)
 
 ---
 
