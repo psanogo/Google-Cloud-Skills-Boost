@@ -13,7 +13,7 @@
 
 ---
 
-### 🚨 Download the both file to your local stytem
+### 🚨 Download the both file to your local system
 - **[pigeon-travel-gsp-794.zip](https://storage.cloud.google.com/qwiklabs-resources-ccai-quest/pigeon-travel-gsp-794.zip)**
 
 - **[pigeon-travel-gsp-794-cloud-function](https://storage.cloud.google.com/qwiklabs-resources-ccai-quest/pigeon-travel-gsp-794-cloud-function.zip)**
