@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Securing Google Cloud with CFT Scorecard | GSP698 |](https://www.cloudskillsboost.google/focuses/10437?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/1wrI7fgbhGA)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/f_FUtZvF0bo)
 
 ---
 
