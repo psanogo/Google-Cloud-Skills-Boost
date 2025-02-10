@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Develop Serverless Apps with Firebase: Challenge Lab | GSP344 |](https://www.cloudskillsboost.google/focuses/14677?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/qvZpI3hw2g8)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/RR7M4VWZi1o)
 
 ---
 
