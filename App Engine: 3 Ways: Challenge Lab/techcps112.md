@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [App Engine: 3 Ways: Challenge Lab - ARC112](https://www.cloudskillsboost.google/focuses/63241?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/ihxkXA4oiV4)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/CmVhpNYquiU)
 
 ---
 
