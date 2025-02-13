@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Using Gemini Throughout the Software Development Lifecycle](https://www.cloudskillsboost.google/focuses/80998?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/ihxkXA4oiV4)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/KRvEbALTXKc)
 
 ---
 
