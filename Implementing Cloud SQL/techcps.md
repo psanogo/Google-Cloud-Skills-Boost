@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Implementing Cloud SQL](https://www.cloudskillsboost.google/focuses/19086?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/MYTwWtaaDQM)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/avt3N6T-Zgg)
 
 ---
 
