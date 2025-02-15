@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Service Directory: Qwik Start | GSP732 |](https://www.cloudskillsboost.google/focuses/12412?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/TM3XyfC64eU)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/XyGsaocM334)
 
 ---
 
