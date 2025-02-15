@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Dataplex: Qwik Start - Console | GSP1143 |](https://www.cloudskillsboost.google/focuses/62709?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/-Cgf0533xsw)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/j36mTrGFyq0)
 
 ---
 
