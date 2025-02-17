@@ -6,8 +6,13 @@ export REGION=$(gcloud compute project-info describe \
 --format="value(commonInstanceMetadata.items[google-compute-default-region])")
 
 
+read -p "Enter the GITHUB_USERNAME : " GITHUB_USERNAME
+
+echo $GITHUB_USERNAME
+
+
 gcloud builds repositories create hugo-website-build-repository \
-  --remote-uri="https://github.com/${GITHUB_USERNAME}/my_hugo_site.git" \
+  --remote-uri="https://github.com/$GITHUB_USERNAME/my_hugo_site.git" \
   --connection="cloud-build-connection" --region=$REGION
 
 
@@ -18,6 +23,7 @@ gcloud builds triggers create github --name="commit-to-master-branch1" \
    --service-account=projects/$PROJECT_ID/serviceAccounts/$PROJECT_NUMBER-compute@developer.gserviceaccount.com \
    --region=$REGION \
    --branch-pattern='^master$'
+
 
 
 cd ~/my_hugo_site
@@ -35,16 +41,26 @@ cp /tmp/cloudbuild.yaml .
 
 cat cloudbuild.yaml
 
-# gcloud builds list --region=$REGION
+echo $REGION
 
 gcloud builds submit --region=$REGION
 
 
 sleep 30
 
-gcloud builds log --region=$REGION $(gcloud builds list --format='value(ID)' --filter=$(git rev-parse HEAD) --region=$REGION)
+echo $REGION
 
-gcloud builds log "$(gcloud builds list --format='value(ID)' --filter=$(git rev-parse HEAD) --region=$REGION)" --region=$REGION | grep "Hosting URL"
+BUILD_ID=$(gcloud builds list --region=$REGION --format="value(ID)" --limit=1)
+gcloud builds log $BUILD_ID --region=$REGION
+
+
+gcloud builds log "$(gcloud builds list --region=$REGION --format='value(ID)' --limit=1)" | grep "Hosting URL"
+BUILD_ID=$(gcloud builds list --region=$REGION --format="value(ID)" --limit=1)
+gcloud builds log $BUILD_ID --region=$REGION
+
+
+gcloud builds log "$(gcloud builds list --region=$REGION --format='value(ID)' --limit=1)" | grep "Hosting URL"
+
 
 echo ""
 
