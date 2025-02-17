@@ -20,7 +20,7 @@ curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Depl
 sudo chmod +x techcps1.sh
 ./techcps1.sh
 ```
-![ssc](https://github.com/Techcps/Google-Cloud-Skills-Boost/assets/9d5e8a03-cd9b-4eff-a810-01c636bc71b8)
+![ssc](https://github.com/user-attachments/assets/72e4b3b5-ad56-4abb-8a97-0a4a7a5acecb)
 
 - 🚨**After getting score on Task 1, press CTRL+C to stop the Hugo server**
 ---
@@ -33,16 +33,19 @@ sudo chmod +x techcps2.sh
 
 ---
 - 🚨**Use Up and Down key and press Spacebar key to select the below image checkpoint option**
-![ss1](https://github.com/Techcps/Google-Cloud-Skills-Boost/assets/57e069a3-5a98-482e-a870-55556fda0e71)
+![ss1](https://github.com/user-attachments/assets/bf227f9a-37ec-436f-bedb-a5b09758d381)
+
 
 ---
 
 - 🚨**Now select the use an existing project and press enter key**
-![ss2](https://github.com/Techcps/Google-Cloud-Skills-Boost/assets/3fbe7176-ad08-454e-a474-926e5892d9ca)
+![ss2](https://github.com/user-attachments/assets/6e5b8b42-b21d-4d25-b93d-7db7baff373a)
+
 ---
 
 - 🚨**Now select the currect project and press enter key**
-![ss3](https://github.com/Techcps/Google-Cloud-Skills-Boost/assets/10398b5b-11b2-4f46-9a7f-152fa422d981)
+![ss3](https://github.com/user-attachments/assets/72a89589-c623-4696-9c9d-ede0d7c412bb)
+
 
 - 🚨**Now press the enter key few times**
 ---
