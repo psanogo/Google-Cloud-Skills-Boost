@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Explore a lakehouse](https://www.cloudskillsboost.google/focuses/88304?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/ihxkXA4oiV4)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/eS0N9VVX8zE)
 
 ---
 
