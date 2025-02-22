@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Running Databases in GKE](https://www.cloudskillsboost.google/focuses/20874?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/ihxkXA4oiV4)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/YPDpFFWGjH4)
 
 ---
 
