@@ -76,6 +76,19 @@ sed -i "s/YourRegionHere/$REGION/g" cloudbuild2.yaml
 cat cloudbuild2.yaml
 
 
-gcloud builds submit --config cloudbuild2.yaml
+deploy_function() {
+  gcloud builds submit --config cloudbuild2.yaml
+}
 
+deploy_success=false
+
+while [ "$deploy_success" = false ]; do
+  if deploy_function; then
+    echo "Function deployed successfully [https://www.youtube.com/@techcps]"
+    deploy_success=true
+  else
+    echo "please subscribe to techcps {https://www.youtube.com/@techcps}"
+    sleep 10
+  fi
+done
 
