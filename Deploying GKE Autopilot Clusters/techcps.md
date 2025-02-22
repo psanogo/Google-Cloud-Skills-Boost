@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Deploying GKE Autopilot Clusters](https://www.cloudskillsboost.google/focuses/72686?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/ihxkXA4oiV4)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/0qbjO0wJPLw)
 
 ---
 
