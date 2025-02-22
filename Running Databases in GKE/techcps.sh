@@ -1,8 +1,9 @@
 
-
 gcloud auth list
 
-export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
+export ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
+
+gcloud container clusters create cluster-1 --project=$DEVSHELL_PROJECT_ID --zone=$ZONE
 
 kubectl create secret generic mysql-secrets --from-literal=ROOT_PASSWORD="password"
 
