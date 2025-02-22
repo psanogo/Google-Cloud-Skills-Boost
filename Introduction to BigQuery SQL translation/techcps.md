@@ -1,5 +1,5 @@
 
-### 💡 Lab Link: [Introduction to BigQuery SQL translation](https://www.cloudskillsboost.google/games/5924/labs/37656)
+### 💡 Lab Link: [Introduction to BigQuery SQL translation](https://www.cloudskillsboost.google/focuses/37656?parent=game)
 
 ### 🚀 Lab Solution [Watch Here](https://youtu.be/ihxkXA4oiV4)
 
