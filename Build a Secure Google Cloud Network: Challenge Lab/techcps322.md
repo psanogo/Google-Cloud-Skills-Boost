@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Build a Secure Google Cloud Network: Challenge Lab | GSP322 |](https://www.cloudskillsboost.google/focuses/12068?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/yb1M_aQ-aTo)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/tHHreNiiAcQ)
 
 ---
 
