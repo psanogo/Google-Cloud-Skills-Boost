@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Load Balancing and Auto scaling - Challenge Lab](https://www.cloudskillsboost.google/focuses/37672?parent=game)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/ihxkXA4oiV4)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/C6Bkl1gGUHg)
 
 ---
 
