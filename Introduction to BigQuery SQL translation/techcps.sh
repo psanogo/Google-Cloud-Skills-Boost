@@ -50,3 +50,9 @@ gsutil mb gs://$DEVSHELL_PROJECT_ID
 
 gsutil cp source_teradata.txt gs://$DEVSHELL_PROJECT_ID/source/source_teradata.txt
 
+echo ""
+
+echo "https://console.cloud.google.com/bigquery/migrations/batch-translation?project=$DEVSHELL_PROJECT_ID"
+
+echo ""
+
