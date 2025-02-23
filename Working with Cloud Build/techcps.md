@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Working with Cloud Build](https://www.cloudskillsboost.google/focuses/19110?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/ihxkXA4oiV4)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/vL49QUSmX4I)
 
 ---
 
