@@ -16,7 +16,7 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/GSP/master/Navigate%20Security%20Decisions%20with%20Gemini/techcps.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Navigate%20Security%20Decisions%20with%20Gemini/techcps.sh
 sudo chmod +x techcps.sh
 ./techcps.sh
 ```
