@@ -3,6 +3,8 @@ gcloud auth list
 
 PROJECT_ID=$(gcloud config get-value project)
 
+export ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
+
 export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
 
 echo "PROJECT_ID=${PROJECT_ID}"
