@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Build Apps with Gemini Code Assist](https://www.cloudskillsboost.google/focuses/104240?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/ihxkXA4oiV4)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/ZFzJBPBTW6M)
 
 ---
 
