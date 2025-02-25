@@ -1,4 +1,6 @@
 
+read -p "Enter Project ID: " PROJECT_ID
+
 gcloud auth login
 
 sudo apt update
@@ -9,13 +11,12 @@ source ~/env/bin/activate
 
 
 
-export PROJECT_ID=$(gcloud projects list --format="value(projectId)" | head -n 1)
+# export PROJECT_ID=$(gcloud projects list --format="value(projectId)" | head -n 1)
 gcloud config set project $PROJECT_ID
 export BUCKET_NAME=$PROJECT_ID-code
 gcloud storage cp -r gs://$BUCKET_NAME/* .
 
 # which python3
-
 # cd ~/codeassist-demo
 # source ~/env/bin/activate
 # python3 main.py
