@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Navigate Security Decisions with Gemini](https://www.cloudskillsboost.google/focuses/88320?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/8M_ZPlVyH3Q)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/aHrgozeu4Yk)
 
 ---
 
