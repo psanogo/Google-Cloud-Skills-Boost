@@ -1,5 +1,4 @@
 
-
 gcloud auth login
 
 sudo apt update
@@ -8,13 +7,14 @@ sudo apt install -y python3-venv
 python3 -m venv ~/env
 source ~/env/bin/activate
 
-which python3
+
 
 export PROJECT_ID=$(gcloud projects list --format="value(projectId)" | head -n 1)
 gcloud config set project $PROJECT_ID
 export BUCKET_NAME=$PROJECT_ID-code
 gcloud storage cp -r gs://$BUCKET_NAME/* .
 
+# which python3
 
 # cd ~/codeassist-demo
 # source ~/env/bin/activate
@@ -113,13 +113,12 @@ cd templates
 
 rm index.html convert.html
 
-wget https://raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/refs/heads/master/Build%20Apps%20with%20Gemini%20Code%20Assist/index.html
+wget https://raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Build%20Apps%20with%20Gemini%20Code%20Assist/index.html
 
-wget https://raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/refs/heads/master/Build%20Apps%20with%20Gemini%20Code%20Assist/convert.html
+wget https://raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Build%20Apps%20with%20Gemini%20Code%20Assist/convert.html
 
 
 cd ..
 
 
 python3 main.py
-
