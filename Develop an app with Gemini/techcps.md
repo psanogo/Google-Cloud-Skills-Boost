@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Develop an app with Gemini](https://www.cloudskillsboost.google/focuses/80985?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/ll_EozadjmM)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/o1Uin2tOwgs)
 
 ---
 
@@ -23,7 +23,7 @@ sudo chmod +x techcps.sh
 
 ---
 
-- Type `Cloud Code New` then select **Cloud Code: New Application**
+- Type `> Cloud Code New` then select **Cloud Code: New Application**
 - Select **Cloud Run application**
 - Select **Python (Flask): Cloud Run**
 - Path: **/home/user/hello-world**
@@ -33,7 +33,7 @@ sudo chmod +x techcps.sh
 ### 🚀 Click app.py file and replace with this code [Copy here](https://github.com/Techcps/Google-Cloud-Skills-Boost/blob/main/Develop%20an%20app%20with%20Gemini/app.py.md)
 ### 🚀 Create new file: `inventory.py` and add this code [Copy here](https://github.com/Techcps/Google-Cloud-Skills-Boost/blob/main/Develop%20an%20app%20with%20Gemini/inventory.py.md)
 
-- type `Cloud Code Deploy` then select **Cloud Code: Deploy to Cloud Run**
+- type `> Cloud Code Deploy` then select **Cloud Code: Deploy to Cloud Run**
 - Test your service by appending the **/inventory**
 
 ---
