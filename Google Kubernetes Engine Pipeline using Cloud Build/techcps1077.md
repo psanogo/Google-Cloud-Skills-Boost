@@ -1,5 +1,5 @@
 
-### 💡 Lab Link: [Google Kubernetes Engine Pipeline using Cloud Build | GSP1077|](https://www.cloudskillsboost.google/focuses/52829?parent=catalog)
+### 💡 Lab Link: [Google Kubernetes Engine Pipeline using Cloud Build | GSP1077 |](https://www.cloudskillsboost.google/focuses/52829?parent=catalog)
 
 ### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
 
