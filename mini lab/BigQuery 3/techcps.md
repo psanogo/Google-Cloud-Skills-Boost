@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [mini lab : BigQuery : 3](https://www.cloudskillsboost.google/focuses/37648/?parent=game)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/c8c6c9wGGIw)
 
 ---
 
