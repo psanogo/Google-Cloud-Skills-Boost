@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Offloading Financial Mainframe Data into BigQuery and Elastic Search - GSP1153](https://www.cloudskillsboost.google/focuses/64744?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/CfxDobxmTYI)
 
 ---
 
