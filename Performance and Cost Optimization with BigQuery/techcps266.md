@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Performance and Cost Optimization with BigQuery | GSP266 | ](https://www.cloudskillsboost.google/focuses/78061?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/TLkGIli65-k)
 
 ---
 
