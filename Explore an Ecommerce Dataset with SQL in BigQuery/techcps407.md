@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Explore an Ecommerce Dataset with SQL in BigQuery | GSP407 | ](https://www.cloudskillsboost.google/focuses/3618?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/eeYOdvz7BiI)
 
 ---
 
