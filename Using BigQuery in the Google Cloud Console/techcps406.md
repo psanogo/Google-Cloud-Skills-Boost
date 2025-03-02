@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Using BigQuery in the Google Cloud Console | GSP406 | ](https://www.cloudskillsboost.google/focuses/3616?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/XlekAXHyQXY)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/KDvJ-qKDcPU)
 
 ---
 
