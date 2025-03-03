@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Use reports to remediate findings](https://www.cloudskillsboost.google/focuses/88286?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/zysQA6_TxAY)
 
 ---
 
