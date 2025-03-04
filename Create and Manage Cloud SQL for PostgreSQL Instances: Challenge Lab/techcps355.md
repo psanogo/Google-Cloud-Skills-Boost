@@ -62,7 +62,7 @@ CREATE EXTENSION pglogical;
 
 ### Open the below website
 
-- **[Online word replacer](https://www.unit-conversion.info/texttools/replace-text/)**
+- **[Online word replacer](https://textcompare.io/word-replacer)**
 
 - **[Online Notepad](https://www.rapidtables.com/tools/notepad.html)**
 
