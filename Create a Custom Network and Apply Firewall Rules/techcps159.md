@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Create a Custom Network and Apply Firewall Rules | GSP159 | ](https://www.cloudskillsboost.google/focuses/102551?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/fF_RJj-nhoQ)
 
 ---
 
