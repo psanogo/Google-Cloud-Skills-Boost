@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Secure Software Supply Chain: Using Cloud Build & Cloud Deploy to Deploy Containerized Applications | GSP1092 | ](https://www.cloudskillsboost.google/focuses/50453?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/TfphwqaNcWk)
 
 ---
 
