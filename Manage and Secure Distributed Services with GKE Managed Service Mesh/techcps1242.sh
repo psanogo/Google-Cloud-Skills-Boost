@@ -98,17 +98,21 @@ touch ~/asm-kubeconfig && export KUBECONFIG=~/asm-kubeconfig
 gcloud container clusters get-credentials cluster1 --zone $ZONE
 gcloud container clusters get-credentials cluster2 --zone $ZONE
 
-kubectl config rename-context \
-gke_$DEVSHELL_PROJECT_ID_$ZONE_cluster1 cluster1
+kubectl config get-contexts
+
 
 kubectl config rename-context \
-gke_$DEVSHELL_PROJECT_ID_$ZONE_cluster2 cluster2
+gke_${DEVSHELL_PROJECT_ID}_${ZONE}_cluster1 cluster1
+
+kubectl config rename-context \
+gke_${DEVSHELL_PROJECT_ID}_${ZONE}_cluster2 cluster2
+
 
 kubectl config get-contexts --output="name"
 
-gcloud container fleet memberships register cluster1 --gke-cluster=$ZONE/cluster1 --enable-workload-identity
-gcloud container fleet memberships register cluster2 --gke-cluster=$ZONE/cluster2 --enable-workload-identity
 
+gcloud container fleet memberships register cluster1 --gke-cluster=${ZONE}/cluster1 --enable-workload-identity
+gcloud container fleet memberships register cluster2 --gke-cluster=${ZONE}/cluster2 --enable-workload-identity
 
 
 export CLOUDSHELL_IP=$(dig +short myip.opendns.com @resolver1.opendns.com)
