@@ -16,9 +16,9 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Simplify%20Network%20Connectivity%20for%20AlloyDB%20for%20PostgreSQL%3A%20Challenge%20Lab/techcps040.sh
-sudo chmod +x techcps040.sh
-./techcps040.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Monitoring%20and%20Logging%20for%20Cloud%20Run%20Functions/techcps092.sh
+sudo chmod +x techcps092.sh
+./techcps092.sh
 ```
 
 ---
