@@ -140,13 +140,12 @@ gcloud container fleet mesh update --management automatic --memberships cluster1
 gcloud container fleet mesh update --management automatic --memberships cluster1,cluster2
 
 while true; do
-  if gcloud container fleet mesh describe | grep -q 'code: REVISION_READY'; then
+  if watch -g "gcloud container fleet mesh describe | grep 'code: REVISION_READY'"; then
     echo "Mesh is REVISION_READY"
     break
   fi
   sleep 10
 done
-
 
 ## Note: It can take up to 10 minutes to install GKE Service Mesh on both clusters.
  
