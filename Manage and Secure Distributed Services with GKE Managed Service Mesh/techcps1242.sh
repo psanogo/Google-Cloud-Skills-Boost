@@ -1,10 +1,4 @@
 
-
-# Set text styles
-YELLOW=$(tput setaf 3)
-BOLD=$(tput bold)
-RESET=$(tput sgr0)
-
 gcloud auth list
 
 export ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
@@ -143,16 +137,12 @@ gcloud container clusters update cluster2 \
 gcloud container fleet mesh update --management automatic --memberships cluster1,cluster2
 
 
-while true; do
-  if watch -g "gcloud container fleet mesh describe | grep 'code: REVISION_READY'"; then
-    echo "Mesh is REVISION_READY"
-    break
-  fi
-  sleep 10
-done
+watch -g "gcloud container fleet mesh describe | grep 'code: REVISION_READY'"
 
 ## Note: It can take up to 10 minutes to install GKE Service Mesh on both clusters.
  
+
+
 
 gcloud container clusters get-credentials cluster1 --zone=$ZONE --project=$DEVSHELL_PROJECT_ID
 gcloud container clusters get-credentials cluster2 --zone=$ZONE --project=$DEVSHELL_PROJECT_ID
@@ -239,24 +229,14 @@ kubectl --context=gke_${DEVSHELL_PROJECT_ID}_${ZONE}_cluster2 apply -f asm-ingre
 kubectl --context=gke_${DEVSHELL_PROJECT_ID}_${ZONE}_cluster1 get pod,service -n asm-ingress
 kubectl --context=gke_${DEVSHELL_PROJECT_ID}_${ZONE}_cluster2 get pod,service -n asm-ingress
 
-sleep 150
+sleep 180
 
 kubectl --context=gke_${DEVSHELL_PROJECT_ID}_${ZONE}_cluster1 get pod,service -n asm-ingress
 kubectl --context=gke_${DEVSHELL_PROJECT_ID}_${ZONE}_cluster2 get pod,service -n asm-ingress
 
 ## Task 4
 
-echo "${YELLOW}${BOLD}Check your progress on tasks 1 to 3, then move forward to the next task.${RESET}"
-
-# Ask for permission
-read -p "$(echo -e "${YELLOW}${BOLD}Do you want to run the next command? (Y/N): ${RESET}")" confirm
-
-if [[ "$confirm" =~ ^[Yy]$ ]]; then
-  git clone https://github.com/GoogleCloudPlatform/bank-of-anthos.git "${HOME}/bank-of-anthos"
-  echo "${YELLOW}${BOLD}Repository cloned successfully.${RESET}"
-else
-  echo "${YELLOW}${BOLD}Operation cancelled.${RESET}"
-fi
+git clone https://github.com/GoogleCloudPlatform/bank-of-anthos.git ${HOME}/bank-of-anthos
 
 kubectl create --context=gke_${DEVSHELL_PROJECT_ID}_${ZONE}_cluster1 namespace bank-of-anthos
 kubectl label --context=gke_${DEVSHELL_PROJECT_ID}_${ZONE}_cluster1 namespace bank-of-anthos istio-injection=enabled
@@ -333,4 +313,5 @@ kubectl --context=gke_${DEVSHELL_PROJECT_ID}_${ZONE}_cluster1 \
 
 kubectl --context=gke_${DEVSHELL_PROJECT_ID}_${ZONE}_cluster2 \
 --namespace=asm-ingress get svc asm-ingressgateway -o jsonpath='{.status.loadBalancer}' | grep "ingress"
+
 
