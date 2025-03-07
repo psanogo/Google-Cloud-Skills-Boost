@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Simplify Network Connectivity for AlloyDB for PostgreSQL: Challenge Lab | GCC040 | ](https://www.cloudskillsboost.google/focuses/37981/?parent=game)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/Z9ekqroxjPE)
 
 ---
 
