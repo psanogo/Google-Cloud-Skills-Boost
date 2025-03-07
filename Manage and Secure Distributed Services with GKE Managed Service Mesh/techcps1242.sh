@@ -1,5 +1,10 @@
 
 
+# Set text styles
+YELLOW=$(tput setaf 3)
+BOLD=$(tput bold)
+RESET=$(tput sgr0)
+
 gcloud auth list
 
 export ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
@@ -137,7 +142,6 @@ gcloud container clusters update cluster2 \
 
 gcloud container fleet mesh update --management automatic --memberships cluster1,cluster2
 
-gcloud container fleet mesh update --management automatic --memberships cluster1,cluster2
 
 while true; do
   if watch -g "gcloud container fleet mesh describe | grep 'code: REVISION_READY'"; then
@@ -235,12 +239,24 @@ kubectl --context=gke_${DEVSHELL_PROJECT_ID}_${ZONE}_cluster2 apply -f asm-ingre
 kubectl --context=gke_${DEVSHELL_PROJECT_ID}_${ZONE}_cluster1 get pod,service -n asm-ingress
 kubectl --context=gke_${DEVSHELL_PROJECT_ID}_${ZONE}_cluster2 get pod,service -n asm-ingress
 
+sleep 150
+
+kubectl --context=gke_${DEVSHELL_PROJECT_ID}_${ZONE}_cluster1 get pod,service -n asm-ingress
+kubectl --context=gke_${DEVSHELL_PROJECT_ID}_${ZONE}_cluster2 get pod,service -n asm-ingress
 
 ## Task 4
 
+echo "${YELLOW}${BOLD}Check your progress on tasks 1 to 3, then move forward to the next task.${RESET}"
 
-git clone https://github.com/GoogleCloudPlatform/bank-of-anthos.git ${HOME}/bank-of-anthos
+# Ask for permission
+read -p "$(echo -e "${YELLOW}${BOLD}Do you want to run the next command? (Y/N): ${RESET}")" confirm
 
+if [[ "$confirm" =~ ^[Yy]$ ]]; then
+  git clone https://github.com/GoogleCloudPlatform/bank-of-anthos.git "${HOME}/bank-of-anthos"
+  echo "${YELLOW}${BOLD}Repository cloned successfully.${RESET}"
+else
+  echo "${YELLOW}${BOLD}Operation cancelled.${RESET}"
+fi
 
 kubectl create --context=gke_${DEVSHELL_PROJECT_ID}_${ZONE}_cluster1 namespace bank-of-anthos
 kubectl label --context=gke_${DEVSHELL_PROJECT_ID}_${ZONE}_cluster1 namespace bank-of-anthos istio-injection=enabled
@@ -262,29 +278,14 @@ kubectl --context=gke_${DEVSHELL_PROJECT_ID}_${ZONE}_cluster1 -n bank-of-anthos 
 
 kubectl --context=gke_${DEVSHELL_PROJECT_ID}_${ZONE}_cluster2 -n bank-of-anthos get pod
 
-#!/bin/bash
 
-clusters=("cluster1" "cluster2")
-all_running=true
+sleep 120
 
-for cluster in "${clusters[@]}"; do
-  echo "Checking pods in $cluster..."
-  
-  pods=$(kubectl --context=gke_${DEVSHELL_PROJECT_ID}_${ZONE}_${cluster} -n bank-of-anthos get pods --no-headers)
-  
-  if echo "$pods" | awk '{print $3}' | grep -v '^Running$' >/dev/null; then
-    echo "Not all pods are running in $cluster"
-    all_running=false
-  else
-    echo "All pods are running in $cluster"
-  fi
-done
 
-if [ "$all_running" = true ]; then
-  echo "All pods are running in both clusters."
-else
-  echo "Some pods are not running."
-fi
+kubectl --context=gke_${DEVSHELL_PROJECT_ID}_${ZONE}_cluster1 -n bank-of-anthos get pod
+
+
+kubectl --context=gke_${DEVSHELL_PROJECT_ID}_${ZONE}_cluster2 -n bank-of-anthos get pod
 
 
 cat <<'EOF' > asm-vs-gateway.yaml
