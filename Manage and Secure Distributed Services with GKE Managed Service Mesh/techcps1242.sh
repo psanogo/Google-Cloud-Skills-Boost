@@ -262,6 +262,31 @@ kubectl --context=gke_${DEVSHELL_PROJECT_ID}_${ZONE}_cluster1 -n bank-of-anthos 
 
 kubectl --context=gke_${DEVSHELL_PROJECT_ID}_${ZONE}_cluster2 -n bank-of-anthos get pod
 
+#!/bin/bash
+
+clusters=("cluster1" "cluster2")
+all_running=true
+
+for cluster in "${clusters[@]}"; do
+  echo "Checking pods in $cluster..."
+  
+  pods=$(kubectl --context=gke_${DEVSHELL_PROJECT_ID}_${ZONE}_${cluster} -n bank-of-anthos get pods --no-headers)
+  
+  if echo "$pods" | awk '{print $3}' | grep -v '^Running$' >/dev/null; then
+    echo "Not all pods are running in $cluster"
+    all_running=false
+  else
+    echo "All pods are running in $cluster"
+  fi
+done
+
+if [ "$all_running" = true ]; then
+  echo "All pods are running in both clusters."
+else
+  echo "Some pods are not running."
+fi
+
+
 cat <<'EOF' > asm-vs-gateway.yaml
 apiVersion: networking.istio.io/v1alpha3
 kind: Gateway
