@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Enabling Sensitive Data Protection Discovery for BigQuery | GSP1282 | ](https://www.cloudskillsboost.google/focuses/109503?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/Obtpe3JPoxA)
 
 ---
 
