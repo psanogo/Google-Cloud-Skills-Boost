@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Manage and Secure Distributed Services with GKE Managed Service Mesh | GSP1242 | ](https://www.cloudskillsboost.google/focuses/89751?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/b5CE6_mAvgw)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/fo0Oni6Fkxg)
 
 ---
 
