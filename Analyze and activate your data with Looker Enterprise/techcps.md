@@ -20,7 +20,7 @@
 
 ---
 
-### 🚨 Go to Develop > fintech and Open fintech.model file
+### 🚨 Go to Develop > fintech > fintech.model file
 ```
 # Place in `fintech` model
 explore: +loan_details {
@@ -66,7 +66,8 @@ explore: +loan_details {
 - **Visualization Type:** `Single Value`
 - **Visualization bar, click Edit:** Formatting
 - **Click:** Enable Conditional Formatting
-- **Rules:** greater than `3,000,000,000`
+- **Rules:** greater than `3000000000`
+- **Style BG** `Red`
 - **Create Dashboard:** `Loan Insights`
 - **Title Name:** `Total Amount of Outstanding Loans`
 
@@ -95,6 +96,13 @@ explore: +loan_details {
 - **Title Name:** `Top 10 Customers by Highest Income`
 
 ---
+
+### Task 6 🚀
+
+- **Total Amount of Outstanding Loans** `should refresh hourly`
+- **Percentage of Outstanding Loans** `should refresh daily`
+- **Top 10 Customers by Highest Income** `should refresh daily`
+
 
 
 ### Congratulations, you're all done with the lab 😄
