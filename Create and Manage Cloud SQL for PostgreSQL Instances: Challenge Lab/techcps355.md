@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Create and Manage Cloud SQL for PostgreSQL Instances: Challenge Lab - GSP355](https://www.cloudskillsboost.google/focuses/23465?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/6A7AX5-iuII)
 
 ---
 
