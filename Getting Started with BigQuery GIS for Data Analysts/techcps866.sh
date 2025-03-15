@@ -19,4 +19,8 @@ FROM
   \`bigquery-public-data.new_york_citibike.citibike_stations\`
 WHERE num_bikes_available > 30"
 
+echo ""
 
+echo "https://bigquerygeoviz.appspot.com/"
+
+echo ""
