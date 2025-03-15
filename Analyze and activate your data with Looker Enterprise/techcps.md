@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Analyze and activate your data with Looker Enterprise](https://www.cloudskillsboost.google/focuses/88314?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/QvXlbczHB1k)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/Mw7IYav0iao)
 
 ---
 
