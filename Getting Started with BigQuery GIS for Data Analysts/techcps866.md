@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Getting Started with BigQuery GIS for Data Analysts | GSP866 | ](https://www.cloudskillsboost.google/focuses/17817?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/ojCuzo5iv4k)
 
 ---
 
