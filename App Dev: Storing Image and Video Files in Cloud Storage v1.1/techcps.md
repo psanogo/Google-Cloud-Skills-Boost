@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [App Dev: Storing Image and Video Files in Cloud Storage v1.1](https://www.cloudskillsboost.google/focuses/20839?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/FVlFJzCX85k)
 
 ---
 
