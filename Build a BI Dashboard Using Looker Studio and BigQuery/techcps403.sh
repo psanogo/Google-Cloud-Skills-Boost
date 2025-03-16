@@ -1,7 +1,7 @@
 
 gcloud auth list
 
-bq mk --dataset Reports1
+bq mk --dataset Reports
 
 
 bq query \
