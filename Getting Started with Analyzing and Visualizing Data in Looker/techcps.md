@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Getting Started with Analyzing and Visualizing Data in Looker](https://www.cloudskillsboost.google/focuses/25305?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/Mw7IYav0iao)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/kdn_X0k72WY)
 
 ---
 
