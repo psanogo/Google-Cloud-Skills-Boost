@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Build a BI Dashboard Using Looker Studio and BigQuery | GSP403 | ](https://www.cloudskillsboost.google/focuses/5538?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/KKnD1c10R8Q)
 
 ---
 
