@@ -91,10 +91,6 @@ gcloud storage buckets create gs://$PROJECT_ID --location=$REGION
 bq mk -d  loadavro
 
 
-gcloud projects add-iam-policy-binding $PROJECT_ID \
---member="serviceAccount:$PROJECT_ID@appspot.gserviceaccount.com" \
---role="roles/artifactregistry.reader"
-
 npm install @google-cloud/storage @google-cloud/bigquery
 
 sleep 90
