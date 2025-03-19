@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Use Cloud Run Functions to Load BigQuery](https://www.cloudskillsboost.google/focuses/102965?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/c5Vyy5zDMvc)
 
 ---
 
