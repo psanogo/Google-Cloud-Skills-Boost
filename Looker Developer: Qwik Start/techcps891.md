@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Looker Developer: Qwik Start | GSP891 | ](https://www.cloudskillsboost.google/focuses/18478?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/j8OwgEbfUzY)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/lGEvcuh5WeQ)
 
 ---
 
