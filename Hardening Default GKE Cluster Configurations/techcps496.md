@@ -1,7 +1,7 @@
 
-### 💡 Lab Link: [Hardening Default GKE Cluster Configurations](https://www.cloudskillsboost.google/focuses/5158?parent=catalog)
+### 💡 Lab Link: [Hardening Default GKE Cluster Configurations | GSP496 | ](https://www.cloudskillsboost.google/focuses/5158?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/6hULZ4Hug3Q)
 
 ---
 
