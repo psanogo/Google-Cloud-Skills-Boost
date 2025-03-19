@@ -96,6 +96,7 @@ gcloud projects add-iam-policy-binding "${MYPROJECT}" --role=roles/container.dev
 
 gcloud iam service-accounts keys create key.json --iam-account "demo-developer@${MYPROJECT}.iam.gserviceaccount.com"
 
+sleep 15
 
 gcloud auth activate-service-account --key-file=key.json
 
