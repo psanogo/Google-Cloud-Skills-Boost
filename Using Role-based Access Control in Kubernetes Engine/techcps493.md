@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Using Role-based Access Control in Kubernetes Engine | GSP493 | ](https://www.cloudskillsboost.google/focuses/5156?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/gGSbtCVEkP8)
 
 ---
 
