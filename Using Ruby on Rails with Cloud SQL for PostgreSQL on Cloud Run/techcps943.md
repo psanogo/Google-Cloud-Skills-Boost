@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Using Ruby on Rails with Cloud SQL for PostgreSQL on Cloud Run | GSP943 | ](https://www.cloudskillsboost.google/focuses/20049?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/v8zoJmq2lKI)
 
 ---
 
