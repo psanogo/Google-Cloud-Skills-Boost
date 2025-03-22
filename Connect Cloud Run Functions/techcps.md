@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Connect Cloud Run Functions ](https://www.cloudskillsboost.google/focuses/57551?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/PTPAI-yXDTM)
 
 ---
 
