@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Generate Personalized Email Content with BigQuery Continuous Queries and Gemini | GS1284 | ](https://www.cloudskillsboost.google/focuses/110908?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/gY5O6-fs90Q)
 
 ---
 
