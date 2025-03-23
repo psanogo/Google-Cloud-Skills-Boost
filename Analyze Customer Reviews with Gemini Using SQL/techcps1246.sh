@@ -23,11 +23,7 @@ gcloud storage buckets add-iam-policy-binding gs://$DEVSHELL_PROJECT_ID-bucket \
   --role="roles/storage.objectAdmin"
 
 
-
-
 bq --location=US mk gemini_demo
-
-
 
 
 
@@ -39,6 +35,8 @@ FROM FILES (
   format = 'CSV',
   uris = ['gs://$DEVSHELL_PROJECT_ID-bucket/gsp1246/customer_reviews.csv']);
 "
+
+
 
 
 
@@ -54,11 +52,7 @@ OPTIONS (
 "
 
 
-###
 
-echo "please subscribe to techcps[https://www.youtube.com/@techcps]"
-
-###
 
 
 bq query --use_legacy_sql=false \
@@ -69,6 +63,8 @@ OPTIONS (endpoint = 'gemini-pro')
 "
 
 
+
+
 bq query --use_legacy_sql=false \
 "
 CREATE OR REPLACE MODEL \`gemini_demo.gemini_pro_vision\`
@@ -77,29 +73,24 @@ OPTIONS (endpoint = 'gemini-pro-vision')
 "
 
 
-###4
-
-echo "please subscribe to techcps[https://www.youtube.com/@techcps]"
-
-###7
 
 
 
-
-
-
-bq query --use_legacy_sql=false '
+bq query --use_legacy_sql=false \
+"
 CREATE OR REPLACE TABLE
-`gemini_demo.review_images_results` AS (
+\`gemini_demo.review_images_results\` AS (
 SELECT
     uri,
     ml_generate_text_llm_result
 FROM
-    ML.GENERATE_TEXT( MODEL `gemini_demo.gemini_pro_vision`,
-    TABLE `gemini_demo.review_images`,
+    ML.GENERATE_TEXT( MODEL \`gemini_demo.gemini_pro_vision\`,
+    TABLE \`gemini_demo.review_images\`,
     STRUCT( 0.2 AS temperature,
-        "For each image, provide a summary of what is happening in the image and keywords from the summary. Answer in JSON format with two keys: summary, keywords. Summary should be a string, keywords should be a list." AS PROMPT,
-        TRUE AS FLATTEN_JSON_OUTPUT)));'
+        'For each image, provide a summary of what is happening in the image and keywords from the summary. Answer in JSON format with two keys: summary, keywords. Summary should be a string, keywords should be a list.' AS PROMPT,
+        TRUE AS FLATTEN_JSON_OUTPUT)));
+"
+
 
 
 
@@ -126,20 +117,11 @@ CREATE OR REPLACE TABLE
 
 
 
+
 bq query --use_legacy_sql=false \
 "
 SELECT * FROM \`gemini_demo.review_images_results_formatted\`
 "
-
-
-
-
-###7
-
-echo "please subscribe to techcps[https://www.youtube.com/@techcps]"
-
-###5
-
 
 
 
@@ -161,6 +143,7 @@ MODEL \`gemini_demo.gemini_pro\`,
 STRUCT(
    0.2 AS temperature, TRUE AS flatten_json_output)));
 "
+
 
 
 
@@ -208,13 +191,13 @@ CREATE OR REPLACE TABLE \`gemini_demo.customer_reviews_analysis\` AS (
 
 
 
+
+
 bq query --use_legacy_sql=false \
 "
 SELECT * FROM \`gemini_demo.customer_reviews_analysis\`
 ORDER BY review_datetime
 "
-
-
 
 
 bq query --use_legacy_sql=false \
@@ -233,12 +216,13 @@ FROM \`gemini_demo.customer_reviews_analysis\`;
 "
 
 
+
+
 bq query --use_legacy_sql=false \
 "
 SELECT * FROM \`gemini_demo.cleaned_data_view\`
 ORDER BY review_datetime
 "
-
 
 
 
@@ -265,16 +249,6 @@ ORDER BY sentiment, count;
 
 
 
-###5
-
-echo "please subscribe to techcps[https://www.youtube.com/@techcps]"
-
-###6
-
-
-
-
-
 
 bq query --use_legacy_sql=false \
 "
@@ -296,11 +270,11 @@ STRUCT(
 
 
 
+
 bq query --use_legacy_sql=false \
 "
 SELECT * FROM \`gemini_demo.customer_reviews_marketing\`
 "
-
 
 
 
@@ -324,6 +298,7 @@ bq query --use_legacy_sql=false \
 "
 SELECT * FROM \`gemini_demo.customer_reviews_marketing_formatted\`
 "
+
 
 
 
@@ -356,6 +331,7 @@ SELECT * FROM \`gemini_demo.customer_reviews_cs_response\`
 
 
 
+
 bq query --use_legacy_sql=false \
 '
 CREATE OR REPLACE TABLE
@@ -378,16 +354,6 @@ SELECT * FROM \`gemini_demo.customer_reviews_cs_response_formatted\`
 "
 
 
-###6
-
-echo "please subscribe to techcps[https://www.youtube.com/@techcps]"
-
-###7
-
-
-
-
-
 bq query --use_legacy_sql=false '
 CREATE OR REPLACE TABLE
 `gemini_demo.review_images_results` AS (
@@ -404,10 +370,12 @@ FROM
 
 
 
+
 bq query --use_legacy_sql=false \
 "
 SELECT * FROM \`gemini_demo.review_images_results\`
 "
+
 
 
 
@@ -422,6 +390,7 @@ CREATE OR REPLACE TABLE
   FROM
     `gemini_demo.review_images_results` results )
 '
+
 
 
 
