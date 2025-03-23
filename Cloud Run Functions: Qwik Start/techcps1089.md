@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Cloud Run Functions: Qwik Start | GSP1089 | ](https://www.cloudskillsboost.google/focuses/49757?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/unD0Uud7_kI)
 
 ---
 
