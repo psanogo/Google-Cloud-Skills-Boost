@@ -1,8 +1,8 @@
 
 
-## 💡 Lab Link: [Analyze Customer Reviews with Gemini Using SQL - GSP1246](https://www.cloudskillsboost.google/focuses/98856?parent=catalog)
+### 💡 Lab Link: [Analyze Customer Reviews with Gemini Using SQL - GSP1246](https://www.cloudskillsboost.google/focuses/98856?parent=catalog)
 
-## 🚀 Lab Solution [Watch Here](https://youtu.be/xZzRM-F0_rY)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/xZzRM-F0_rY)
 
 ---
 
@@ -14,13 +14,15 @@
 
 ---
 
-## 🚨Copy and run the below commands in Cloud Shell:
+### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Analyze%20Customer%20Reviews%20with%20Gemini%20Using%20SQL/techcps1246.sh
 sudo chmod +x techcps1246.sh
 ./techcps1246.sh
 ```
+
+- **If the code is not executed properly, then re run the GitHub commands**
 ---
 
 ### Congratulations, you're all done with the lab 😄
