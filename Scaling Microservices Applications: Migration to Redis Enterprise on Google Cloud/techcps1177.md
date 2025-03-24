@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Scaling Microservices Applications: Migration to Redis Enterprise on Google Cloud | GSP1177 | ](https://www.cloudskillsboost.google/focuses/74654?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/L0Xd_Y5F2Uw)
 
 ---
 
