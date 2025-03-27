@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Migrate Existing Prometheus Monitoring Workloads to Google Cloud | GSP1025 | ](https://www.cloudskillsboost.google/focuses/33331?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/lrgDYslmQMA)
 
 ---
 
