@@ -1,5 +1,5 @@
 
-export PROJECT=$(gcloud projects list --format="value(PROJECT_ID)")
+export PROJECT=$(gcloud config get-value project)
 
 REGION='us'
 
