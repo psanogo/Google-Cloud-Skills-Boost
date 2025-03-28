@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Configuring GKE-Native Monitoring and Logging](https://www.cloudskillsboost.google/focuses/19113?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/E2NC2UOUo2k)
 
 ---
 
