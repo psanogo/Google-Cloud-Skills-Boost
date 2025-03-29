@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Interconnecting Networks - Challenge Lab](https://www.cloudskillsboost.google/focuses/37986?parent=game)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/D5T0UPpjjYY)
 
 ---
 
