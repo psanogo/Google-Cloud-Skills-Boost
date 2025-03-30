@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [HTTP Google Cloud Run Functions in Go | GSP602 | ](https://www.cloudskillsboost.google/focuses/5171?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/-8gQoitH9RU)
 
 ---
 
