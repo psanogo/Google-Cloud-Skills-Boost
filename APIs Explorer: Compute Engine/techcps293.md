@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [APIs Explorer: Compute Engine | GSP293 | ](https://www.cloudskillsboost.google/focuses/3523?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/WxyJ8uogyGY)
 
 ---
 
