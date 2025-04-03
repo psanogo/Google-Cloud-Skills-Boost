@@ -13,7 +13,7 @@
 
 ---
 
-### 🚨## Click here to open [Online Notepad](https://www.rapidtables.com/tools/notepad.html#)
+### 🚨 Click here to open [Online Notepad](https://www.rapidtables.com/tools/notepad.html#)
 
 ```
 API_KEY=""
