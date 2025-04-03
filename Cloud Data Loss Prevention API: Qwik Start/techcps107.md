@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Cloud Data Loss Prevention API: Qwik Start | GSP107 | ](https://www.cloudskillsboost.google/focuses/600?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/-g9z5GyMSU4)
 
 ---
 
