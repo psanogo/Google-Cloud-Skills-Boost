@@ -1,5 +1,5 @@
 
-### 💡 Lab Link: [Cloud Speech API 3 Ways: Challenge Lab | ARC132 | ](https://www.cloudskillsboost.google/focuses/600?parent=catalog)
+### 💡 Lab Link: [Cloud Speech API 3 Ways: Challenge Lab | ARC132 | ](https://www.cloudskillsboost.google/focuses/67215?parent=catalog)
 
 ### 🚀 Lab Solution [Watch Here](https://youtu.be/m0oCWUi9_-0)
 
