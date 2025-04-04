@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Use APIs to Work with Cloud Storage: Challenge Lab | ARC125 | ](https://www.cloudskillsboost.google/focuses/65991?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/XMWYfJSv_Fs)
 
 ---
 
