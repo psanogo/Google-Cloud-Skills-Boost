@@ -49,6 +49,20 @@ docker container ls
 
 gsutil cp gs://cloud-training/gsp895/prediction_script.py .
 
+gsutil mb gs://${PROJECT_ID}
+gsutil -m cp gs://cloud-training/gsp897/cosmetic-test-data/*.png \
+gs://${PROJECT_ID}/cosmetic-test-data/
+gsutil cp gs://${PROJECT_ID}/cosmetic-test-data/IMG_07703.png .
+
+sudo apt install python3 -y
+sudo apt install python3-pip -y
+sudo apt install python3.11-venv -y 
+python3 -m venv create myvenv
+source myvenv/bin/activate
+pip install absl-py  
+pip install numpy 
+pip install requests
+
 gsutil mb -p "$PROJECT_ID" gs://"$PROJECT_ID" || true
 gsutil -m cp gs://cloud-training/gsp897/cosmetic-test-data/*.png gs://"$PROJECT_ID"/cosmetic-test-data/
 
