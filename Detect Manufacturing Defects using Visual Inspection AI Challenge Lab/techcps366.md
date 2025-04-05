@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Detect Manufacturing Defects using Visual Inspection AI: Challenge Lab | GSP366 | ](https://www.cloudskillsboost.google/focuses/34184?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/hsassRZAZj8)
 
 ---
 
