@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Develop No-Code Chat Apps with AppSheet - GSP1146](https://www.cloudskillsboost.google/focuses/62969?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/H6hVMXoT9VQ)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/ArAs77yl4Kg)
 
 ---
 
