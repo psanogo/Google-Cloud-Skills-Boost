@@ -20,7 +20,7 @@
 ---
 
 ### 💡 Create organizational unit
-- **rganizational unit Name** `History`
+- **Name if oganizational unit** `History`
 
 ---
 
