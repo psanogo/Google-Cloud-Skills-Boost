@@ -1,7 +1,7 @@
 
-### 💡 Lab Link: [Measuring and Improving Speech Accuracy | GSP758 | ](https://www.cloudskillsboost.google/focuses/34184?parent=catalog)
+### 💡 Lab Link: [Measuring and Improving Speech Accuracy | GSP758 | ](https://www.cloudskillsboost.google/focuses/13597?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/twP_HKOiNmw)
 
 ---
 
