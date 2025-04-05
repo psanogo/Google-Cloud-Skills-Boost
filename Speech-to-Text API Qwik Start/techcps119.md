@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Speech-to-Text API: Qwik Start | GSP119 | ](https://www.cloudskillsboost.google/focuses/588?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/PrDFdxXvBvE)
 
 ---
 
