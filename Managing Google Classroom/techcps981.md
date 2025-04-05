@@ -1,6 +1,6 @@
 
 ### 💡 Lab Name: Managing Google Classroom GSP981
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/1bIKHHkR8dw)
 
 ---
 
