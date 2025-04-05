@@ -1,15 +1,9 @@
 
-<div align="center" style="padding: 5px;">
-  <h3>☁️ Speech-to-Text API: Qwik Start - GSP119</h3>
-  
-  <a href="https://www.cloudskillsboost.google/focuses/588?parent=catalog">
-    <img src="https://img.shields.io/badge/Lab_Link-GSP119-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Lab Link">
-  </a>
-  &nbsp;
-  <a href="https://youtu.be/tpkAAO-m1Gw">
-    <img src="https://img.shields.io/badge/Watch_Solution_on_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Solution">
-  </a>
-</div>
+### 💡 Lab Link: [Speech-to-Text API: Qwik Start | GSP119 | ](https://www.cloudskillsboost.google/focuses/588?parent=catalog)
+
+### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+
+---
 
 ### ⚠️ Disclaimer
 - **This script and guide are provided for the educational purposes to help you understand the lab services and boost your career. Before using the script, please open and review it to familiarize yourself with Google Cloud services. Ensure that you follow 'Qwiklabs' terms of service and YouTube’s community guidelines. The goal is to enhance your learning experience, not to bypass it.**
@@ -28,24 +22,16 @@ sudo chmod +x techcps119.sh
 ```
 
 ---
-
 ### Congratulations, you're all done with the lab 😄
-
----
-
-<div align="center" style="padding: 5px;">
-  <h3>📺 Don't forget to Like, Share & Subscribe!</h3>
-
-  <a href="https://www.youtube.com/@techcps">
-    <img src="https://img.shields.io/badge/YouTube-TechCPS-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Channel">
-  </a>
-</div>
-
 ---
 
 <div align="center" style="padding: 5px;">
   <h3>📱 Join the Cloud Community</h3>
 
+  <a href="https://www.youtube.com/@techcps">
+    <img src="https://img.shields.io/badge/YouTube-TechCPS-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Channel">
+  </a>
+  &nbsp;
   <a href="https://t.me/Techcps">
     <img src="https://img.shields.io/badge/Telegram_Channel-0088cc?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Channel">
   </a>
@@ -76,6 +62,3 @@ sudo chmod +x techcps119.sh
 
   <h3>Thanks for watching and stay connected 🙂</h3>
 </div>
-
-
----
