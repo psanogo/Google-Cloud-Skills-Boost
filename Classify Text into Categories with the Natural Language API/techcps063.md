@@ -14,9 +14,7 @@
 
 ---
 
-```
-export API_KEY=
-```
+### 🚨Copy and run the below commands in Cloud Shell:
 ```
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Classify%20Text%20into%20Categories%20with%20the%20Natural%20Language%20API/techcps063.sh
 sudo chmod +x techcps063.sh
