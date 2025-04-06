@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Classify Text into Categories with the Natural Language API - GSP063](https://www.cloudskillsboost.google/focuses/1749?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/Da-5REZ6LzU)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/femnP9UFZKs)
 
 ---
 
