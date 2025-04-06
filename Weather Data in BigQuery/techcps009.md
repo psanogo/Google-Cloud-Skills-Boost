@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Weather Data in BigQuery | GSP009 | ](https://www.cloudskillsboost.google/focuses/609?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/C9dKZymnfIs)
 
 ---
 
