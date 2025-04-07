@@ -1,4 +1,5 @@
 
+read -p "Enter the SHARED_ID: " SHARED_ID
 
 cat > view.py <<EOF_CP
 from google.cloud import bigquery
@@ -27,4 +28,3 @@ python3 view.py
 sleep 3
 
 echo "PUBLISHER ID : $DEVSHELL_PROJECT_ID"
-
