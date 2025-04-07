@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Creating a Gmail Add-on - GSP249](https://www.cloudskillsboost.google/focuses/4049?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/3AS1tTx1uIU)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/35mMs_PeVxA)
 
 ---
 
