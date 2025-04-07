@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Consuming Customer Specific Datasets from Data Sharing Partners using BigQuery - GSP1043](https://www.cloudskillsboost.google/focuses/42015?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/YzXzrCaWR_w)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/2kYyubIn8IE)
 
 ---
 
