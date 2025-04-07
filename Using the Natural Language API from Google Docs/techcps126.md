@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Using the Natural Language API from Google Docs | GSP126 | ](https://www.cloudskillsboost.google/focuses/680?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/QliFXjS0EdU)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/3Ws4llOptr8)
 
 ---
 
