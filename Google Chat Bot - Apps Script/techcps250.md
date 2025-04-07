@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Google Chat Bot - Apps Script | GSP250 | ](https://www.cloudskillsboost.google/focuses/32756?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/SBUaZ8FWCss)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/7suytKhecWo)
 
 ---
 
