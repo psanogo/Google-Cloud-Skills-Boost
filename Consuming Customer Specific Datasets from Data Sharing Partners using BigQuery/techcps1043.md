@@ -17,20 +17,11 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-export SHARED_ID=
-```
-
-```
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Consuming%20Customer%20Specific%20Datasets%20from%20Data%20Sharing%20Partners%20using%20BigQuery/techcps1.sh
 sudo chmod +x techcps1.sh
 ./techcps1.sh
 ```
-
 ---
-
-```
-export PUBLISHER_ID=
-```
 
 ```
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Consuming%20Customer%20Specific%20Datasets%20from%20Data%20Sharing%20Partners%20using%20BigQuery/techcps2.sh
