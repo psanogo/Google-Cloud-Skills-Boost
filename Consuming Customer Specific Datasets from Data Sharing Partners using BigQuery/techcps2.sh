@@ -1,4 +1,6 @@
 
+read -p "Enter the PUBLISHER_ID: " PUBLISHER_ID
+
 cat > view_b.py <<EOF_CP
 from google.cloud import bigquery
 client = bigquery.Client()
