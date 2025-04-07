@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Detect and Investigate Threats with Security Command Center | GSP1125 | ](https://www.cloudskillsboost.google/focuses/71932?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/_mSPtnxfsys)
 
 ---
 
