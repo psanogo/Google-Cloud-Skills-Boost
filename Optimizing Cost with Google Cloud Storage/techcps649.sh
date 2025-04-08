@@ -128,6 +128,8 @@ while true; do
   fi
 done
 
+sleep 10
+
 export FUNCTION_URL=$(gcloud functions describe migrate_storage --region=$REGION --format="value(serviceConfig.uri)")
 export IDLE_BUCKET_NAME=$PROJECT_ID-idle-bucket
 
@@ -135,5 +137,4 @@ sed -i "s/\\\$IDLE_BUCKET_NAME/$IDLE_BUCKET_NAME/" $WORKDIR/migrate-storage/inci
 
 envsubst < $WORKDIR/migrate-storage/incident.json | curl -X POST -H "Content-Type: application/json" $FUNCTION_URL -d @-
 
-gsutil defstorageclass get gs://$IDLE_BUCKET_NAME
-
+gsutil defstorageclass get gs://$PROJECT_ID-idle-bucket
