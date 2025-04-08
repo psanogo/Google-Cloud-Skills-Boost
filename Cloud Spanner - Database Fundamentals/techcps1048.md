@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Cloud Spanner - Database Fundamentals - GSP1048](https://www.cloudskillsboost.google/focuses/54352?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/V6nSyLSSbFc)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/xcnMW1KYvVg)
 
 ---
 
