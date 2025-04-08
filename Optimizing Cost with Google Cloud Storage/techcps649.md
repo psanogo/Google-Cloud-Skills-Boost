@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Optimizing Cost with Google Cloud Storage | GSP649 | ](https://www.cloudskillsboost.google/focuses/7830?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/EfhA9NLo5eQ)
 
 ---
 
