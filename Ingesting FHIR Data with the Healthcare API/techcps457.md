@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Ingesting FHIR Data with the Healthcare API | GSP457 | ](https://www.cloudskillsboost.google/focuses/6104?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/-Xx9HS-Bzes)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/qxtzGR9hjHs)
 
 ---
 
