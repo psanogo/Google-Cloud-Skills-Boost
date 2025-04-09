@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [De-identify DICOM Data with the Healthcare API | GSP626 | ](https://www.cloudskillsboost.google/focuses/6920?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/kKjVnEWCqLk)
 
 ---
 
