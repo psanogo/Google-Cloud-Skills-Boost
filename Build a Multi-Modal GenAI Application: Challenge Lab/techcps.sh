@@ -1,7 +1,7 @@
 
 
 
-export ID="$(gcloud projects list --format='value(PROJECT_ID)' | head -n1)"
+export ID="$(gcloud projects list --format='value(PROJECT_ID)')"
 
 export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
 
@@ -32,7 +32,7 @@ sleep 10
 /usr/bin/python3 /home/student/generate_bouquet.py
 
 
-export ID="$(gcloud projects list --format='value(PROJECT_ID)' | head -n1)"
+export ID="$(gcloud projects list --format='value(PROJECT_ID)')"
 
 export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
 
