@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Monitor Environments with Google Cloud Managed Service for Prometheus: Challenge Lab | GSP364 | ](https://www.cloudskillsboost.google/focuses/33337?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/xGSGMd5Aov4)
 
 ---
 
