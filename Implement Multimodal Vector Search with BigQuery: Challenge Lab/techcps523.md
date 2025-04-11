@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Implement Multimodal Vector Search with BigQuery: Challenge Lab | GSP523 | ](https://www.cloudskillsboost.google/focuses/117533?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/3b6aQBgAg-w)
 
 ---
 
