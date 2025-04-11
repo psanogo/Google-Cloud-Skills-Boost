@@ -26,7 +26,7 @@ gcloud projects add-iam-policy-binding $PROJECT_ID \
   --role="roles/aiplatform.user"
 
 
-sleep 15
+sleep 20
 
 # Task 2
 
@@ -41,6 +41,66 @@ OPTIONS (
 
 
 sleep 10
+
+# TAsk 3
+
+
+bq query --use_legacy_sql=false "
+CREATE OR REPLACE MODEL \`${PROJECT_ID}.gcc_bqml_dataset.gcc_embedding\`
+REMOTE WITH CONNECTION \`${REGION}.vector_conn\`
+OPTIONS (
+  endpoint = 'multimodalembedding@001'
+);"
+
+
+sleep 10
+
+bq query --use_legacy_sql=false "
+CREATE OR REPLACE TABLE \`${PROJECT_ID}.gcc_bqml_dataset.gcc_retail_store_embeddings\` AS
+SELECT *, REGEXP_EXTRACT(uri, r'[^/]+$') AS product_name
+FROM ML.GENERATE_EMBEDDING(
+  MODEL \`${PROJECT_ID}.gcc_bqml_dataset.gcc_embedding\`,
+  TABLE \`${PROJECT_ID}.gcc_bqml_dataset.gcc_image_object_table\`
+);"
+
+
+sleep 10
+
+bq show --format=prettyjson ${PROJECT_ID}:gcc_bqml_dataset.gcc_retail_store_embeddings
+
+
+sleep 10
+
+# Task 4
+
+bq query --use_legacy_sql=false "
+CREATE OR REPLACE TABLE \`${PROJECT_ID}.gcc_bqml_dataset.gcc_vector_search_table\` AS
+SELECT
+  base.uri,
+  base.product_name,
+  base.content_type,
+  distance
+FROM
+  VECTOR_SEARCH(
+    TABLE \`${PROJECT_ID}.gcc_bqml_dataset.gcc_retail_store_embeddings\`,
+    'ml_generate_embedding_result',
+    (
+      SELECT
+        ml_generate_embedding_result AS embedding_col
+      FROM
+        ML.GENERATE_EMBEDDING(
+          MODEL \`${PROJECT_ID}.gcc_bqml_dataset.gcc_embedding\`,
+          (SELECT 'Men Sweaters' AS content),
+          STRUCT(TRUE AS flatten_json_output)
+        )
+    ),
+    top_k => 3,
+    distance_type => 'COSINE'
+  );
+"
+
+sleep 20
+
 
 # TAsk 3
 
