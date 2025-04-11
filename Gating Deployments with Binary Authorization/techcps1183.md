@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Gating Deployments with Binary Authorization | GSP1183 | ](https://www.cloudskillsboost.google/focuses/83255?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/b-yxhQpKci0)
 
 ---
 
