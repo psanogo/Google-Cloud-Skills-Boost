@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Discover and Protect Sensitive Data Across Your Ecosystem: Challenge Lab | GSP522 | ](https://www.cloudskillsboost.google/focuses/109502?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/F46FPznLv7k)
 
 ---
 
