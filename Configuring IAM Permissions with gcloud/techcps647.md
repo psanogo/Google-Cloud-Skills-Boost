@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Configuring IAM Permissions with gcloud - GSP647](https://www.cloudskillsboost.google/focuses/7678?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/vSbn050BPGI)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/dFEubPIdU6U)
 
 ---
 
