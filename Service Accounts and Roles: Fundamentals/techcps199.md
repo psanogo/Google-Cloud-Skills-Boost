@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Service Accounts and Roles: Fundamentals | GSP199 | ](https://www.cloudskillsboost.google/focuses/1038?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/zF6iNawLkk4)
 
 ---
 
