@@ -13,12 +13,6 @@
 
 ---
 
-### 🚨Export the ZONE Name correctly:
-
-```
-export ZONE=
-```
-
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
