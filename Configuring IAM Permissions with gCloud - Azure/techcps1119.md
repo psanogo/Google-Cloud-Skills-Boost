@@ -14,6 +14,8 @@
 
 ---
 
+### 🚀 Copy and run the below commands in Cloud Shell:
+
 ```
 export ZONE=$(gcloud compute instances list --filter="name=centos-clean" --format="value(zone)")
 gcloud compute ssh centos-clean --zone=$ZONE --quiet
