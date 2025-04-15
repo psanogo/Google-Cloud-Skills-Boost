@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Cloud Scheduler: Qwik Start - GSP401](https://www.cloudskillsboost.google/focuses/3556?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/FpKxZ9kEGhw)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/OpZem6qjmxE)
 
 ---
 
