@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Cloud Filestore: Qwik Start - GSP244](https://www.cloudskillsboost.google/focuses/1802?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/BmZiVV2Mf0Y)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/a14E6Ph2-jg)
 
 ---
 
