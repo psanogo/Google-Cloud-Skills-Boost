@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Configuring IAM Permissions with gCloud - Azure - GSP1119](https://www.cloudskillsboost.google/focuses/60391?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/DmuoS0xyJGg)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/1y98P3wX3lE)
 
 ---
 
