@@ -77,6 +77,8 @@ read -e -p $'\033[1;33mEnter the USER2: \033[0m' USER2
 
 read -e -p $'\033[1;33mEnter the PROJECT_ID2: \033[0m' PROJECT_ID2
 
+read -e -p $'\033[1;33mEnter the VM ZONE: \033[0m' ZONE
+
 gcloud config configurations activate user2
 
 echo "export PROJECTID2=$PROJECT_ID2" >> ~/.bashrc
@@ -110,7 +112,6 @@ gcloud projects add-iam-policy-binding $PROJECT_ID2 --member user:$USER2 --role=
 
 gcloud config configurations activate user2
 
-read -e -p $'\033[1;33mEnter the VM ZONE: \033[0m' ZONE
 gcloud compute instances create lab-2 --zone $ZONE
 
 gcloud compute instances list
