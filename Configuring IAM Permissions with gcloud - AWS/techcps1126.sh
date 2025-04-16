@@ -73,8 +73,6 @@ gcloud iam roles list | grep "name:"
 
 gcloud iam roles describe roles/compute.instanceAdmin
 
-
-
 read -e -p $'\033[1;33mEnter the USER2: \033[0m' USER2
 
 read -e -p $'\033[1;33mEnter the PROJECT_ID2: \033[0m' PROJECT_ID2
