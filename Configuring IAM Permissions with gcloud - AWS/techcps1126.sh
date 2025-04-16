@@ -1,6 +1,5 @@
 
 
-
 gcloud --version
 
 gcloud auth login
@@ -74,6 +73,8 @@ gcloud iam roles list | grep "name:"
 
 gcloud iam roles describe roles/compute.instanceAdmin
 
+
+
 read -e -p $'\033[1;33mEnter the USER2: \033[0m' USER2
 
 read -e -p $'\033[1;33mEnter the PROJECT_ID2: \033[0m' PROJECT_ID2
@@ -87,7 +88,6 @@ echo "export PROJECTID2=$PROJECT_ID2" >> ~/.bashrc
 
 gcloud config configurations activate default
 
-#sudo apt -y install jq
 sudo yum -y install epel-release
 sudo yum -y install jq
 
@@ -98,11 +98,11 @@ gcloud projects add-iam-policy-binding $PROJECT_ID2 --member user:$USER2 --role=
 
 gcloud config configurations activate user2
 
-gcloud compute instances list
-
 gcloud config set project $PROJECT_ID2
 
-gcloud compute instances create lab-2 --zone $ZONE --machine-type=e2-standard-2
+gcloud compute instances list
+
+# gcloud compute instances create lab-2 --zone $ZONE --machine-type=e2-standard-2
 
 gcloud config configurations activate default
 
@@ -113,6 +113,8 @@ gcloud projects add-iam-policy-binding $PROJECT_ID2 --member user:$USER2 --role=
 gcloud projects add-iam-policy-binding $PROJECT_ID2 --member user:$USER2 --role=projects/$PROJECT_ID2/roles/devops
 
 gcloud config configurations activate user2
+
+gcloud compute instances create lab-2 --zone $ZONE --machine-type=e2-standard-2
 
 gcloud compute instances list
 
@@ -128,8 +130,9 @@ SA=$(gcloud iam service-accounts list --format="value(email)" --filter "displayN
 
 gcloud projects add-iam-policy-binding $PROJECT_ID2 --member serviceAccount:$SA --role=roles/iam.serviceAccountUser
 
+gcloud projects add-iam-policy-binding $PROJECT_ID2 --member serviceAccount:$SA --role=roles/iam.serviceAccountUser
+
 gcloud projects add-iam-policy-binding $PROJECT_ID2 --member serviceAccount:$SA --role=roles/compute.instanceAdmin
 
 gcloud compute instances create lab-3 --zone $ZONE --machine-type=e2-standard-2 --service-account $SA --scopes "https://www.googleapis.com/auth/compute"
-
 
