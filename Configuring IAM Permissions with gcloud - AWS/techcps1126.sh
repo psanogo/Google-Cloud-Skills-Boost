@@ -69,6 +69,12 @@ while true; do
 done
 
 
+gcloud compute instances list
+
+# gcloud compute instances create lab-2 --zone $ZONE --machine-type=e2-standard-2
+
+gcloud config configurations activate default
+
 gcloud iam roles list | grep "name:"
 
 gcloud iam roles describe roles/compute.instanceAdmin
@@ -82,12 +88,14 @@ read -e -p $'\033[1;33mEnter the VM ZONE: \033[0m' ZONE
 gcloud config configurations activate user2
 
 echo "export PROJECTID2=$PROJECT_ID2" >> ~/.bashrc
+
 . ~/.bashrc
+gcloud config set project $PROJECT_ID2
+
 
 gcloud config configurations activate default
 
-sudo yum -y install epel-release
-sudo yum -y install jq
+sudo apt -y install jq
 
 echo "export USERID2=$USER2" >> ~/.bashrc
 
@@ -96,15 +104,11 @@ gcloud projects add-iam-policy-binding $PROJECT_ID2 --member user:$USER2 --role=
 
 gcloud config configurations activate user2
 
-gcloud config set project $PROJECT_ID2
-
-gcloud compute instances list
-
 # gcloud compute instances create lab-2 --zone $ZONE --machine-type=e2-standard-2
 
 gcloud config configurations activate default
 
-gcloud iam roles create devops --project $PROJECTID2 --permissions "compute.instances.create,compute.instances.delete,compute.instances.start,compute.instances.stop,compute.instances.update,compute.disks.create,compute.subnetworks.use,compute.subnetworks.useExternalIp,compute.instances.setMetadata,compute.instances.setServiceAccount"
+gcloud iam roles create devops --project $PROJECT_ID2 --permissions "compute.instances.create,compute.instances.delete,compute.instances.start,compute.instances.stop,compute.instances.update,compute.disks.create,compute.subnetworks.use,compute.subnetworks.useExternalIp,compute.instances.setMetadata,compute.instances.setServiceAccount"
 
 gcloud projects add-iam-policy-binding $PROJECT_ID2 --member user:$USER2 --role=roles/iam.serviceAccountUser
 
@@ -125,8 +129,6 @@ gcloud iam service-accounts create devops --display-name devops
 gcloud iam service-accounts list  --filter "displayName=devops"
 
 SA=$(gcloud iam service-accounts list --format="value(email)" --filter "displayName=devops")
-
-gcloud projects add-iam-policy-binding $PROJECT_ID2 --member serviceAccount:$SA --role=roles/iam.serviceAccountUser
 
 gcloud projects add-iam-policy-binding $PROJECT_ID2 --member serviceAccount:$SA --role=roles/iam.serviceAccountUser
 
