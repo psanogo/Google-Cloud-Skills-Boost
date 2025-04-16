@@ -122,6 +122,7 @@ gcloud compute instances list
 
 gcloud config configurations activate default
 
+export PROJECT_ID2=$PROJECT_ID2
 gcloud config set project $PROJECT_ID2
 
 gcloud iam service-accounts create devops --display-name devops
@@ -130,6 +131,9 @@ gcloud iam service-accounts list  --filter "displayName=devops"
 
 SA=$(gcloud iam service-accounts list --format="value(email)" --filter "displayName=devops")
 
+sleep 10
+
+echo $PROJECT_ID2
 gcloud projects add-iam-policy-binding $PROJECT_ID2 --member serviceAccount:$SA --role=roles/iam.serviceAccountUser
 
 gcloud projects add-iam-policy-binding $PROJECT_ID2 --member serviceAccount:$SA --role=roles/compute.instanceAdmin
