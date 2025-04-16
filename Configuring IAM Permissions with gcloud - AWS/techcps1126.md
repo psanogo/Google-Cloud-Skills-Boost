@@ -16,51 +16,9 @@
 
 ### 🚨Copy and run the below commands in Cloud Shell:
 
-
 ```
-export ZONE=
-```
-
-```
-gcloud compute ssh centos-clean --zone=$ZONE --project=$DEVSHELL_PROJECT_ID --quiet
-```
-
-```
-gcloud --version
-
-gcloud auth login --quiet
-```
-
-```
-export REGION="${ZONE%-*}"
-
-gcloud config set compute/region "$REGION"
-gcloud config set compute/zone "$ZONE"
-
-gcloud compute instances create lab-1
-```
----
-
-## Change your current zone for another zone in the same region
->  For example, if your current zone is us-central1-a, you could select us-central1-b or "c" or "d"
-
-```
-gcloud config set compute/zone $ZONE
-```
-
-```
-gcloud init --no-launch-browser
-```
----
-
-- **Set USERNAME 2**
-```
-export USER2=
-```
-
-- **Set PROJECT ID 2**
-```
-export PROJECT_ID2=
+export ZONE=$(gcloud compute instances list --filter="name=debian-clean" --format="value(zone)")
+gcloud compute ssh debian-clean --zone=$ZONE --quiet
 ```
 
 ```
