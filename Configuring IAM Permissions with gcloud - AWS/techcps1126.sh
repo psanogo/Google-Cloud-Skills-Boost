@@ -87,7 +87,9 @@ echo "export PROJECTID2=$PROJECT_ID2" >> ~/.bashrc
 
 gcloud config configurations activate default
 
-sudo apt -y install jq
+#sudo apt -y install jq
+sudo yum -y install epel-release
+sudo yum -y install jq
 
 echo "export USERID2=$USER2" >> ~/.bashrc
 
