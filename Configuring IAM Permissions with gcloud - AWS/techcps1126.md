@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Configuring IAM Permissions with gCloud - AWS - GSP1126](https://www.cloudskillsboost.google/focuses/60386?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/Xe5bM_8FU18)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/Zc4IW-ddoDw)
 
 ---
 
