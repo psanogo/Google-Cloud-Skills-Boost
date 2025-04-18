@@ -14,13 +14,7 @@
 
 ---
 
-### 🚨Export the REGION name correctly:
-
-```
-export REGION=
-```
-
-### 🚨Copy and run the below commands in Cloud Shell:
+### 🚨Copy and run the below commands in Terminal:
 
 ```
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Build%20an%20AI%20Image%20Recognition%20app%20using%20Gemini%20on%20Vertex%20AI/techcps.sh
