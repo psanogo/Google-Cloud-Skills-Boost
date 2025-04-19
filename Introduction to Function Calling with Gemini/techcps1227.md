@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Introduction to Function Calling with Gemini | GSP1227 | ](https://www.cloudskillsboost.google/focuses/85642?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/x9AEH2rzb0k)
 
 ---
 
