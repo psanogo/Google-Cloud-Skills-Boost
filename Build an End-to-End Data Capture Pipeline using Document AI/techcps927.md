@@ -21,16 +21,6 @@ sudo chmod +x techcps1.sh
 ./techcps1.sh
 ```
 
----
-
-```
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Build%20an%20End-to-End%20Data%20Capture%20Pipeline%20using%20Document%20AI/techcps2.sh
-sudo chmod +x techcps2.sh
-./techcps2.sh
-```
-
-### ⚠️Enter the Region Name correctly:
-
 ### Congratulations, you're all done with the lab 😄
 
 ---
