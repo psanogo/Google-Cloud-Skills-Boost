@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Classify Images of Clouds in the Cloud with AutoML Images - GSP223](https://cloudskillsboost.google/focuses/8406?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/i7tIk6qbwps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/pfI5jz6QO04)
 
 ---
 
