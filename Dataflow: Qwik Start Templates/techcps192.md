@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Dataflow: Qwik Start - Templates | GSP192 | ](https://www.cloudskillsboost.google/focuses/1101?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/s7YEycYQx10)
 
 ---
 
