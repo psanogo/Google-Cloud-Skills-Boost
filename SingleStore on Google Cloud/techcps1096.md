@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [SingleStore on Google Cloud | GSP1096 | ](https://www.cloudskillsboost.google/focuses/56622?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/t8D4jhxqeRk)
 
 ---
 
