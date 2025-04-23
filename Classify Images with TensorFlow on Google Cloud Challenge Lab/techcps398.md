@@ -1,32 +1,33 @@
 
 
-### 💡 Lab Link: [Classify Images with TensorFlow on Google Cloud: Challenge Lab - GSP398](https://www.cloudskillsboost.google/focuses/53698?parent=catalog)
+### 💡 Lab Link: [Classify Images with TensorFlow on Google Cloud: Challenge Lab | GSP398 | ](https://www.cloudskillsboost.google/focuses/53698?parent=catalog)
 
 ### 🚀 Lab Solution [Watch Here](https://youtu.be/nhVl30iKn2U)
 
 ---
 
 ### ⚠️ Disclaimer
-- **This script and guide are provided for  the educational purposes to help you understand the lab services and boost your career. Before using the script, please open and review it to familiarize yourself with Google Cloud services. Ensure that you follow 'Qwiklabs' terms of service and YouTube’s community guidelines. The goal is to enhance your learning experience, not to bypass it.**
+- **This script and guide are provided for the educational purposes to help you understand the lab services and boost your career. Before using the script, please open and review it to familiarize yourself with Google Cloud services. Ensure that you follow 'Qwiklabs' terms of service and YouTube’s community guidelines. The goal is to enhance your learning experience, not to bypass it.**
 
 ### ©Credit
 - **DM for credit or removal request (no copyright intended) ©All rights and credits for the original content belong to Google Cloud [Google Cloud Skill Boost website](https://www.cloudskillsboost.google/)** 🙏
 
 ---
 
-## 💡 Open this link and download the file [Click Here](https://github.com/Techcps/Google-Cloud-Skills-Boost/blob/main/Classify%20Images%20with%20TensorFlow%20on%20Google%20Cloud%20Challenge%20Lab/cnn_challenge_lab-v1.0.0.ipynb)
-
----
-
-### 💡Make sure to replace your REGION NAME as per the lab instructions
-![techcps](https://github.com/user-attachments/assets/62d0e686-9e3f-452d-a476-7f6261e0b61a)
-
----
-
-### 🚨Copy and run the below commands in Cloud Shell:
+### 🚀 Copy and run the below commands in Cloud Shell:
 
 ```
 gcloud auth list && gcloud services enable compute.googleapis.com iam.googleapis.com iamcredentials.googleapis.com monitoring.googleapis.com logging.googleapis.com notebooks.googleapis.com aiplatform.googleapis.com bigquery.googleapis.com artifactregistry.googleapis.com cloudbuild.googleapis.com container.googleapis.com
+```
+
+---
+
+### 🚀 Copy and run the below commands in Terminal:
+
+```
+rm cnn_challenge_lab-v1.0.0.ipynb
+
+curl -LO raw.githubusercontent.com/Techcps/GSP/master/Classify%20Images%20with%20TensorFlow%20on%20Google%20Cloud%20Challenge%20Lab/cnn_challenge_lab-v1.0.0.ipynb
 ```
 
 ---
