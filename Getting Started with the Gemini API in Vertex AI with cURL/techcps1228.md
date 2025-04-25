@@ -16,9 +16,9 @@
 ### 🚀 Copy and run the below commands in Terminal:
 
 ```
-rm intro_gemini_curl-v1.0.0.ipynb
+rm intro_gemini_curl-v2.0.0.ipynb
 
-curl -LO raw.githubusercontent.com/Techcps/GSP/master/Getting%20Started%20with%20the%20Gemini%20API%20in%20Vertex%20AI%20with%20cURL/intro_gemini_curl-v1.0.0.ipynb
+curl -LO raw.githubusercontent.com/Techcps/GSP/master/Getting%20Started%20with%20the%20Gemini%20API%20in%20Vertex%20AI%20with%20cURL/intro_gemini_curl-v2.0.0.ipynb
 ```
 
 ---
