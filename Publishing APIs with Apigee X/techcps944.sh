@@ -120,4 +120,7 @@ echo -e "\033[1;33mCopy this service account:\033[0m \033[1;34mapigee-internal-a
 
 echo ""
 
+echo "Download the Bank-v1 file: (https://github.com/Techcps/Google-Cloud-Skills-Boost/blob/main/Publishing%20APIs%20with%20Apigee%20X/bank-v1_rev2.zip)"
+
+echo ""
 
