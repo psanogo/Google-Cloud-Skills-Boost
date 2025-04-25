@@ -29,8 +29,8 @@ sudo chmod +x techcps944.sh
 
 | Property              | Value        |
 |-----------------------|--------------|
-| **Proxy name**        | `bank-v1`    |
-| **Base path**         | `/bank/v1`   |
+| **Proxy name**        | bank-v1      |
+| **Base path**         | /bank/v1     |
 | **Target (Existing API)** | backend URL |
 
 ---
