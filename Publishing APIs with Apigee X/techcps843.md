@@ -1,7 +1,7 @@
 
 
 
-### 💡 Lab Link: [Publishing APIs with Apigee X | GSP944 | ](https://www.cloudskillsboost.google/focuses/32175?parent=catalog)
+### 💡 Lab Link: [Publishing APIs with Apigee X | GSP843 | ](https://www.cloudskillsboost.google/focuses/32175?parent=catalog)
 
 ### 🚀 Lab Solution [Watch Here](https://youtu.be/ggYExhRayCM)
 
@@ -18,9 +18,9 @@
 ### 🚀 Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Publishing%20APIs%20with%20Apigee%20X/techcps944.sh
-sudo chmod +x techcps944.sh
-./techcps944.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Publishing%20APIs%20with%20Apigee%20X/techcps843.sh
+sudo chmod +x techcps843.sh
+./techcps843.sh
 ```
 
 ---
