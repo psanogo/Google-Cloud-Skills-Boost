@@ -106,6 +106,8 @@ sed -i 's|<URL>|'"$URL"'|g' simplebank-spec.yaml
 
 cloudshell download simplebank-spec.yaml
 
+sleep 15
+
 echo ""
 
 echo -e "\033[1;33mCreate an Apigee proxy:\033[0m \033[1;34mhttps://console.cloud.google.com/apigee/proxy-create?project=$DEVSHELL_PROJECT_ID\033[0m"
@@ -119,6 +121,8 @@ echo ""
 echo -e "\033[1;33mCopy this service account:\033[0m \033[1;34mapigee-internal-access@$DEVSHELL_PROJECT_ID.iam.gserviceaccount.com\033[0m"
 
 echo ""
+
+sleep 30
 
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Publishing%20APIs%20with%20Apigee%20X/bank-v1_rev2.zip
 
