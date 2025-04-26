@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Deploy a BigQuery ML Customer Churn Classifier to Vertex AI for Online Predictions | GSP944 | ](https://www.cloudskillsboost.google/focuses/20069?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/ggYExhRayCM)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/mSYLuNWXu6E)
 
 ---
 
