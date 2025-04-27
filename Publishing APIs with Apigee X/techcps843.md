@@ -3,7 +3,7 @@
 
 ### 💡 Lab Link: [Publishing APIs with Apigee X | GSP843 | ](https://www.cloudskillsboost.google/focuses/32175?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/ggYExhRayCM)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/mz7lmWe2ygY)
 
 ---
 
