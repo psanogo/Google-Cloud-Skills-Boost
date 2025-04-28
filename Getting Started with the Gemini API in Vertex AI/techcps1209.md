@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Getting Started with the Gemini API in Vertex AI | GSP1209 | ](https://www.cloudskillsboost.google/focuses/86503?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/mSpe0eILurA)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/jAWtXurMjv8)
 
 ---
 
