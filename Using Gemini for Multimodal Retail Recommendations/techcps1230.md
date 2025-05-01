@@ -1,5 +1,5 @@
 
-### 💡 Lab Link: [Using Gemini for Multimodal Retail Recommendations | GSP1230 | ](https://www.cloudskillsboost.google/focuses/85653?parent=catalog)
+### 💡 Lab Link: [Using Gemini for Multimodal Retail Recommendations | GSP1230 | ](https://www.cloudskillsboost.google/focuses/85644?parent=catalog)
 
 ### 🚀 Lab Solution [Watch Here](https://youtu.be/Yhsf3D2ndTI)
 
