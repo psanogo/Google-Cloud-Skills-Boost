@@ -1,13 +1,15 @@
 
+
 gcloud auth list
 
 export PROJECT_ID=$(gcloud config get-value project)
 
-export PROJECT_ID=$DEVSHELL_PROJECT_ID
+export ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
+
+export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
 
 gcloud config set compute/zone $ZONE
 
-export REGION=${ZONE%-*}
 gcloud config set compute/region $REGION
 
 gcloud pubsub topics create new-lab-report
@@ -55,9 +57,11 @@ const app = express();
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 const port = process.env.PORT || 8080;
+
 app.listen(port, () => {
   console.log('Listening on port', port);
 });
+
 app.post('/', async (req, res) => {
   try {
     const labReport = req.body;
@@ -69,6 +73,7 @@ app.post('/', async (req, res) => {
     res.status(500).send(ex);
   }
 })
+
 async function publishPubSubMessage(labReport) {
   const buffer = Buffer.from(JSON.stringify(labReport));
   await pubsub.topic('new-lab-report').publish(buffer);
@@ -77,9 +82,8 @@ EOF_CP
 
 
 
-
 cat > Dockerfile <<EOF_CP
-FROM node:10
+FROM node:18
 WORKDIR /usr/src/app
 COPY package.json package*.json ./
 RUN npm install --only=production
@@ -89,10 +93,21 @@ EOF_CP
 
 
 
+gcloud builds submit \
+  --tag gcr.io/$GOOGLE_CLOUD_PROJECT/lab-report-service
+gcloud run deploy lab-report-service \
+  --image gcr.io/$GOOGLE_CLOUD_PROJECT/lab-report-service \
+  --platform managed \
+  --region $REGION \
+  --allow-unauthenticated \
+  --max-instances=1
+
+
 cd ~/pet-theory/lab05/email-service
 
 npm install express
 npm install body-parser
+
 
 
 
@@ -115,6 +130,7 @@ cat > package.json <<EOF_CP
     }
   }
 EOF_CP
+
 
 
 cat > index.js <<EOF_CP
@@ -152,8 +168,9 @@ function sendEmail() {
 EOF_CP
 
 
+
 cat > Dockerfile <<EOF_CP
-FROM node:10
+FROM node:18
 WORKDIR /usr/src/app
 COPY package.json package*.json ./
 RUN npm install --only=production
@@ -162,15 +179,24 @@ CMD [ "npm", "start" ]
 EOF_CP
 
 
+gcloud builds submit \
+  --tag gcr.io/$GOOGLE_CLOUD_PROJECT/email-service
+
+gcloud run deploy email-service \
+  --image gcr.io/$GOOGLE_CLOUD_PROJECT/email-service \
+  --platform managed \
+  --region $REGION \
+  --no-allow-unauthenticated \
+  --max-instances=1
+
+
+PROJECT_NUMBER=$(gcloud projects list --filter="qwiklabs-gcp" --format='value(PROJECT_NUMBER)')
 
 gcloud iam service-accounts create pubsub-cloud-run-invoker --display-name "PubSub Cloud Run Invoker"
 
-export REGION=${ZONE%-*}
-gcloud config set compute/region $REGION
+echo $REGION
 
-gcloud run services add-iam-policy-binding email-service --member=serviceAccount:pubsub-cloud-run-invoker@$GOOGLE_CLOUD_PROJECT.iam.gserviceaccount.com --role=roles/run.invoker --region $REGION --project=$DEVSHELL_PROJECT_ID --platform managed
-
-PROJECT_NUMBER=$(gcloud projects list --filter="qwiklabs-gcp" --format='value(PROJECT_NUMBER)')
+gcloud run services add-iam-policy-binding email-service --member=serviceAccount:pubsub-cloud-run-invoker@$GOOGLE_CLOUD_PROJECT.iam.gserviceaccount.com --role=roles/run.invoker --region $REGION --platform managed
 
 gcloud projects add-iam-policy-binding $GOOGLE_CLOUD_PROJECT --member=serviceAccount:service-$PROJECT_NUMBER@gcp-sa-pubsub.iam.gserviceaccount.com --role=roles/iam.serviceAccountTokenCreator
 
@@ -180,8 +206,6 @@ echo $EMAIL_SERVICE_URL
 
 gcloud pubsub subscriptions create email-service-sub --topic new-lab-report --push-endpoint=$EMAIL_SERVICE_URL --push-auth-service-account=pubsub-cloud-run-invoker@$GOOGLE_CLOUD_PROJECT.iam.gserviceaccount.com
 
-
-~/pet-theory/lab05/lab-service/post-reports.sh
 
 cd ~/pet-theory/lab05/sms-service
 
@@ -210,6 +234,8 @@ cat > package.json <<EOF_CP
     }
   }
 EOF_CP
+
+
 
 
 
@@ -249,8 +275,9 @@ function sendSms() {
 EOF_CP
 
 
+
 cat > Dockerfile <<EOF_CP
-FROM node:10
+FROM node:18
 WORKDIR /usr/src/app
 COPY package.json package*.json ./
 RUN npm install --only=production
@@ -262,115 +289,12 @@ EOF_CP
 
 
 
-
-#!/bin/bash
-
-deploy_function() {
-gcloud builds submit \
-  --tag gcr.io/$GOOGLE_CLOUD_PROJECT/lab-report-service
-gcloud run deploy lab-report-service \
-  --image gcr.io/$GOOGLE_CLOUD_PROJECT/lab-report-service \
-  --platform managed \
-  --region $REGION \
-  --allow-unauthenticated \
-  --max-instances=1
-}
-
-deploy_success=false
-
-while [ "$deploy_success" = false ]; do
-  if deploy_function; then
-    echo "Function deployed successfully!"
-    deploy_success=true
-  else
-    echo "Retrying, please subscribe to techcps[https://www.youtube.com/@techcps]."
-    sleep 10
-  fi
-done
-
-
-
-
-
-export LAB_REPORT_SERVICE_URL=$(gcloud run services describe lab-report-service --platform managed --region=$REGION --format="value(status.address.url)")
-
-echo $LAB_REPORT_SERVICE_URL
-
-
-cat > post-reports.sh <<EOF_CP
-curl -X POST \
-  -H "Content-Type: application/json" \
-  -d "{\"id\": 12}" \
-  $LAB_REPORT_SERVICE_URL &
-curl -X POST \
-  -H "Content-Type: application/json" \
-  -d "{\"id\": 34}" \
-  $LAB_REPORT_SERVICE_URL &
-curl -X POST \
-  -H "Content-Type: application/json" \
-  -d "{\"id\": 56}" \
-  $LAB_REPORT_SERVICE_URL &
-EOF_CP
-
-chmod u+x post-reports.sh
-
-./post-reports.sh
-
-
-
-
-
-#!/bin/bash
-
-deploy_function() {
-gcloud builds submit \
-  --tag gcr.io/$GOOGLE_CLOUD_PROJECT/email-service
-
-gcloud run deploy email-service \
-  --image gcr.io/$GOOGLE_CLOUD_PROJECT/email-service \
-  --platform managed \
-  --region $REGION \
-  --no-allow-unauthenticated \
-  --max-instances=1
-}
-
-deploy_success=false
-
-while [ "$deploy_success" = false ]; do
-  if deploy_function; then
-    echo "Function deployed successfully!"
-    deploy_success=true
-  else
-    echo "Retrying, please subscribe to techcps[https://www.youtube.com/@techcps]."
-    sleep 10
-  fi
-done
-
-
-
-
-#!/bin/bash
-
-deploy_function() {
 gcloud builds submit \
   --tag gcr.io/$GOOGLE_CLOUD_PROJECT/sms-service
-
 gcloud run deploy sms-service \
   --image gcr.io/$GOOGLE_CLOUD_PROJECT/sms-service \
   --platform managed \
   --region $REGION \
   --no-allow-unauthenticated \
   --max-instances=1
-}
 
-deploy_success=false
-
-while [ "$deploy_success" = false ]; do
-  if deploy_function; then
-    echo "Function deployed successfully!"
-    deploy_success=true
-  else
-    echo "Retrying, please subscribe to techcps[https://www.youtube.com/@techcps]."
-    sleep 10
-  fi
-done
