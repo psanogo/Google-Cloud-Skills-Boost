@@ -1,7 +1,7 @@
 
 ## 💡 Lab Link: [Get Started with Eventarc: Challenge Lab - ARC118](https://www.cloudskillsboost.google/focuses/63244?parent=catalog)
 
-## 🚀 Lab Solution [Watch Here](https://youtu.be/1-LdECGjOyI)
+## 🚀 Lab Solution [Watch Here](https://youtu.be/R-XdL7b_d7Y)
 
 ---
 
