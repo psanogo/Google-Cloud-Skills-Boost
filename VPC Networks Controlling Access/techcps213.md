@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [VPC Networks - Controlling Access - GSP213](https://www.cloudskillsboost.google/focuses/1231?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/VxNuS4sQRA8)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/-ocyLEVefm0)
 
 ---
 
