@@ -1,7 +1,7 @@
 
 ## 💡 Lab Link: [Connect to Cloud SQL from an Application in Google Kubernetes Engine - GSP449](https://www.cloudskillsboost.google/focuses/5625?parent=catalog)
 
-## 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+## 🚀 Lab Solution [Watch Here](https://youtu.be/O2O8G8Sh6ck)
 
 ---
 
