@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Tagging Dataplex Assets - GSP1145](https://www.cloudskillsboost.google/focuses/62711?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here]{https://youtu.be/OZUU22soBm8)
 
 ---
 
