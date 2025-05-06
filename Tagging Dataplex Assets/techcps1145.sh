@@ -26,5 +26,5 @@ gcloud dataplex assets create customer-details-dataset --location=$REGION --disp
 gcloud data-catalog tag-templates create protected_data_template --location=$REGION --display-name="Protected Data Template" --field=id=protected_data_flag,display-name="Protected Data Flag",type='enum(YES|NO)'
 
 echo
-echo -e "\033[1;33mOpen this link\033[0m \033[1;34mhttps://console.cloud.google.com/dataplex/search?project=$DEVSHELL_PROJECT_ID&=customer_details\033[0m"
+echo -e "\033[1;33mOpen this link\033[0m \033[1;34mhttps://console.cloud.google.com/dataplex/search?project=$DEVSHELL_PROJECT_ID&q=customer_details%20\033[0m"
 echo
