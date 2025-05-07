@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Analyze Findings with Security Command Center - GSP1164](https://www.cloudskillsboost.google/focuses/71931?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/6sJHd8MgOvs)
 
 ---
 
