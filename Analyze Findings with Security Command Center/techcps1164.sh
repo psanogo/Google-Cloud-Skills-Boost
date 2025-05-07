@@ -96,5 +96,5 @@ sleep 20
 gsutil cp findings.jsonl gs://$BUCKET_NAME/
 
 echo
-echo -e "\033[1;33mCreate an old_findings:\033[0m \033[1;34mhttps://console.cloud.google.com/bigquery?project=$DEVSHELL_PROJECT_ID\033[0m"
+echo -e "\033[1;33mCreate an old_findings\033[0m \033[1;34mhttps://console.cloud.google.com/bigquery?project=$DEVSHELL_PROJECT_ID\033[0m"
 echo
