@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Redacting Critical Data with Sensitive Data Protection - GSP864](https://www.cloudskillsboost.google/focuses/46234?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/yKwJ7e8sqYI)
 
 ---
 
