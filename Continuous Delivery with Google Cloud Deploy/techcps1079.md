@@ -15,10 +15,6 @@
 ---
 
 ### 🚨Copy and run the below commands in Cloud Shell:
-- **Export the ZONE name correctly**
-```
-export ZONE=
-```
 ```
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Continuous%20Delivery%20with%20Google%20Cloud%20Deploy/techcps1079.sh
 sudo chmod +x techcps1079.sh
