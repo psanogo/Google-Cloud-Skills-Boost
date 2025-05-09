@@ -16,7 +16,7 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Building%20Blocks%20Artifact%20Registry%20II/techcps.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Arcade%20Hero/Building%20Blocks%20Artifact%20Registry%20II/techcps.sh
 sudo chmod +x techcps.sh
 ./techcps.sh
 ```
