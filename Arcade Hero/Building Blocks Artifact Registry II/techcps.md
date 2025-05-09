@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Arcade Hero: Building Blocks Artifact Registry II - ARC1208](https://www.cloudskillsboost.google/focuses/124583?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/5Q500vA9W9c)
 
 ---
 
