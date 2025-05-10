@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Arcade Hero: Building Blocks Cloud Run functions II - ARC1221](https://www.cloudskillsboost.google/focuses/124588?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/jpkw-s62ySY)
 
 ---
 
