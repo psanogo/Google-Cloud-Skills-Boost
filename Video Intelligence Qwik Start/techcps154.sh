@@ -29,6 +29,8 @@ RESPONSE=$(curl -s -H 'Content-Type: application/json' \
   "https://videointelligence.googleapis.com/v1/videos:annotate" \
   -d @request.json)
 
+sleep 10
+
 # Print the full operation name
 OPERATION_NAME=$(echo "$RESPONSE" | grep -oP '"name":\s*"\K[^"]+')
 
