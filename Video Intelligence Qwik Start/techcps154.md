@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Video Intelligence: Qwik Start - GSP154](https://www.cloudskillsboost.google/focuses/603?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/O5jFaEJVNw0)
 
 ---
 
