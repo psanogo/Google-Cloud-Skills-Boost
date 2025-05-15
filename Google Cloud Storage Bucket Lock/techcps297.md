@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Google Cloud Storage - Bucket Lock - GSP097](https://www.cloudskillsboost.google/focuses/3483?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://www.youtube.com/@techcps)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/XXr_esaoJpU)
 
 ---
 
