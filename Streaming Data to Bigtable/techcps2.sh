@@ -1,0 +1,69 @@
+
+
+gcloud auth list
+
+export ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
+
+export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
+
+export PROJECT_ID=$(gcloud config get-value project)
+
+export PROJECT_ID=$DEVSHELL_PROJECT_ID
+
+gcloud config set compute/zone "$ZONE"
+
+gcloud config set compute/region "$REGION"
+
+cat > cp1_disk.sh <<'EOF_CP'
+
+ls /training
+
+git clone https://github.com/GoogleCloudPlatform/training-data-analyst
+
+source /training/project_env.sh
+
+cd ~/training-data-analyst/courses/streaming/process/sandiego
+
+sed -i 's/\$REGION/us-west1/' run_oncloud.sh
+
+./run_oncloud.sh $DEVSHELL_PROJECT_ID $BUCKET CurrentConditions --bigtable
+
+EOF_CP
+
+export ZONE=$(gcloud compute instances list training-vm --format 'csv[no-heading](zone)')
+
+gcloud compute scp cp1_disk.sh training-vm:/tmp --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet
+
+gcloud compute ssh training-vm --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet --command="bash /tmp/cp1_disk.sh"
+
+
+echo -e "\033[1;33mGo to dataflow / jobs\033[0m \033[1;34mhttps://console.cloud.google.com/dataflow/jobs?referrer=search&inv=1&invt=AbxgKw&project=$DEVSHELL_PROJECT_ID\033[0m"
+
+
+while true; do
+    echo -ne "\e[1;93mDo you Want to proceed? (Y/n): \e[0m"
+    read confirm
+    case "$confirm" in
+        [Yy]) 
+            echo -e "\e[34mRunning the command...\e[0m"
+            break
+            ;;
+        [Nn]|"") 
+            echo "Operation canceled."
+            break
+            ;;
+        *) 
+            echo -e "\e[31mInvalid input. Please enter Y or N.\e[0m" 
+            ;;
+    esac
+done
+
+
+cbt deletetable current_conditions
+
+gcloud bigtable instances delete sandiego
+
+echo
+echo -e "\033[1;33mCreate a Bigtable\033[0m \033[1;34mvhttps://console.cloud.google.com/bigtable/instances/sandiego/overview?inv=1&invt=AbxgWA&project=$DEVSHELL_PROJECT_ID\033[0m"
+echo
+
