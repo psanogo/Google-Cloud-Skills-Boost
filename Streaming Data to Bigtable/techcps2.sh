@@ -2,6 +2,8 @@
 
 gcloud auth list
 
+read -e -p $'\033[1;33mEnter the REGION1: \033[0m' REGION1
+
 export ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
 
 export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
@@ -15,8 +17,6 @@ gcloud config set compute/zone "$ZONE"
 gcloud config set compute/region "$REGION"
 
 cat > cp1_disk.sh <<'EOF_CP'
-
-read -e -p $'\033[1;33mEnter the REGION1: \033[0m' REGION1
 
 ls /training
 
