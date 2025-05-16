@@ -14,11 +14,7 @@ gcloud config set compute/zone "$ZONE"
 
 gcloud config set compute/region "$REGION"
 
-
-gcloud bigtable instances create sandiego \
---display-name="San Diego Traffic Sensors" \
---cluster-storage-type=SSD \
---cluster-config=id=sandiego-traffic-sensors-c1,zone=$ZONE,nodes=1
+# gcloud bigtable instances create sandiego --display-name="San Diego Traffic Sensors" --cluster-storage-type=SSD --cluster-config=id=sandiego-traffic-sensors-c1,zone=$ZONE,nodes=1
 
 echo
 echo -e "\033[1;33mCreate a Bigtable\033[0m \033[1;34mvhttps://console.cloud.google.com/bigtable/create-instance?inv=1&invt=AbxgKw&project=$DEVSHELL_PROJECT_ID\033[0m"
