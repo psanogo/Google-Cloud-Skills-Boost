@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Looker Functions and Operators - GSP857](https://www.cloudskillsboost.google/focuses/17873?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/fPEOaYQyGaE)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/WWpU7-3zBoU)
 
 ---
 
