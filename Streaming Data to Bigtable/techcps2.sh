@@ -50,7 +50,11 @@ while true; do
     esac
 done
 
+# cbt deletetable current_conditions
+
+# echo "Y" | gcloud bigtable instances delete sandiego
+
 echo
-echo -e "\033[1;33mCreate a Bigtable\033[0m \033[1;34mvhttps://console.cloud.google.com/bigtable/instances/sandiego/overview?inv=1&invt=AbxgWA&project=$DEVSHELL_PROJECT_ID\033[0m"
+echo -e "\033[1;33mDelete the Bigtable\033[0m \033[1;34mvhttps://console.cloud.google.com/bigtable/instances/sandiego/overview?inv=1&invt=AbxgWA&project=$DEVSHELL_PROJECT_ID\033[0m"
 echo
 
