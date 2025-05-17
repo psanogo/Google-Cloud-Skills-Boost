@@ -47,9 +47,8 @@ gcloud logging sinks create AuditLogs --project=$DEVSHELL_PROJECT_ID bigquery.go
 
 bq --location=US mk --dataset ${DEVSHELL_PROJECT_ID}:AuditLogs
 
-# echo
-# echo -e "\033[1;33mClick this link\033[0m \033[1;34mvhttps://console.cloud.google.com/appengine?serviceId=default&inv=1&invt=AbxmyA&project=$DEVSHELL_PROJECT_ID\033[0m"
 echo
-echo -e "\033[1;33mClick this link\033[0m \033[1;34mvhttps://$DEVSHELL_PROJECT_ID.ew.r.appspot.com\033[0m"
+echo -e "\033[1;33mClick this link\033[0m \033[1;34mhttps://console.cloud.google.com/appengine?serviceId=default&inv=1&invt=AbxmyA&project=$DEVSHELL_PROJECT_ID\033[0m"
 echo
+
 
