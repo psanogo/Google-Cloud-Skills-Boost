@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Streaming Data to Bigtable - GSP1055](https://www.cloudskillsboost.google/focuses/92498?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/nyYfcK1TVSs)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/4GS1A0QoYWU)
 
 ---
 
