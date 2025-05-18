@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Fundamentals of Cloud Logging - GSP610](https://www.cloudskillsboost.google/focuses/10911?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/nyYfcK1TVSs)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/FeA_bq6CTgA)
 
 ---
 
