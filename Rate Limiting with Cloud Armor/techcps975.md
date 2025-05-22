@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Rate Limiting with Cloud Armor - GSP975](https://www.cloudskillsboost.google/focuses/21571?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/nyYfcK1TVSs)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/62B641NNDPI)
 
 ---
 
