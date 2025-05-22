@@ -74,9 +74,27 @@ EOF_CP
 
 python3 batch_insert.py
 
+
 sleep 60
 
 
+while true; do
+    echo -ne "\e[1;93mDo you Want to proceed? (Y/n): \e[0m"
+    read confirm
+    case "$confirm" in
+        [Yy]) 
+            echo -e "\e[34mRunning the command...\e[0m"
+            break
+            ;;
+        [Nn]|"") 
+            echo "Operation canceled."
+            break
+            ;;
+        *) 
+            echo -e "\e[31mInvalid input. Please enter Y or N.\e[0m" 
+            ;;
+    esac
+done
 
 
 gsutil mb gs://$DEVSHELL_PROJECT_ID
