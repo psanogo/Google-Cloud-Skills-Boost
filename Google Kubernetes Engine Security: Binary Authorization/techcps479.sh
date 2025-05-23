@@ -258,6 +258,8 @@ gcloud beta container binauthz attestations create \
     --signature-file=${GENERATED_SIGNATURE} \
     --public-key-id="${PGP_FINGERPRINT}"
 
+sleep 20
+
 gcloud beta container binauthz attestations list \
     --attestor="projects/${PROJECT_ID}/attestors/${ATTESTOR}"
 
