@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Google Kubernetes Engine: Qwik Start - GSP100](https://www.cloudskillsboost.google/focuses/878?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/z0N2ZZmbxD0)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/FGQcIx6NZSk)
 
 ---
 
