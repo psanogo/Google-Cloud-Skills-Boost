@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Google Kubernetes Engine Security: Binary Authorization - GSP479](https://www.cloudskillsboost.google/focuses/57885?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/z0N2ZZmbxD0)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/CI0DXY3VQBg)
 
 ---
 
