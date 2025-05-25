@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Pub/Sub: Qwik Start - Python - GSP094](https://www.cloudskillsboost.google/focuses/2775?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/z0N2ZZmbxD0)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/fLraRT9x7mE)
 
 ---
 
