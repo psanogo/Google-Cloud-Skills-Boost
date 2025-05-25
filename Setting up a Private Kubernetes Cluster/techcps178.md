@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Setting up a Private Kubernetes Cluster - GSP178](https://www.cloudskillsboost.google/focuses/867?parent=catalog)
 
-### 🚀 Lab Solution [Watch https://youtu.be/UqzEviTysSw)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/UqzEviTysSw)
 
 ---
 
