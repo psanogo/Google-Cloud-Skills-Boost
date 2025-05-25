@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Orchestrating the Cloud with Kubernetes - GSP021](https://www.cloudskillsboost.google/focuses/557?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/z0N2ZZmbxD0)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/u7Lt-jrp87g)
 
 ---
 
