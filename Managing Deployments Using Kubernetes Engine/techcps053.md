@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Managing Deployments Using Kubernetes Engine - Python - GSP053](https://www.cloudskillsboost.google/focuses/639?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/Inl-npiMHJs)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/P5I99wXt7gk)
 
 ---
 
