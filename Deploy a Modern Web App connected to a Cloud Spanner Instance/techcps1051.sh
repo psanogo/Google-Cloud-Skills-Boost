@@ -7,13 +7,15 @@ gcloud services enable artifactregistry.googleapis.com
 gcloud services enable containerregistry.googleapis.com
 gcloud services enable run.googleapis.com
 
-sleep 20
+sleep 30
 
 export ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
 
 export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
 
 git clone https://github.com/GoogleCloudPlatform/training-data-analyst
+
+cd
 
 cd training-data-analyst/courses/cloud-spanner/omegatrade/backend
 
@@ -28,10 +30,6 @@ EOF_CP
 nvm install 22.6
 
 npm install npm -g
-
-npm install --loglevel=error
-
-npm install npm latest
 
 npm install --loglevel=error
 
