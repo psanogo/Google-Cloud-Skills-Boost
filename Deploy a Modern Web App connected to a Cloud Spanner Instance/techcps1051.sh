@@ -13,9 +13,11 @@ export ZONE=$(gcloud compute project-info describe --format="value(commonInstanc
 
 export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
 
+sleep 5
+
 git clone https://github.com/GoogleCloudPlatform/training-data-analyst
 
-cd
+sleep 10
 
 cd training-data-analyst/courses/cloud-spanner/omegatrade/backend
 
@@ -44,5 +46,3 @@ gcloud run deploy omegatrade-backend --platform managed --region $REGION --image
 unset SPANNER_EMULATOR_HOST
 
 node seed-data.js
-
-
