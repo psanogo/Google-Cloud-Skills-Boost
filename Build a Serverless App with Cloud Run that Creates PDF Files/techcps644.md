@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Build a Serverless App with Cloud Run that Creates PDF Files - GSP644](https://www.cloudskillsboost.google/focuses/8390?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/-gTmdXvA7Rw)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/j5oMGYpFxUI)
 
 ---
 
