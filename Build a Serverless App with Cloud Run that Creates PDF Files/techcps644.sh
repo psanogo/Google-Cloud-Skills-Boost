@@ -2,6 +2,10 @@
  
 gcloud auth list
 
+export ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
+
+export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
+
 gcloud services disable run.googleapis.com
 
 gcloud services enable run.googleapis.com
