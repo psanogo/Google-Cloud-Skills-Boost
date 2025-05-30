@@ -16,9 +16,9 @@
 ### 🚀 Copy and run the below commands in Terminal:
 
 ```
-rm intro_function_calling-v1.0.0.ipynb
+rm intro_function_calling-v2.0.0.ipynb
 
-curl -LO raw.githubusercontent.com/Techcps/GSP/master/Introduction%20to%20Function%20Calling%20with%20Gemini/intro_function_calling-v1.0.0.ipynb
+curl -LO raw.githubusercontent.com/Techcps/GSP/master/Introduction%20to%20Function%20Calling%20with%20Gemini/intro_function_calling-v2.0.0.ipynb
 ```
 
 ---
