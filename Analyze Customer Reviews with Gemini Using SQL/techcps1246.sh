@@ -1,6 +1,7 @@
 
 
 
+
 gcloud auth list
 
 
@@ -58,34 +59,27 @@ OPTIONS (
 
 ###
 
-echo "please subscribe to techcps[https://www.youtube.com/@techcps]"
+echo -e "\033[1;33mplease subscribe to techcps\033[0m \033[1;34mhttps://www.youtube.com/@techcps\033[0m"
+
 
 ###
 
 
 bq query --use_legacy_sql=false \
 "
-CREATE OR REPLACE MODEL \`gemini_demo.gemini_pro\`
+CREATE OR REPLACE MODEL \`gemini_demo.gemini_2_0_flash\`
 REMOTE WITH CONNECTION \`us.gemini_conn\`
-OPTIONS (endpoint = 'gemini-pro')
+OPTIONS (endpoint = 'gemini-2.0-flash')
 "
 
-
-bq query --use_legacy_sql=false \
-"
-CREATE OR REPLACE MODEL \`gemini_demo.gemini_pro_vision\`
-REMOTE WITH CONNECTION \`us.gemini_conn\`
-OPTIONS (endpoint = 'gemini-pro-vision')
-"
 
 
 ###4
 
-echo "please subscribe to techcps[https://www.youtube.com/@techcps]"
+echo -e "\033[1;33mplease subscribe to techcps\033[0m \033[1;34mhttps://www.youtube.com/@techcps\033[0m"
+
 
 ###7
-
-
 
 
 
@@ -93,16 +87,21 @@ echo "please subscribe to techcps[https://www.youtube.com/@techcps]"
 bq query --use_legacy_sql=false '
 CREATE OR REPLACE TABLE
 `gemini_demo.review_images_results` AS (
-SELECT
+  SELECT
     uri,
     ml_generate_text_llm_result
-FROM
-    ML.GENERATE_TEXT( MODEL `gemini_demo.gemini_pro_vision`,
-    TABLE `gemini_demo.review_images`,
-    STRUCT( 0.2 AS temperature,
-        "For each image, provide a summary of what is happening in the image and keywords from the summary. Answer in JSON format with two keys: summary, keywords. Summary should be a string, keywords should be a list." AS PROMPT,
-        TRUE AS FLATTEN_JSON_OUTPUT)));'
-
+  FROM
+    ML.GENERATE_TEXT(
+      MODEL `gemini_demo.gemini_2_0_flash`,
+      TABLE `gemini_demo.review_images`,
+      STRUCT(
+        "For each image, provide a summary of what is happening in the image and keywords from the summary. Answer in JSON format with two keys: summary, keywords. Summary should be a string, keywords should be a list." AS prompt,
+        0.2 AS temperature,
+        TRUE AS flatten_json_output
+      )
+    )
+);
+'
 
 
 
@@ -138,11 +137,10 @@ SELECT * FROM \`gemini_demo.review_images_results_formatted\`
 
 ###7
 
-echo "please subscribe to techcps[https://www.youtube.com/@techcps]"
+echo -e "\033[1;33mplease subscribe to techcps\033[0m \033[1;34mhttps://www.youtube.com/@techcps\033[0m"
+
 
 ###5
-
-
 
 
 
@@ -153,15 +151,20 @@ CREATE OR REPLACE TABLE
 SELECT ml_generate_text_llm_result, social_media_source, review_text, customer_id, location_id, review_datetime
 FROM
 ML.GENERATE_TEXT(
-MODEL \`gemini_demo.gemini_pro\`,
-(
-   SELECT social_media_source, customer_id, location_id, review_text, review_datetime, CONCAT(
-      'For each review, provide keywords from the review. Answer in JSON format with one key: keywords. Keywords should be a list.',
-      review_text) AS prompt
-   FROM \`gemini_demo.customer_reviews\`
-),
-STRUCT(
-   0.2 AS temperature, TRUE AS flatten_json_output)));
+  MODEL \`gemini_demo.gemini_2_0_flash\`,
+  (
+    SELECT social_media_source, customer_id, location_id, review_text, review_datetime,
+      CONCAT(
+        'For each review, provide keywords from the review. Answer in JSON format with one key: keywords. Keywords should be a list. ',
+        review_text
+      ) AS prompt
+    FROM \`gemini_demo.customer_reviews\`
+  ),
+  STRUCT(
+    0.2 AS temperature,
+    TRUE AS flatten_json_output
+  )
+));
 "
 
 
@@ -170,7 +173,6 @@ bq query --use_legacy_sql=false \
 "
 SELECT * FROM \`gemini_demo.customer_reviews_keywords\`
 "
-
 
 
 
@@ -185,7 +187,7 @@ CREATE OR REPLACE TABLE \`gemini_demo.customer_reviews_analysis\` AS (
     review_datetime
   FROM
     ML.GENERATE_TEXT(
-      MODEL \`gemini_demo.gemini_pro\`,
+      MODEL \`gemini_demo.gemini_2_0_flash\`,
       (
         SELECT 
           social_media_source, 
@@ -215,6 +217,7 @@ bq query --use_legacy_sql=false \
 SELECT * FROM \`gemini_demo.customer_reviews_analysis\`
 ORDER BY review_datetime
 "
+
 
 
 
@@ -269,7 +272,8 @@ ORDER BY sentiment, count;
 
 ###5
 
-echo "please subscribe to techcps[https://www.youtube.com/@techcps]"
+echo -e "\033[1;33mplease subscribe to techcps\033[0m \033[1;34mhttps://www.youtube.com/@techcps\033[0m"
+
 
 ###6
 
@@ -285,7 +289,7 @@ CREATE OR REPLACE TABLE
 SELECT ml_generate_text_llm_result, social_media_source, review_text, customer_id, location_id, review_datetime
 FROM
 ML.GENERATE_TEXT(
-MODEL \`gemini_demo.gemini_pro\`,
+MODEL \`gemini_demo.gemini_2_0_flash\`,
 (
    SELECT social_media_source, customer_id, location_id, review_text, review_datetime, CONCAT(
       'You are a marketing representative. How could we incentivise this customer with this positive review? Provide a single response, and should be simple and concise, do not include emojis. Answer in JSON format with one key: marketing. Marketing should be a string.', review_text) AS prompt
@@ -336,7 +340,7 @@ CREATE OR REPLACE TABLE
 SELECT ml_generate_text_llm_result, social_media_source, review_text, customer_id, location_id, review_datetime
 FROM
 ML.GENERATE_TEXT(
-MODEL \`gemini_demo.gemini_pro\`,
+MODEL \`gemini_demo.gemini_2_0_flash\`,
 (
    SELECT social_media_source, customer_id, location_id, review_text, review_datetime, CONCAT(
       'How would you respond to this customer review? If the customer says the coffee is weak or burnt, respond stating "thank you for the review we will provide your response to the location that you did not like the coffee and it could be improved." Or if the review states the service is bad, respond to the customer stating, "the location they visited has been notfied and we are taking action to improve our service at that location." From the customer reviews provide actions that the location can take to improve. The response and the actions should be simple, and to the point. Do not include any extraneous or special characters in your response. Answer in JSON format with two keys: Response, and Actions. Response should be a string. Actions should be a string.', review_text) AS prompt
@@ -382,27 +386,31 @@ SELECT * FROM \`gemini_demo.customer_reviews_cs_response_formatted\`
 
 ###6
 
-echo "please subscribe to techcps[https://www.youtube.com/@techcps]"
+echo -e "\033[1;33mplease subscribe to techcps\033[0m \033[1;34mhttps://www.youtube.com/@techcps\033[0m"
+
 
 ###7
-
-
 
 
 
 bq query --use_legacy_sql=false '
 CREATE OR REPLACE TABLE
 `gemini_demo.review_images_results` AS (
-SELECT
+  SELECT
     uri,
     ml_generate_text_llm_result
-FROM
-    ML.GENERATE_TEXT( MODEL `gemini_demo.gemini_pro_vision`,
-    TABLE `gemini_demo.review_images`,
-    STRUCT( 0.2 AS temperature,
-        "For each image, provide a summary of what is happening in the image and keywords from the summary. Answer in JSON format with two keys: summary, keywords. Summary should be a string, keywords should be a list." AS PROMPT,
-        TRUE AS FLATTEN_JSON_OUTPUT)));'
-
+  FROM
+    ML.GENERATE_TEXT(
+      MODEL `gemini_demo.gemini_2_0_flash`,
+      TABLE `gemini_demo.review_images`,
+      STRUCT(
+        "For each image, provide a summary of what is happening in the image and keywords from the summary. Answer in JSON format with two keys: summary, keywords. Summary should be a string, keywords should be a list." AS prompt,
+        0.2 AS temperature,
+        TRUE AS flatten_json_output
+      )
+    )
+);
+'
 
 
 
@@ -431,5 +439,6 @@ bq query --use_legacy_sql=false \
 "
 SELECT * FROM \`gemini_demo.review_images_results_formatted\`
 "
+
 
 
