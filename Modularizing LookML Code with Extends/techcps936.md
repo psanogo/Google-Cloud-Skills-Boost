@@ -3,7 +3,7 @@
 
 ### 💡 Lab Link: [Modularizing LookML Code with Extends - GSP936](https://www.cloudskillsboost.google/focuses/21218?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/cj7zw6UGeSY)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/LDgitDqznGU)
 
 ---
 
