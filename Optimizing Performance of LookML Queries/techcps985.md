@@ -3,7 +3,7 @@
 
 ### 💡 Lab Link: [Optimizing Performance of LookML Queries - GSP985](https://www.cloudskillsboost.google/focuses/22355?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/qJnGTsjvDog)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/GiUzHEnayvQ)
 
 ---
 
