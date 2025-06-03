@@ -44,6 +44,8 @@ export PROJECT_ID=$(gcloud config get-value project)
 
 gcloud bigtable instances tables create SessionHistory --instance=ecommerce-recommendations --project=$PROJECT_ID --column-families=Engagements,Sales
 
+sleep 20
+
 #!/bin/bash
 
 while true; do
@@ -61,7 +63,7 @@ done
 
 gcloud bigtable instances tables create PersonalizedProducts --project=$PROJECT_ID --instance=ecommerce-recommendations --column-families=Recommendations
 
-
+sleep 20
 
 #!/bin/bash
 
@@ -82,40 +84,6 @@ gcloud beta bigtable backups create PersonalizedProducts_7 --instance=ecommerce-
 
 
 gcloud beta bigtable instances tables restore --source=projects/$PROJECT_ID/instances/ecommerce-recommendations/clusters/ecommerce-recommendations-c1/backups/PersonalizedProducts_7 --async --destination=PersonalizedProducts_7_restored --destination-instance=ecommerce-recommendations --project=$PROJECT_ID
-
-sleep 60
-
-#!/bin/bash
-
-while true; do
-    gcloud dataflow jobs run import-sessions --region=$REGION --project=$PROJECT_ID --gcs-location gs://dataflow-templates-$REGION/latest/GCS_SequenceFile_to_Cloud_Bigtable --staging-location gs://$PROJECT_ID/temp --parameters bigtableProject=$PROJECT_ID,bigtableInstanceId=ecommerce-recommendations,bigtableTableId=SessionHistory,sourcePattern=gs://cloud-training/OCBL377/retail-engagements-sales-00000-of-00001,mutationThrottleLatencyMs=0
-
-    if [ $? -eq 0 ]; then
-        echo -e "\033[1;33mJob has completed successfully. now just wait for succeeded\033[0m \033[1;34mhttps://www.youtube.com/@techcps\033[0m"
-        break
-    else
-        echo -e "\033[1;33mJob retrying. please like share and subscribe to techcps\033[0m \033[1;34mhttps://www.youtube.com/@techcps\033[0m"
-        sleep 10
-    fi
-done
-
-
-sleep 10
-
-
-#!/bin/bash
-
-while true; do
-    gcloud dataflow jobs run import-recommendations --region=$REGION --project=$PROJECT_ID --gcs-location gs://dataflow-templates-$REGION/latest/GCS_SequenceFile_to_Cloud_Bigtable --staging-location gs://$PROJECT_ID/temp --parameters bigtableProject=$PROJECT_ID,bigtableInstanceId=ecommerce-recommendations,bigtableTableId=PersonalizedProducts,sourcePattern=gs://cloud-training/OCBL377/retail-recommendations-00000-of-00001,mutationThrottleLatencyMs=0
-
-    if [ $? -eq 0 ]; then
-        echo -e "\033[1;33mJob has completed successfully. now just wait for succeeded\033[0m \033[1;34mhttps://www.youtube.com/@techcps\033[0m"
-        break
-    else
-        echo -e "\033[1;33mJob retrying. please like share and subscribe to techcps\033[0m \033[1;34mhttps://www.youtube.com/@techcps\033[0m"
-        sleep 10
-    fi
-done
 
 echo
 echo -e "\033[1;33mCheck job status\033[0m \033[1;34mhttps://console.cloud.google.com/dataflow/jobs?referrer=search&inv=1&invt=AbzGZg&project=$DEVSHELL_PROJECT_ID\033[0m"
