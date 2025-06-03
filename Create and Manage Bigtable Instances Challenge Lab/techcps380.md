@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Create and Manage Bigtable Instances: Challenge Lab - GSP380](https://www.cloudskillsboost.google/focuses/92500?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/WJCsBveSOic)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/widzYJXilRA)
 
 ---
 
