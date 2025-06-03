@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Cloud SQL for MySQL: Qwik Start - GSP151](https://www.cloudskillsboost.google/focuses/936?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/Crjb2akAHgc)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/0A7B-jOymQQ)
 
 ---
 
