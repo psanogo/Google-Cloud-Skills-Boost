@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Creating dynamic SQL derived tables with LookML and Liquid - GSP932](https://www.cloudskillsboost.google/focuses/21215?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/EwOQAB2-38A)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/yEx4eIj_Gw8)
 
 ---
 
