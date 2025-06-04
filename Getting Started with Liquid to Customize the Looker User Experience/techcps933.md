@@ -1,8 +1,8 @@
 
 
-## 💡 Lab Link: [Getting Started with Liquid to Customize the Looker User Experience - GSP933](https://www.cloudskillsboost.google/focuses/21217?parent=catalog)
+### 💡 Lab Link: [Getting Started with Liquid to Customize the Looker User Experience - GSP933](https://www.cloudskillsboost.google/focuses/21217?parent=catalog)
 
-## 🚀 Lab Solution [Watch Here](https://youtu.be/c49nnDEgni0)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/c49nnDEgni0)
 
 ---
 
