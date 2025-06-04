@@ -1,21 +1,17 @@
 
-
-# Set text styles
-YELLOW=$(tput setaf 3)
-BOLD=$(tput bold)
-RESET=$(tput sgr0)
-
-echo "Please set the below values correctly"
-read -p "${YELLOW}${BOLD}Enter the REGION: ${RESET}" REGION
-
-# Export variables after collecting input
-export REGION
-
-echo "REGION=${REGION}"
-
 gcloud auth list
 
+export ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
+
+export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
+
+gcloud config set compute/zone "$ZONE"
+
+gcloud config set compute/region "$REGION"
+
 export PROJECT_ID=$(gcloud config get-value project)
+
+gcloud config set project "$DEVSHELL_PROJECT_ID"
 
 gcloud services enable appengine.googleapis.com
 
