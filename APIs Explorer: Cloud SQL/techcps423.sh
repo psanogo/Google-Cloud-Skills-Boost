@@ -1,16 +1,15 @@
 
+gcloud auth list
 
+export ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
 
-# Set text styles
-YELLOW=$(tput setaf 3)
-BOLD=$(tput bold)
-RESET=$(tput sgr0)
+export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
 
-echo "Please set the below values correctly"
-read -p "${YELLOW}${BOLD}Enter the REGION: ${RESET}" REGION
+gcloud config set compute/zone "$ZONE"
 
-# Export variables after collecting input
-export REGION
+gcloud config set compute/region "$REGION"
+
+gcloud config set project "$DEVSHELL_PROJECT_ID"
 
 gcloud services enable sqladmin.googleapis.com
 
@@ -46,4 +45,3 @@ gsutil cp employee_info.csv gs://$DEVSHELL_PROJECT_ID/
 SERVICE_EMAIL=$(gcloud sql instances describe my-instance --format="value(serviceAccountEmailAddress)")
 
 gsutil iam ch serviceAccount:$SERVICE_EMAIL:roles/storage.admin gs://$DEVSHELL_PROJECT_ID/
-
