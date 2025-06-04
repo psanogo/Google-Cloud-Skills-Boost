@@ -1,36 +1,33 @@
 
-# Set text styles
-YELLOW=$(tput setaf 3)
-BOLD=$(tput bold)
-RESET=$(tput sgr0)
+  gcloud auth list
 
-echo "Please set the below values correctly"
-read -p "${YELLOW}${BOLD}Enter the ZONE: ${RESET}" ZONE
+  export ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
 
-# Export variables after collecting input
-export ZONE
+  export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
 
-gcloud auth list 
+  gcloud config set compute/zone "$ZONE"
 
-export REGION="${ZONE%-*}"
+  gcloud config set compute/region "$REGION"
 
-gcloud services enable dataproc.googleapis.com
+  gcloud config set project "$DEVSHELL_PROJECT_ID"
 
-curl -X GET \
--H "Authorization: Bearer $(gcloud auth print-access-token)" \
-https://www.googleapis.com/compute/v1/projects/$DEVSHELL_PROJECT_ID/zones/$ZONE
+  gcloud services enable dataproc.googleapis.com
+
+  curl -X GET \
+  -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+  https://www.googleapis.com/compute/v1/projects/$DEVSHELL_PROJECT_ID/zones/$ZONE
 
 
-gcloud dataproc clusters create my-cluster --project=$DEVSHELL_PROJECT_ID --region $REGION --zone $ZONE --image-version=2.0-debian10 --optional-components=JUPYTER
+  gcloud dataproc clusters create my-cluster --project=$DEVSHELL_PROJECT_ID --region $REGION --zone $ZONE --image-version=2.0-debian10 --optional-components=JUPYTER
 
-gcloud dataproc jobs submit spark \
-    --project=$DEVSHELL_PROJECT_ID \
-    --region=$REGION \
-    --cluster=my-cluster \
-    --class=org.apache.spark.examples.SparkPi \
-    --jars=file:///usr/lib/spark/examples/jars/spark-examples.jar \
-    -- 1000
+  gcloud dataproc jobs submit spark \
+      --project=$DEVSHELL_PROJECT_ID \
+      --region=$REGION \
+      --cluster=my-cluster \
+      --class=org.apache.spark.examples.SparkPi \
+      --jars=file:///usr/lib/spark/examples/jars/spark-examples.jar \
+      -- 1000
 
 
-gcloud dataproc clusters update my-cluster --project=$DEVSHELL_PROJECT_ID --region $REGION --num-workers=3
+  gcloud dataproc clusters update my-cluster --project=$DEVSHELL_PROJECT_ID --region $REGION --num-workers=3
 
