@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [APIs Explorer: App Engine - GSP422](https://www.cloudskillsboost.google/focuses/3662?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/kpRO9Uynx6I)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/k3yfYWKOSrE)
 
 ---
 
