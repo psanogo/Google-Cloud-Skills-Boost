@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Conversational Agents: Managing Environments - GSP929](https://www.cloudskillsboost.google/focuses/21708?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/WJCsBveSOic)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/dsYOYRVDRKM)
 
 ---
 
