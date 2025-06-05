@@ -13,10 +13,10 @@
 
 ---
 
-| Version Name                     | Environment | Purpose                                                                   |
-| -------------------------------- | ----------- | ------------------------------------------------------------------------- |
-| `Flight booker main v1 chat bot` | **QA**      | Stable testing release for QA validation, UAT, and regression cycles.     |
-| `Flight booker main v2 chat bot` | **Dev**     | Latest development snapshot for active feature development & integration. |
+| Version Name                     | Environment | Test the Agent           |
+| -------------------------------- | ----------- | ------------------------ |
+| `Flight booker main v1 chat bot` | **QA**      | i want to book a flight  |
+| `Flight booker main v2 chat bot` | **Dev**     | i want to book a flight  |
 
 ---
 
