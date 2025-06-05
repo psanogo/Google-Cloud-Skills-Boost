@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [It Speaks! Create Synthetic Speech Using Text-to-Speech - GSP222](https://www.cloudskillsboost.google/focuses/1290?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/WJCsBveSOic)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/yJCxU0xWy1Q)
 
 ---
 
