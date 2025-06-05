@@ -13,13 +13,10 @@
 
 ---
 
-
-
-### 💡 In a new incognito window [go to the Conversational Agents page](https://conversational-agents.cloud.google.com/projects)
-
-- **Create a version and environment: `Flight booker main v1 chat bot` for `QA` and `Flight booker main v2 chat bot` for `Dev`**
-
-- **Test the Agent: `i want to book a flight`**
+| Version Name                     | Environment | Purpose                                                                   |
+| -------------------------------- | ----------- | ------------------------------------------------------------------------- |
+| `Flight booker main v1 chat bot` | **QA**      | Stable testing release for QA validation, UAT, and regression cycles.     |
+| `Flight booker main v2 chat bot` | **Dev**     | Latest development snapshot for active feature development & integration. |
 
 ---
 
