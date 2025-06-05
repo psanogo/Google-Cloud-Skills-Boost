@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Connected Sheets: Qwik Start - GSP870](https://www.cloudskillsboost.google/focuses/18109?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/2vwbWf4SNRc)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/N4IRX_HAKBQ)
 
 ---
 
