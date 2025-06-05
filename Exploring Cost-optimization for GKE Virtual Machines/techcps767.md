@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Exploring Cost-optimization for GKE Virtual Machines - GSP767](https://www.cloudskillsboost.google/focuses/15577?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/rZWOED5fAXM)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/RvgY4yEBSEs)
 
 ---
 
