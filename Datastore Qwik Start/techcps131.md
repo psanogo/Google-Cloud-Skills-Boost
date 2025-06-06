@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Datastore: Qwik Start - GSP131](https://www.cloudskillsboost.google/focuses/941?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/eFkEdnac3Iw)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/vdymAKw1amY)
 
 ---
 
