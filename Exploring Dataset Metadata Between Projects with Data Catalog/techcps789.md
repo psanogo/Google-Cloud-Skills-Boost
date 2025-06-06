@@ -1,6 +1,6 @@
 ### 💡 Lab Link: [Exploring Dataset Metadata Between Projects with Data Catalog - GSP789](https://www.cloudskillsboost.google/focuses/11034?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/Kmt4-1Lpark)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/68vUTblhiTw)
 
 ---
 
