@@ -1,10 +1,14 @@
 
 
-gcloud config set compute/region $REGION
-gcloud config set project $DEVSHELL_PROJECT_ID
+gcloud auth list
 
 gcloud services enable appengine.googleapis.com
 
+export ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
+
+export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
+
+gcloud config set compute/region $REGION
 
 git clone https://github.com/GoogleCloudPlatform/golang-samples.git
 
@@ -12,6 +16,6 @@ cd golang-samples/appengine/go11x/helloworld
 
 sudo apt-get install google-cloud-sdk-app-engine-go
 
-gcloud app create --region=$REGION
+gcloud app create --project=$PROJECT_ID --region=$REGION
 
-gcloud app deploy --quiet 
+gcloud app deploy --project $PROJECT_ID --quiet
