@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Network Tiers - Optimizing Network Spend - GSP219](https://www.cloudskillsboost.google/focuses/1234?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/MI6V7GatQGI)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/9wIBaJsDua4)
 
 ---
 
