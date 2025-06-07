@@ -17,10 +17,6 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-export REGION=
-```
-
-```
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/App%20Engine%3A%20Qwik%20Start%20-%20PHP/techcps069.sh
 sudo chmod +x techcps069.sh
 ./techcps069.sh
