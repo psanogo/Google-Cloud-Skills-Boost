@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [App Engine: Qwik Start - Go - GSP070](http://cloudskillsboost.google/focuses/2754?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/BO5q_xsGa_o)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/HMyantm3rJQ)
 
 ---
 
