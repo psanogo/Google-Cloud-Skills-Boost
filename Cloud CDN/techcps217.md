@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Cloud CDN](https://www.cloudskillsboost.google/focuses/1251?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/xcNyIPQnbvo)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/NqP1vb7ialo)
 
 ---
 
