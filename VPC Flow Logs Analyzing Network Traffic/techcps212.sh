@@ -53,6 +53,7 @@ gcloud compute firewall-rules create allow-http-alt \
 
 
 bq mk bq_vpcflows
+bq mk bq_vpc_flows
 
 
 CP_IP=$(gcloud compute instances describe web-server --zone=$ZONE --format='get(networkInterfaces[0].accessConfigs[0].natIP)')
