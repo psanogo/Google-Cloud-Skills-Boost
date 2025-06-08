@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Managing Terraform State - GSP752](https://www.cloudskillsboost.google/focuses/15845?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/Zv154VxJa6Q)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/QVgx9eQpuWw)
 
 ---
 
