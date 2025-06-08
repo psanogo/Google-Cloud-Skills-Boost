@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Dataflow: Qwik Start - Python - GSP207](https://www.cloudskillsboost.google/focuses/1100?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/rkAzFSnEjWE)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/d-mqwXl1PRg)
 
 ---
 
