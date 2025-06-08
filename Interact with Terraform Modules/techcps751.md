@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Interact with Terraform Modules - GSP751](https://www.cloudskillsboost.google/focuses/15836?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/YwOCMFXuOA0)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/FQudqhji0Ms)
 
 ---
 
