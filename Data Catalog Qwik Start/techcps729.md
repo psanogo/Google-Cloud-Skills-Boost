@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Data Catalog: Qwik Start - GSP729](https://www.cloudskillsboost.google/focuses/11037?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/Zv154VxJa6Q)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/NqzKQpTX1rg)
 
 ---
 
