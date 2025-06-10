@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Visualizing Billing Data with Looker Studio - GSP622](https://www.cloudskillsboost.google/focuses/7115?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/5SAAqzqpDJ4)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/w-Q75E-CRaY)
 
 ---
 
