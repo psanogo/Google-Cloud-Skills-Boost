@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Block.one: Getting Started with The EOSIO Blockchain - GSP873](https://www.cloudskillsboost.google/focuses/18269?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/5SAAqzqpDJ4)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/QieAOMw3I_8)
 
 ---
 
