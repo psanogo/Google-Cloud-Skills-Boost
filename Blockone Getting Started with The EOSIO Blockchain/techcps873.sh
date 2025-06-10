@@ -13,7 +13,7 @@ gcloud config set compute/region "$REGION"
 gcloud compute instances create my-vm-1 --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --machine-type=e2-standard-2 --image-family=ubuntu-2004-lts --image-project=ubuntu-os-cloud --boot-disk-size=10GB --boot-disk-device-name=my-vm-1 --boot-disk-type=pd-balanced
 
 
-sleep 20
+sleep 60
 
 cat > techcps.sh <<'EOF_CP'
 
