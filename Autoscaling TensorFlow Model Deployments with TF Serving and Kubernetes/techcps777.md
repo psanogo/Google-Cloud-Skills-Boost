@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Autoscaling TensorFlow Model Deployments with TF Serving and Kubernetes - GSP777](https://www.cloudskillsboost.google/focuses/17649?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/5SAAqzqpDJ4)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/lnfW_E80RAY)
 
 ---
 
