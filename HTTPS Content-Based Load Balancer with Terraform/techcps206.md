@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [HTTPS Content-Based Load Balancer with Terraform - GSP206](https://www.cloudskillsboost.google/focuses/1206?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/5G4kxzNuwwk)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/8vQWVgECRRQ)
 
 ---
 
