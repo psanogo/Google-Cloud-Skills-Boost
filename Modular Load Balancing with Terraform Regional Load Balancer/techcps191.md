@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Modular Load Balancing with Terraform - Regional Load Balancer - GSP191](https://www.cloudskillsboost.google/focuses/1207?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/glCMmGsexLE)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/rsMTJMCV1ys)
 
 ---
 
