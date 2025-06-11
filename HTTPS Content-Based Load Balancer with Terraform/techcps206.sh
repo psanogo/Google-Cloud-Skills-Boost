@@ -18,7 +18,7 @@ export GOOGLE_PROJECT=$(gcloud config get-value project)
 
 rm -rf main.tf
 
-wget https://raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/HTTPS%20Content-Based%20Load%20Balancer%20with%20Terraform/main.tf
+wget https://raw.githubusercontent.com/techcps/Google-Cloud-Skills-Boost/master/HTTPS%20Content-Based%20Load%20Balancer%20with%20Terraform/main.tf
 
 
 cat > variables.tf <<EOF_CP
