@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Entity and Sentiment Analysis with the Natural Language API - GSP038](https://www.cloudskillsboost.google/focuses/1843?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/rsMTJMCV1ys)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/-el4MpSBpMQ)
 
 ---
 
