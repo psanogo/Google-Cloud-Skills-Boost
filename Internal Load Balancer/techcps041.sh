@@ -5,20 +5,20 @@ YELLOW=$(tput setaf 3)
 BOLD=$(tput bold)
 RESET=$(tput sgr0)
 
+gcloud auth list
+
 echo "Please set the below values correctly"
 read -p "${YELLOW}${BOLD}Enter the IP: ${RESET}" IP
 
-# Export variables after collecting input
-export IP
-
-gcloud auth list
-
 export ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
 
-gcloud config set compute/zone $ZONE
-export REGION="${ZONE%-*}"
-gcloud config set compute/region $REGION
+export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
 
+gcloud config set compute/zone "$ZONE"
+
+gcloud config set compute/region "$REGION"
+
+export PROJECT_ID=$(gcloud config get-value project)
 
 sudo apt-get install -y virtualenv
 
@@ -48,7 +48,8 @@ gcloud compute instance-templates create primecalc \
 --no-address --tags backend --machine-type=e2-medium
 
 gcloud compute firewall-rules create http --network default --allow=tcp:80 \
---source-ranges 10.150.0.0/20 --target-tags backend
+--source-ranges 10.138.0.0/20 --target-tags backend
+
 
 gcloud compute instance-groups managed create backend \
 --size 3 \
@@ -130,4 +131,3 @@ gcloud compute firewall-rules create http2 --network default --allow=tcp:80 \
 
 
 gcloud compute ssh testinstance --zone $ZONE --project $DEVSHELL_PROJECT_ID --quiet --command "curl $IP/2 && curl $IP/4 && curl $IP/5"
-
