@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Test Network Latency Between VMs - GSP161](https://www.cloudskillsboost.google/focuses/102552?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/rsMTJMCV1ys)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/R0z7Fe6ZgOk)
 
 ---
 
