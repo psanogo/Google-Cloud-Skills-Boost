@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Distributed Load Testing Using Kubernetes - GSP182](https://www.cloudskillsboost.google/focuses/967?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/L4xH2YCXQqI)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/a8a0xA9p91I)
 
 ---
 
