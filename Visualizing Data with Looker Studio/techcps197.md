@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Visualizing Data with Looker Studio - GSP197](https://www.cloudskillsboost.google/focuses/1158?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/rsMTJMCV1ys)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/-1vF4LFyEmI)
 
 ---
 
