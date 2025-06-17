@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Getting Started with API Gateway: Challenge Lab - ARC109](https://www.cloudskillsboost.google/focuses/61484?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/rsMTJMCV1ys)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/NnskLntSSfA)
 
 ---
 
