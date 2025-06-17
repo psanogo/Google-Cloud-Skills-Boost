@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Creating a Persistent Disk - GSP004](https://www.cloudskillsboost.google/focuses/1753?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/rsMTJMCV1ys)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/IvcbZdYgPVg)
 
 ---
 
