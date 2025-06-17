@@ -1,6 +1,8 @@
 
 gcloud auth list
 
+gcloud services enable osconfig.googleapis.com
+
 export ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
 
 export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
@@ -10,7 +12,9 @@ export PROJECT_ID=$(gcloud config get-value project)
 gcloud config set compute/zone "$ZONE"
 gcloud config set compute/region "$REGION"
 
-gcloud compute instances create my-vm-1 --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --machine-type=e2-standard-2 --image-family=ubuntu-2004-lts --image-project=ubuntu-os-cloud --boot-disk-size=10GB --boot-disk-device-name=my-vm-1 --boot-disk-type=pd-balanced
+export PROJECT_NUMBER=$(gcloud projects describe ${PROJECT_ID} --format="value(projectNumber)")
+
+gcloud compute instances create my-vm-1 --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --machine-type=e2-standard-2 --network-interface=network-tier=PREMIUM,stack-type=IPV4_ONLY,subnet=default --metadata=enable-osconfig=TRUE,enable-oslogin=true --maintenance-policy=MIGRATE --provisioning-model=STANDARD --service-account=$PROJECT_NUMBER-compute@developer.gserviceaccount.com --scopes=https://www.googleapis.com/auth/devstorage.read_only,https://www.googleapis.com/auth/logging.write,https://www.googleapis.com/auth/monitoring.write,https://www.googleapis.com/auth/service.management.readonly,https://www.googleapis.com/auth/servicecontrol,https://www.googleapis.com/auth/trace.append --create-disk=auto-delete=yes,boot=yes,device-name=my-vm-1,image=projects/ubuntu-os-cloud/global/images/ubuntu-2004-focal-v20250606,mode=rw,size=10,type=pd-balanced --no-shielded-secure-boot
 
 
 sleep 60
