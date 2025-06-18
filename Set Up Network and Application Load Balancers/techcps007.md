@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Set Up Network and Application Load Balancers GSP007](https://www.cloudskillsboost.google/focuses/12007?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/cUHP5I24_r0)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/naNJTq3YlJM)
 
 ---
 
