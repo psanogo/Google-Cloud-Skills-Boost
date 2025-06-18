@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [GKE Workload Optimization - GSP769](https://www.cloudskillsboost.google/focuses/15706?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/rsMTJMCV1ys)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/ZyGffHSwqmk)
 
 ---
 
