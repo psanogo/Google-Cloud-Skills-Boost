@@ -14,8 +14,6 @@
 ---
 
 ### 🚨Copy and run the below commands in Cloud Shell:
-- **Set the Zone Name:**
-
 ```
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Set%20Up%20Network%20and%20Application%20Load%20Balancers/techcps007.sh
 sudo chmod +x techcps007.sh
