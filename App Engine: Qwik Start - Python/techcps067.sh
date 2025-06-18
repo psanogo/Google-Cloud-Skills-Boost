@@ -1,10 +1,16 @@
 
 gcloud auth list
-gcloud config set compute/region $REGION
-
-gcloud config set project $DEVSHELL_PROJECT_ID
 
 gcloud services enable appengine.googleapis.com
+
+export ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
+export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
+
+export PROJECT_ID=$(gcloud config get-value project)
+gcloud config set project $DEVSHELL_PROJECT_ID
+
+gcloud config set compute/zone "$ZONE"
+gcloud config set compute/region "$REGION"
 
 git clone https://github.com/GoogleCloudPlatform/python-docs-samples.git
 
