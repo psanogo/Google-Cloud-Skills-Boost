@@ -5,11 +5,6 @@
 
 ---
 
-### 🚨Export the REGION Name correctly
-```
-export REGION=
-```
-
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
