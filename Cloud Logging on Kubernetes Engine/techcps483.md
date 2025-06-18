@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Cloud Logging on Kubernetes Engine - GSP483](https://www.cloudskillsboost.google/focuses/10910?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/6rLTvOvG190)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/_WGZm_ucjAY)
 
 ---
 
