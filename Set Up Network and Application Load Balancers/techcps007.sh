@@ -1,19 +1,14 @@
 
+gcloud auth list
 
-# Set text styles
-YELLOW=$(tput setaf 3)
-BOLD=$(tput bold)
-RESET=$(tput sgr0)
+export ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
+export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
 
-echo "Please set the below values correctly"
-read -p "${YELLOW}${BOLD}Enter the ZONE: ${RESET}" ZONE
+export PROJECT_ID=$(gcloud config get-value project)
+gcloud config set project $DEVSHELL_PROJECT_ID
 
-# Export variables after collecting input
-export ZONE
-
-export REGION=${ZONE%-*}
-gcloud config set compute/region $REGION
-gcloud config set compute/zone $ZONE
+gcloud config set compute/zone "$ZONE"
+gcloud config set compute/region "$REGION"
 
 gcloud compute instances create www1 \
   --zone=$ZONE \
