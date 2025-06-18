@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Infrastructure as Code with Terraform - GSP750](https://www.cloudskillsboost.google/focuses/15842?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/rsMTJMCV1ys)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/OJAy0GAeBiM)
 
 ---
 
