@@ -1,13 +1,12 @@
 
 gcloud auth list
 
+export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
 
 export PROJECT_ID=$(gcloud config get-value project)
+gcloud config set project $DEVSHELL_PROJECT_ID
 
-export PROJECT_ID=$DEVSHELL_PROJECT_ID
-
-
-gcloud config set compute/region $REGION
+gcloud config set compute/region "$REGION"
 
 
 gcloud spanner instances create test-instance --project=$DEVSHELL_PROJECT_ID --config=regional-$REGION --description="subscribe to techcps" --nodes=1
