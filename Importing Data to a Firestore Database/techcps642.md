@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Importing Data to a Firestore Database - GSP642](https://www.cloudskillsboost.google/focuses/8392?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/K8XpYzidcmc)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/YHrXeObROx4)
 
 ---
 
