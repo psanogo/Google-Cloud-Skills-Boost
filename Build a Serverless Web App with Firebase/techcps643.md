@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Build a Serverless Web App with Firebase - GSP643](https://www.cloudskillsboost.google/focuses/8391?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/toTqoGVfbj8)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/76nM-shxs6w)
 
 ---
 
