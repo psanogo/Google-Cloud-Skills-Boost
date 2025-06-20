@@ -17,10 +17,6 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-export ZONE=
-```
-
-```
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Awwvision%3A%20Cloud%20Vision%20API%20from%20a%20Kubernetes%20Cluster/techcps066.sh
 sudo chmod +x techcps066.sh
 ./techcps066.sh
