@@ -1,6 +1,11 @@
 
+gcloud auth list
 
-gcloud config set compute/zone $ZONE
+export ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
+
+export PROJECT_ID=$(gcloud config get-value project)
+
+gcloud config set compute/zone "$ZONE"
 
 gcloud container clusters create awwvision \
     --num-nodes 2 \
