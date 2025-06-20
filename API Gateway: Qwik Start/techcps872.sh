@@ -1,17 +1,19 @@
 
-
 gcloud auth list
+
+gcloud services enable apigateway.googleapis.com --project $DEVSHELL_PROJECT_ID
+
+export ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
+export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
 
 export PROJECT_ID=$(gcloud config get-value project)
 
-gcloud config set compute/region $REGION
-
-gcloud services enable apigateway.googleapis.com --project $DEVSHELL_PROJECT_ID
+gcloud config set compute/zone "$ZONE"
+gcloud config set compute/region "$REGION"
 
 sleep 15
 
 export PROJECT_NUMBER=$(gcloud projects describe $PROJECT_ID --format="value(projectNumber)")
-
 
 gcloud projects add-iam-policy-binding $PROJECT_ID --member="serviceAccount:$PROJECT_NUMBER-compute@developer.gserviceaccount.com" --role="roles/serviceusage.serviceUsageAdmin"
 
