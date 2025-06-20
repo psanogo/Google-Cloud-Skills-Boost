@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Deploy Kubernetes Load Balancer Service with Terraform - GSP233](https://www.cloudskillsboost.google/focuses/1205?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/K8XpYzidcmc)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/gVSP_ujKoZg)
 
 ---
 
