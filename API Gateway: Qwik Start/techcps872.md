@@ -1,7 +1,7 @@
 
-## 💡 Lab Link: [API Gateway: Qwik Start - GSP872](https://www.cloudskillsboost.google/focuses/17996?parent=catalog)
+### 💡 Lab Link: [API Gateway: Qwik Start - GSP872](https://www.cloudskillsboost.google/focuses/17996?parent=catalog)
 
-## 🚀 Lab Solution [Watch Here](https://youtu.be/ingIZA7yRiE)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/ingIZA7yRiE)
 
 ---
 
