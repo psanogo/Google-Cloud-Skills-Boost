@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Terraform Fundamentals - GSP156](https://www.cloudskillsboost.google/focuses/1208?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/K8XpYzidcmc)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/hQ2alav4rlE)
 
 ---
 
