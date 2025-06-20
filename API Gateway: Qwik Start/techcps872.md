@@ -13,12 +13,6 @@
 
 ---
 
-## 🚨Export the REGION name correctly:
-
-```
-export REGION=
-```
-
 ## 🚨Copy and run the below commands in Cloud Shell:
 
 ```
