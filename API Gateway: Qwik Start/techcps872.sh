@@ -2,6 +2,8 @@
 gcloud auth list
 
 gcloud services enable apigateway.googleapis.com --project $DEVSHELL_PROJECT_ID
+gcloud services enable run.googleapis.com --project $DEVSHELL_PROJECT_ID
+
 
 export ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
 export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
