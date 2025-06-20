@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Awwvision: Cloud Vision API from a Kubernetes Cluster - GSP066](https://www.cloudskillsboost.google/focuses/1241?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/U5k7m0suw14)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/R5ZZywdHBnM)
 
 ---
 
