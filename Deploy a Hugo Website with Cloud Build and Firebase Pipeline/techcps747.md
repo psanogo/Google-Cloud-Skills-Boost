@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Deploy a Hugo Website with Cloud Build and Firebase Pipeline - GSP747](https://www.cloudskillsboost.google/focuses/14353?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/hzC467-_9kk)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/6q0H6E2GeuQ)
 
 ---
 
