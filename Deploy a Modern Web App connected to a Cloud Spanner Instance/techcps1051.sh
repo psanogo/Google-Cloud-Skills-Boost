@@ -16,7 +16,6 @@ gcloud config set compute/zone "$ZONE"
 gcloud config set compute/region "$REGION"
 gcloud config set project "$DEVSHELL_PROJECT_ID"
 
-sleep 5
 
 git clone https://github.com/GoogleCloudPlatform/training-data-analyst
 
@@ -27,7 +26,6 @@ cd backend/app/models
 cd ../../../frontend/src/app/components
 
 cd ../../../../backend
-
 
 cat > .env <<EOF_CP
 PROJECTID = $DEVSHELL_PROJECT_ID
@@ -53,6 +51,5 @@ gcloud run deploy omegatrade-backend --platform managed --region $REGION --image
 
 
 unset SPANNER_EMULATOR_HOST
-
 node seed-data.js
 
