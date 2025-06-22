@@ -5,6 +5,8 @@ export ZONE=$(gcloud compute project-info describe --format="value(commonInstanc
 
 export PROJECT_ID=$(gcloud config get-value project)
 
+gcloud config set project "$PROJECT_ID"
+
 gcloud compute ssh gcelab2 --project=$PROJECT_ID --zone=$ZONE --quiet --command "sudo apt install -y nginx"
 
 gcloud compute firewall-rules list
