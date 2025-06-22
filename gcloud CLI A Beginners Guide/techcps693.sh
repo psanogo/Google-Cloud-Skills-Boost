@@ -3,7 +3,9 @@ gcloud auth list
 
 export ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
 
-gcloud compute ssh gcelab2 --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet --command "sudo apt install -y nginx"
+export PROJECT_ID=$(gcloud config get-value project)
+
+gcloud compute ssh gcelab2 --project=$PROJECT_ID --zone=$ZONE --quiet --command "sudo apt install -y nginx"
 
 gcloud compute firewall-rules list
 
