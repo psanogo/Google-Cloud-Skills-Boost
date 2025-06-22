@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [gcloud CLI: A Beginner's Guide - GSP693](https://www.cloudskillsboost.google/focuses/113706?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/KNhOb8D8888)
 
 ---
 
