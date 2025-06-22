@@ -12,7 +12,7 @@ sleep 30
 export ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
 export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
 
-gcloud config set compute/z zone "$ZONE"
+gcloud config set compute/zone "$ZONE"
 gcloud config set compute/region "$REGION"
 gcloud config set project "$DEVSHELL_PROJECT_ID"
 
