@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Introduction to SQL for BigQuery and Cloud SQL - GSP281](https://www.cloudskillsboost.google/focuses/2802?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/T4JGfP-uRnI)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/QmT8vYK3Wco)
 
 ---
 
