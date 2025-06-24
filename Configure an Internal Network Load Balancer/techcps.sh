@@ -49,35 +49,35 @@ gcloud compute routers nats create nat-config \
 ### Task 3
 
 # export IG1=$(gcloud compute instances list \
-  --filter="name~'^instance-group-1'" \
-  --format="value(name)" | head -n1)
+#  --filter="name~'^instance-group-1'" \
+#  --format="value(name)" | head -n1)
 
 # export ZONE1=$(gcloud compute instances list \
-  --filter="name=$IG1" \
-  --format="value(zone)")
+#  --filter="name=$IG1" \
+#  --format="value(zone)")
 
 # gcloud compute ssh "$IG1" \
-  --zone="$ZONE1" \
-  --tunnel-through-iap \
-  --project="$DEVSHELL_PROJECT_ID" \
-  --quiet \
-  --command="sudo google_metadata_script_runner startup"
+#  --zone="$ZONE1" \
+#  --tunnel-through-iap \
+#  --project="$DEVSHELL_PROJECT_ID" \
+#  --quiet \
+#  --command="sudo google_metadata_script_runner startup"
 
 
 # export IG2=$(gcloud compute instances list \
-  --filter="name~'^instance-group-2'" \
-  --format="value(name)" | head -n1)
+#  --filter="name~'^instance-group-2'" \
+#  --format="value(name)" | head -n1)
 
 # export ZONE2=$(gcloud compute instances list \
-  --filter="name=$IG2" \
-  --format="value(zone)")
+#  --filter="name=$IG2" \
+#  --format="value(zone)")
 
 # gcloud compute ssh "$IG2" \
-  --zone="$ZONE2" \
-  --tunnel-through-iap \
-  --project="$DEVSHELL_PROJECT_ID" \
-  --quiet \
-  --command="sudo google_metadata_script_runner startup"
+#  --zone="$ZONE2" \
+#  --tunnel-through-iap \
+#  --project="$DEVSHELL_PROJECT_ID" \
+#  --quiet \
+#  --command="sudo google_metadata_script_runner startup"
 
 
 gcloud compute instances create utility-vm --project "$DEVSHELL_PROJECT_ID" --zone=$ZONE --machine-type=e2-medium --subnet=subnet-a --private-network-ip=10.10.20.50 --no-address --image-family=debian-12 --image-project=debian-cloud --tags=backend-service --description="subscribe to techcps"
