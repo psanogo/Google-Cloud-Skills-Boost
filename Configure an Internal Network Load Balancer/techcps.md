@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Configure an Internal Network Load Balancer](https://www.cloudskillsboost.google/focuses/19100?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/T4JGfP-uRnI)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/YI-Y0HI1uFA)
 
 ---
 
