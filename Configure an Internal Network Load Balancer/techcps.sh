@@ -48,15 +48,15 @@ gcloud compute routers nats create nat-config \
 
 ### Task 3
 
-export IG1=$(gcloud compute instances list \
+# export IG1=$(gcloud compute instances list \
   --filter="name~'^instance-group-1'" \
   --format="value(name)" | head -n1)
 
-export ZONE1=$(gcloud compute instances list \
+# export ZONE1=$(gcloud compute instances list \
   --filter="name=$IG1" \
   --format="value(zone)")
 
-gcloud compute ssh "$IG1" \
+# gcloud compute ssh "$IG1" \
   --zone="$ZONE1" \
   --tunnel-through-iap \
   --project="$DEVSHELL_PROJECT_ID" \
@@ -64,15 +64,15 @@ gcloud compute ssh "$IG1" \
   --command="sudo google_metadata_script_runner startup"
 
 
-export IG2=$(gcloud compute instances list \
+# export IG2=$(gcloud compute instances list \
   --filter="name~'^instance-group-2'" \
   --format="value(name)" | head -n1)
 
-export ZONE2=$(gcloud compute instances list \
+# export ZONE2=$(gcloud compute instances list \
   --filter="name=$IG2" \
   --format="value(zone)")
 
-gcloud compute ssh "$IG2" \
+# gcloud compute ssh "$IG2" \
   --zone="$ZONE2" \
   --tunnel-through-iap \
   --project="$DEVSHELL_PROJECT_ID" \
