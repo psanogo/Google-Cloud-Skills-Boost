@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Managing a GKE Multi-tenant Cluster with Namespaces - GSP766](https://www.cloudskillsboost.google/focuses/14861?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/h6hcm05mdzM)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/5UgRalusJdc)
 
 ---
 
