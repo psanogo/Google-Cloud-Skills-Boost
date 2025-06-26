@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Protecting Sensitive Data in Gen AI Model Responses - GSP1283](https://www.cloudskillsboost.google/focuses/109505?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/ncT0Abzc3xU)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/_bzFclZ-i-Y)
 
 ---
 
