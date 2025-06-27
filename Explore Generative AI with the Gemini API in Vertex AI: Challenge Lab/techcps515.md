@@ -20,7 +20,6 @@
 curl -LO raw.githubusercontent.com/Techcps/GSP/master/Explore%20Generative%20AI%20with%20the%20Vertex%20AI%20Gemini%20API%20Challenge%20Lab/gemini-explorer-challenge-v1.0.0.ipynb
 
 curl -LO raw.githubusercontent.com/Techcps/GSP/master/Explore%20Generative%20AI%20with%20the%20Vertex%20AI%20Gemini%20API%20Challenge%20Lab/techcps.ipynb
-
 ```
 
 ---
