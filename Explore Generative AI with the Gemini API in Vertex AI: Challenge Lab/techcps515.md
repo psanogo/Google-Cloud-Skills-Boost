@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Explore Generative AI with the Gemini API in Vertex AI: Challenge Lab | GSP515 | ](https://www.cloudskillsboost.google/focuses/85653?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/6YfsWEPKFHQ)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/zGreJbgfKCM)
 
 ---
 
