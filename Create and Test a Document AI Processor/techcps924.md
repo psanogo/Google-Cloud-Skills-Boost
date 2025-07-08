@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Create and Test a Document AI Processor - GSP924](https://www.cloudskillsboost.google/focuses/21028?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/_vltl4w5Vog)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/6eqmEvFLY7U)
 
 ---
 
