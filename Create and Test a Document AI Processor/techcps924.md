@@ -21,11 +21,6 @@ sudo chmod +x techcps1.sh
 ```
 ---
 
-- **Export the PROCESSOR ID correctly**
-```
-export PROCESSOR_ID=
-```
-
 ```
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Create%20and%20Test%20a%20Document%20AI%20Processor/techcps2.sh
 sudo chmod +x techcps2.sh
