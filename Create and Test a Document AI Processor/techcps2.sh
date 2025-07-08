@@ -7,8 +7,9 @@ RESET=$(tput sgr0)
 
 read -p "${YELLOW}${BOLD}Enter the PROCESSOR_ID: ${RESET}" PROCESSOR_ID
 
-
 echo Your processor ID is:$PROCESSOR_ID
+
+sudo apt-get update && sudo apt-get install jq -y && sudo apt-get install python3-pip -y
 
 export PROJECT_ID=$(gcloud config get-value core/project)
 
@@ -19,19 +20,25 @@ gcloud projects add-iam-policy-binding ${PROJECT_ID} \
 --member="serviceAccount:$SA_NAME@${PROJECT_ID}.iam.gserviceaccount.com" \
 --role="roles/documentai.apiUser"
 
+
 gcloud iam service-accounts keys create key.json \
 --iam-account  $SA_NAME@${PROJECT_ID}.iam.gserviceaccount.com
 
-export GOOGLE_APPLICATION_CREDENTIALS="$PWD/key.json"
 
+export GOOGLE_APPLICATION_CREDENTIALS="$PWD/key.json"
 echo $GOOGLE_APPLICATION_CREDENTIALS
 
 gsutil cp gs://cloud-training/gsp924/health-intake-form.pdf .
+
 
 echo '{"inlineDocument": {"mimeType": "application/pdf","content": "' > temp.json
 base64 health-intake-form.pdf >> temp.json
 echo '"}}' >> temp.json
 cat temp.json | tr -d \\n > request.json
+
+# Sleep for 65 seconds.
+sleep 65
+
 
 export LOCATION="us"
 export PROJECT_ID=$(gcloud config get-value core/project)
@@ -41,18 +48,13 @@ curl -X POST \
 -d @request.json \
 https://${LOCATION}-documentai.googleapis.com/v1beta3/projects/${PROJECT_ID}/locations/${LOCATION}/processors/${PROCESSOR_ID}:process > output.json
 
+# Sleep for 65 seconds.
+sleep 65
 
- cat output.json
-
-sudo apt-get update 
-sudo apt-get install jq
 cat output.json | jq -r ".document.text"
-
-cat output.json | jq -r ".document.pages[].formFields"
 
 gsutil cp gs://cloud-training/gsp924/synchronous_doc_ai.py .
 
-sudo apt install python3-pip
 python3 -m pip install --upgrade google-cloud-documentai google-cloud-storage prettytable
 
 export PROJECT_ID=$(gcloud config get-value core/project)
@@ -63,4 +65,12 @@ python3 synchronous_doc_ai.py \
 --processor_id=$PROCESSOR_ID \
 --location=us \
 --file_name=health-intake-form.pdf | tee results.txt
+
+export LOCATION="us"
+export PROJECT_ID=$(gcloud config get-value core/project)
+curl -X POST \
+-H "Authorization: Bearer "$(gcloud auth application-default print-access-token) \
+-H "Content-Type: application/json; charset=utf-8" \
+-d @request.json \
+https://${LOCATION}-documentai.googleapis.com/v1beta3/projects/${PROJECT_ID}/locations/${LOCATION}/processors/${PROCESSOR_ID}:process > output.json
 
