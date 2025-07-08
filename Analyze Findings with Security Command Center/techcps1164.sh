@@ -54,9 +54,9 @@ gcloud scc bqexports create scc-bq-cont-export \
   --quiet
 
 for i in {0..2}; do
-  gcloud iam service-accounts create sccp-test-sa-$i
-  gcloud iam service-accounts keys create /tmp/sa-key-$i.json \
-    --iam-account=sccp-test-sa-$i@$PROJECT_ID.iam.gserviceaccount.com
+gcloud iam service-accounts create sccp-test-sa-$i;
+gcloud iam service-accounts keys create /tmp/sa-key-$i.json \
+--iam-account=sccp-test-sa-$i@$PROJECT_ID.iam.gserviceaccount.com;
 done
 
 query_findings() {
