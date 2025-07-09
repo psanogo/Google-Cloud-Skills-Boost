@@ -1,5 +1,5 @@
 
-### 💡 Lab Link: [Creating and Alerting on Logs-based Metrics - GSP091](https://www.cloudskillsboost.google/focuses/1029?parent=catalog)
+### 💡 Lab Link: [Creating and Alerting on Logs-based Metrics - GSP091](https://www.cloudskillsboost.google/focuses/619?parent=catalog)
 
 ### 🚀 Lab Solution [Watch Here](https://youtu.be/h6hcm05mdzM)
 
