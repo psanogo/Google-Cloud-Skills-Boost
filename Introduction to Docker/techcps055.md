@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Introduction to Docker - GSP055](https://www.cloudskillsboost.google/focuses/1029?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/h6hcm05mdzM)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/frgBfJKUDVo)
 
 ---
 
