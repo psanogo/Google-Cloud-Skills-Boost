@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [TensorFlow: Qwik Start - GSP637](https://cloudskillsboost.google/focuses/7639?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/qfcLc7LcurY)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/r1c3aM9dEjo)
 
 ---
 
