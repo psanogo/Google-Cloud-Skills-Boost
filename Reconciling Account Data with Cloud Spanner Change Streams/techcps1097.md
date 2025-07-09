@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Reconciling Account Data with Cloud Spanner Change Streams - GSP1097](https://www.cloudskillsboost.google/focuses/53912?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/h6hcm05mdzM)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/RWNaIin5PdQ)
 
 ---
 
