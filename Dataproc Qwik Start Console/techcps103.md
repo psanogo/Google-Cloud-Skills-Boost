@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Dataproc: Qwik Start - Console - GSP103](https://www.cloudskillsboost.google/focuses/586?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/h6hcm05mdzM)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/OESHINPYfm4)
 
 ---
 
