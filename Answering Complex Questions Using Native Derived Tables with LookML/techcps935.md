@@ -21,7 +21,7 @@
 ---
 
 ### 🚨 Go to Develop > qwiklabs-ecommerce
-### 🚀 Create view file `brand_order_facts`
+- 🚀 Create view file **`brand_order_facts`**
 > Replace the below commands on here!!
 ```
 view: brand_order_facts {
