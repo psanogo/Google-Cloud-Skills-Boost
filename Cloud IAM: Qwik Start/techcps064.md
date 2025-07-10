@@ -14,21 +14,12 @@
 
 ---
 
-### 🚨Export the Variables Name correctly:
-
-```
-export USERNAME_2=
-```
-
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-touch sample.txt
-gsutil mb gs://$DEVSHELL_PROJECT_ID
-gsutil cp sample.txt gs://$DEVSHELL_PROJECT_ID
-gcloud projects remove-iam-policy-binding $DEVSHELL_PROJECT_ID --member="user:$USERNAME_2" --role="roles/viewer"
-# please like share & subscribe to Techcps
-gcloud projects add-iam-policy-binding $DEVSHELL_PROJECT_ID --member="user:$USERNAME_2" --role="roles/storage.objectViewer"
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Cloud%20IAM%3A%20Qwik%20Start/techcps064.sh
+sudo chmod +x techcps064.sh
+./techcps064.sh
 ```
 
 ---
