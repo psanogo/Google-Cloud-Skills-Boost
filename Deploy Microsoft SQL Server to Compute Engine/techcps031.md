@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Deploy Microsoft SQL Server to Compute Engine - GSP031](https://www.cloudskillsboost.google/focuses/3347?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/h6hcm05mdzM)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/T44HLwxqDSA)
 
 ---
 
