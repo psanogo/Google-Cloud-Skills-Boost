@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Rent-a-VM to Process Earthquake Data - GSP008](https://www.cloudskillsboost.google/focuses/1846?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/h6hcm05mdzM)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/mxxpcPNtKYk)
 
 ---
 
