@@ -2,7 +2,7 @@
 
 ### 💡 Lab Link: [Cloud Storage: Qwik Start - Cloud Console - GSP073](https://www.cloudskillsboost.google/focuses/1760?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/KqWq2FxKEys)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/Qs3-KtYuUL8)
 
 ---
 
