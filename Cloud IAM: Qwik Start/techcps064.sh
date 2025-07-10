@@ -1,7 +1,12 @@
 
+# Set text styles
+YELLOW=$(tput setaf 3)
+BOLD=$(tput bold)
+RESET=$(tput sgr0)
+
 gcloud auth list
 
-echo -e "\033[1;33mPlease enter USERNAME_2:\033[0m"
+read -p "${YELLOW}${BOLD}Enter the USERNAME_2: ${RESET}" USERNAME_2
 
 touch sample.txt
 
