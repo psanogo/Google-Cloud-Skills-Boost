@@ -2,14 +2,14 @@
 
 gcloud auth list
 
+export ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
+export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
+
 export PROJECT_ID=$(gcloud config get-value project)
 
-export PROJECT_ID=$DEVSHELL_PROJECT_ID
+gcloud config set compute/zone "$ZONE"
+gcloud config set compute/region "$REGION"
 
-gcloud config set compute/zone $ZONE
-
-export REGION=${ZONE%-*}
-gcloud config set compute/region $REGION
 
 gcloud services enable artifactregistry.googleapis.com
 
@@ -93,5 +93,13 @@ gcloud sql connect $INSTANCE_NAME --user=$DB_USER --quiet << EOF_CP
 SELECT * FROM meme;
 EOF_CP
 
+
+
+LOAD_BALANCER_IP=$(kubectl get svc gmemegen -o jsonpath='{.status.loadBalancer.ingress[0].ip}')
+
+
+echo
+echo -e "\033[1;33mgMemegen Load Balancer Ingress IP:\033[0m \033[1;34mhttp://$LOAD_BALANCER_IP\033[0m"
+echo
 
 
