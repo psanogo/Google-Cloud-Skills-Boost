@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Running a Containerized App on Google Kubernetes Engine - GSP015](https://www.cloudskillsboost.google/focuses/5982?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/h6hcm05mdzM)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/Bc9y_Wn8F1s)
 
 ---
 
