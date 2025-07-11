@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Hello Node Kubernetes - GSP005](https://www.cloudskillsboost.google/focuses/564?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/h6hcm05mdzM)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/0EWmmsCSvUA)
 
 ---
 
