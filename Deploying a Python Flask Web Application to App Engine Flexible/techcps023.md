@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Deploying a Python Flask Web Application to App Engine Flexible - GSP023](https://www.cloudskillsboost.google/focuses/3339?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/h6hcm05mdzM)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/q_lcJAd-dGI)
 
 ---
 
