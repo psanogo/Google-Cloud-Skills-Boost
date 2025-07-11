@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [GKE Autopilot: Qwik Start - GSP957](https://www.cloudskillsboost.google/focuses/20936?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/h6hcm05mdzM)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/rPJstB4fba8)
 
 ---
 
