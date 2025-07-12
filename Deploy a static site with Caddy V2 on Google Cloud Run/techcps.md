@@ -1,7 +1,7 @@
 
-### 💡 Lab Link: [Deploy a static site with Caddy V2 on Google Cloud Run](https://www.cloudskillsboost.google/focuses/20936?parent=catalog)
+### 💡 Lab Link: [Deploy a static site with Caddy V2 on Google Cloud Run](https://www.cloudskillsboost.google/focuses/125090?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/h6hcm05mdzM)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/AkgJgpiwRY0)
 
 ---
 
