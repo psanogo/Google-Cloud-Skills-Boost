@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: [Deploy a Static Site with Nginx on Google Cloud Run using Artifact Registry](https://www.cloudskillsboost.google/focuses/125091?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/h6hcm05mdzM)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/FA9Q3EyDzwc)
 
 ---
 
