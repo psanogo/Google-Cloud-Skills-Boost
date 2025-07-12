@@ -1,4 +1,5 @@
 
+
 gcloud auth list
 
 gcloud services enable artifactregistry.googleapis.com
@@ -18,21 +19,21 @@ gcloud artifacts repositories create my-npm-repo \
 mkdir my-npm-package
 cd my-npm-package
 
-npm init --scope=@"PROJECT_ID" -y
+npm init --scope=@"$PROJECT_ID" -y
 
 echo 'console.log(`Hello from my-npm-package!`);' > index.js
 
 gcloud artifacts print-settings npm \
-    --project="PROJECT_ID" \
+    --project="$PROJECT_ID" \
     --repository=my-npm-repo \
-    --location="REGION" \
-    --scope=@"PROJECT_ID" > ./.npmrc
+    --location="$REGION" \
+    --scope=@"$PROJECT_ID" > ./.npmrc
 
-gcloud auth configure-docker "REGION"-npm.pkg.dev
+gcloud auth configure-docker "$REGION"-npm.pkg.dev
 
 cat > package.json <<EOF
 {
-  "name": "@qwiklabs-gcp-00-e9159952f381/my-npm-package",
+  "name": "@"$PROJECT_ID"/my-npm-package",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -55,3 +56,4 @@ npm publish --registry=https://"$REGION"-npm.pkg.dev/"$PROJECT_ID"/my-npm-repo/
 
 
 gcloud artifacts packages list --repository=my-npm-repo --location="$REGION"
+
