@@ -46,6 +46,6 @@ docker build -t "$REGION"-docker.pkg.dev/"$PROJECT_ID"/caddy-repo/caddy-static:l
 
 docker push "$REGION"-docker.pkg.dev/"$PROJECT_ID"/caddy-repo/caddy-static:latest
 
-gcloud run deploy caddy-static --image "$REGION"-docker.pkg.dev/"$PROJECT_ID"/caddy-repo/caddy-static:latest --platform managed --allow-unauthenticated
+gcloud run deploy caddy-static --region=$REGION --image "$REGION"-docker.pkg.dev/"$PROJECT_ID"/caddy-repo/caddy-static:latest --platform managed --allow-unauthenticated
 
 
