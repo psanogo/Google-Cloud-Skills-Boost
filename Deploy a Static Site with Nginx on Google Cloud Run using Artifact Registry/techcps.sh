@@ -66,7 +66,7 @@ docker tag nginx-static-site "$REGION"-docker.pkg.dev/"$PROJECT_ID"/nginx-static
 docker push "$REGION"-docker.pkg.dev/"$PROJECT_ID"/nginx-static-site/nginx-static-site
 
 gcloud run deploy nginx-static-site \
-    --image "$REGION"-docker.pkg.dev/qwiklabs-gcp-04-5c2a92156f59/nginx-static-site/nginx-static-site \
+    --image "$REGION"-docker.pkg.dev/"$PROJECT_ID"/nginx-static-site/nginx-static-site \
     --platform managed \
     --region "$REGION" \
     --allow-unauthenticated
