@@ -1,7 +1,7 @@
 
-### 💡 Lab Link: [Deploy a Static Site Using Traefik and Cloud Run](https://www.cloudskillsboost.google/focuses/125091?parent=catalog)
+### 💡 Lab Link: [Deploy a Static Site Using Traefik and Cloud Run](https://www.cloudskillsboost.google/focuses/125089?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/h6hcm05mdzM)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/zZVHyekPoL0)
 
 ---
 
