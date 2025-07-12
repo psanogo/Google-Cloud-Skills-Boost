@@ -1,7 +1,7 @@
 
-### 💡 Lab Link: [Create a Container Artifact Registry and Upload Code](https://www.cloudskillsboost.google/focuses/125091?parent=catalog)
+### 💡 Lab Link: [Create a Container Artifact Registry and Upload Code](https://www.cloudskillsboost.google/focuses/125084?parent=catalog)
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/h6hcm05mdzM)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/ntXgeeecwvc)
 
 ---
 
