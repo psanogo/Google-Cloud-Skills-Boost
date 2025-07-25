@@ -116,9 +116,10 @@ gcloud compute backend-services add-backend web-backend-service \
   --instance-group-zone=$ZONE \
   --global
 
-gcloud compute forwarding-rules create http-content-rule --address=lb-ipv4-1 --global --target-http-proxy=http-lb-proxy --ports=80
 
 gcloud compute url-maps create web-map-http --default-service web-backend-service
 
 gcloud compute target-http-proxies create http-lb-proxy --url-map web-map-http
+
+gcloud compute forwarding-rules create http-content-rule --address=lb-ipv4-1 --global --target-http-proxy=http-lb-proxy --ports=80
 
