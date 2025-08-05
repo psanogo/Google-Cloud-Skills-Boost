@@ -1,7 +1,7 @@
 
 ### 💡 Lab Name: Create VPC Peering Connection between VPCs
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/ingIZA7yRiE)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/k2ztNQhQBdA)
 
 ---
 
