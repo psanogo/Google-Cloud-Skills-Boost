@@ -1,7 +1,7 @@
 
 ### 💡 Lab Link: Modify VM Instance for Cost Optimization
 
-### 🚀 Lab Solution [Watch Here](https://youtu.be/ingIZA7yRiE)
+### 🚀 Lab Solution [Watch Here](https://youtu.be/rJqoDGgh8UU)
 
 ---
 
