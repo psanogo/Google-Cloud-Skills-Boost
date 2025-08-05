@@ -13,7 +13,7 @@
 
 ---
 
-## 🚨Copy and run the below commands in Cloud Shell:
+### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Modify%20VM%20Instance%20for%20Cost%20Optimization/techcps.sh
