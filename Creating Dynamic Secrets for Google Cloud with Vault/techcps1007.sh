@@ -8,6 +8,8 @@ export REGION=$(gcloud compute project-info describe --format="value(commonInsta
 
 export PROJECT_ID=$(gcloud config get-value project)
 
+export PROJECT_ID=$DEVSHELL_PROJECT_ID
+
 curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
 
 #!/bin/bash
@@ -28,14 +30,12 @@ storage "raft" {
 
 listener "tcp" {
   address     = "127.0.0.1:8200"
-  tls_disable = true
+  tls_disable = "true"
 }
 
 api_addr = "http://127.0.0.1:8200"
 cluster_addr = "https://127.0.0.1:8201"
 ui = true
-
-disable_mlock = true
 EOF_CP
 
 
